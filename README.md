@@ -1,4 +1,4 @@
-<h1 align="center">TR-Health-Tourism-Surge-Sim</h1>
+<h1 align="center">TR-Health-Tourism-Surge-Sim</h1> 
 
 <p align="center">
   <strong>If a crisis happened in a country you choose, how much of the care it needs could Türkiye's health tourism infrastructure provide, today and by 2047?</strong><br>
