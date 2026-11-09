@@ -1,0 +1,15 @@
+# Health Tourism Infrastructure as a Cross-Border Healthcare Reserve in Extraordinary Situations: A Province-Level Simulation and 2047 Projection for Türkiye
+
+**Gamze Köse**<sup>1</sup>, **Utku Köse**<sup>2</sup>
+
+<sup>1</sup> Health Tourism Master of Science, Türkiye. ORCID: [0000-0003-1225-5118](https://orcid.org/0000-0003-1225-5118)
+
+<sup>2</sup> Prof. Dr., Süleyman Demirel University, Department of Computer Engineering, Türkiye. ORCID: [0000-0002-9652-6415](https://orcid.org/0000-0002-9652-6415)
+
+INHSC2026, 5th International / 8th National Health Services Congress, 13-14 November 2026, Isparta, Türkiye.
+
+## Abstract
+
+Epidemics, natural disasters, and armed conflicts create healthcare needs that exceed the capacity of affected health systems, often necessitating the referral of patients abroad. In 2025, Türkiye hosted 1,398,580 health tourists and, as of December 2024, had 650 authorized hospitals. In this context, this study examines the extent to which Türkiye's health tourism infrastructure could address treatment needs in extraordinary situations, and how this capacity is projected to evolve by 2047. Based on the literature, 17 healthcare needs (considering extraordinary situations) were identified and linked to six care lines. A stochastic, capacity-constrained network simulation was done by using data from 81 provinces of Türkiye. The model incorporates exit permits, land corridors, air transport, and case coordination, while limiting admissions to the 60 provinces with authorized hospitals. For each of six hypothetical scenarios, 2,000 Monte Carlo runs were done. Also, a Sobol sensitivity analysis was done for three of the related scenarios. The 2027–2047 period was modeled using damped provincial trends, TurkStat population projections, and three development pathways. In a reference-scale earthquake, 96% of referred patients were admitted. In a one-year armed conflict with an open corridor, this figure was 72%. When exit routes were restricted, the admission rate fell to 20%, with daily exit permits accounting for 82% of the variance. In crises abroad, no province exceeded 85% occupancy, with 80% of patients concentrated in 10 to 17 provinces. Cancer treatment emerged as the first capacity constraint. In conflict, the admission rate was 63% under an unprepared response, rising to 81% with a coordinated response. By 2047, the admission rate during a conflict would reach 75% under current trends, 82% with planned expansion, and 93% under an ambitious program. The majority of these gains stemmed from response preparedness, while the contribution of new units in additional provinces remained limited. In conclusion, Türkiye's health tourism infrastructure can function as a regional health reserve during crises abroad (at the levels of demand examined) without displacing paying patients. The decisive factors are access, cancer treatment capabilities, and advance national response planning, rather than the number of hospital beds.
+
+**Keywords:** Health Tourism, Extraordinary Situations, Medical Evacuation, Rehabilitation, Computer Simulation

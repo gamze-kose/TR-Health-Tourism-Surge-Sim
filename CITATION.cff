@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: TR-Health-Tourism-Surge-Sim
+abstract: >-
+  A province-level stochastic network simulation of how the health tourism
+  infrastructure of Türkiye could meet care needs created by epidemics, natural
+  disasters and armed conflict in other countries, from 2027 to 2047.
+keywords:
+  - health tourism
+  - extraordinary situations
+  - medical evacuation
+  - rehabilitation
+  - computer simulation
+authors:
+  - family-names: Köse
+    given-names: Gamze
+    orcid: "https://orcid.org/0000-0003-1225-5118"
+  - family-names: Köse
+    given-names: Utku
+    orcid: "https://orcid.org/0000-0002-9652-6415"
+    affiliation: Süleyman Demirel University
+license: MIT
+type: software
+repository-code: "https://github.com/gamze-kose/TR-Health-Tourism-Surge-Sim"
+url: "https://gamze-kose.github.io/TR-Health-Tourism-Surge-Sim/"
+preferred-citation:
+  type: conference-paper
+  title: >-
+    Health Tourism Infrastructure as a Cross-Border Healthcare Reserve in
+    Extraordinary Situations: A Province-Level Simulation and 2047 Projection
+    for Türkiye
+  authors:
+    - family-names: Köse
+      given-names: Gamze
+      orcid: "https://orcid.org/0000-0003-1225-5118"
+    - family-names: Köse
+      given-names: Utku
+      orcid: "https://orcid.org/0000-0002-9652-6415"
+  collection-title: >-
+    INHSC2026 - 5th International / 8th National Health Services Congress
+  conference:
+    name: >-
+      INHSC2026 - 5th International / 8th National Health Services Congress
+    city: Isparta
+    country: TR
+    date-start: 2026-11-13
+    date-end: 2026-11-14
+  year: 2026

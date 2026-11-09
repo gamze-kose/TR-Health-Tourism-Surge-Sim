@@ -1,0 +1,3061 @@
+{
+ "generated": "2026-11-09T17:29:55.858Z",
+ "horizons": [
+  3,
+  5,
+  10
+ ],
+ "scenarios": {
+  "quake": {
+   "name": "Earthquake next door",
+   "none": 2307.9642357892303,
+   "referred": 2400.312199999994,
+   "picks": {
+    "3": 2307.9642357892303,
+    "5": 2307.96423578923,
+    "10": 2307.9642357892303
+   },
+   "growthOnly": {
+    "3": 2307.96423578923,
+    "5": 2307.96423578923,
+    "10": 2307.96423578923
+   }
+  },
+  "conflict": {
+   "name": "Armed conflict, open corridor",
+   "none": 6525.529209770524,
+   "referred": 9160.95000000031,
+   "picks": {
+    "3": 8605.01778462008,
+    "5": 8612.849325004552,
+    "10": 8617.767967263295
+   },
+   "growthOnly": {
+    "3": 6731.210248445077,
+    "5": 6888.484395957166,
+    "10": 7366.786467539804
+   }
+  },
+  "restricted": {
+   "name": "Armed conflict, restricted exit",
+   "none": 1727.126940189919,
+   "referred": 9160.95000000031,
+   "picks": {
+    "3": 1727.1269401899185,
+    "5": 1727.1269401899187,
+    "10": 1727.126940189919
+   },
+   "growthOnly": {
+    "3": 1727.1269401899187,
+    "5": 1727.1269401899187,
+    "10": 1727.126940189919
+   }
+  },
+  "epidemic": {
+   "name": "Regional epidemic",
+   "none": 1881.1412558021061,
+   "referred": 2100,
+   "picks": {
+    "3": 1881.1412558021061,
+    "5": 1881.1412558021061,
+    "10": 1881.141255802106
+   },
+   "growthOnly": {
+    "3": 1881.141255802106,
+    "5": 1881.1412558021063,
+    "10": 1881.1412558021061
+   }
+  },
+  "marmara": {
+   "name": "Marmara earthquake",
+   "none": 6494.426323396446,
+   "referred": 9160.95000000031,
+   "picks": {
+    "3": 8602.138460829192,
+    "5": 8610.553614402053,
+    "10": 8616.058555097348
+   },
+   "growthOnly": {
+    "3": 6694.502533765227,
+    "5": 6847.505319396204,
+    "10": 7312.978855462189
+   }
+  },
+  "world": {
+   "name": "Distant crises",
+   "none": 8335.68896301938,
+   "referred": 11561.26220000009,
+   "picks": {
+    "3": 10448.97589615637,
+    "5": 10451.947061965699,
+    "10": 10451.9470619657
+   },
+   "growthOnly": {
+    "3": 8531.039918149836,
+    "5": 8679.452549088757,
+    "10": 9125.549754836737
+   }
+  }
+ },
+ "potential": {
+  "limb": {
+   "label": "Major limb injury and reconstruction",
+   "top": [
+    {
+     "city": "İstanbul",
+     "score": 1
+    },
+    {
+     "city": "Ankara",
+     "score": 0.938
+    },
+    {
+     "city": "İzmir",
+     "score": 0.902
+    },
+    {
+     "city": "Antalya",
+     "score": 0.859
+    },
+    {
+     "city": "Adana",
+     "score": 0.831
+    },
+    {
+     "city": "Gaziantep",
+     "score": 0.827
+    },
+    {
+     "city": "Bursa",
+     "score": 0.783
+    },
+    {
+     "city": "Diyarbakır",
+     "score": 0.766
+    },
+    {
+     "city": "Konya",
+     "score": 0.766
+    },
+    {
+     "city": "Mersin",
+     "score": 0.764
+    }
+   ]
+  },
+  "amputation": {
+   "label": "Amputation and prosthetic limb",
+   "top": [
+    {
+     "city": "İstanbul",
+     "score": 1
+    },
+    {
+     "city": "Ankara",
+     "score": 0.98
+    },
+    {
+     "city": "Gaziantep",
+     "score": 0.919
+    },
+    {
+     "city": "İzmir",
+     "score": 0.917
+    },
+    {
+     "city": "Trabzon",
+     "score": 0.912
+    },
+    {
+     "city": "Antalya",
+     "score": 0.896
+    },
+    {
+     "city": "Diyarbakır",
+     "score": 0.869
+    },
+    {
+     "city": "Van",
+     "score": 0.866
+    },
+    {
+     "city": "Adana",
+     "score": 0.861
+    },
+    {
+     "city": "Elazığ",
+     "score": 0.837
+    }
+   ]
+  },
+  "sci": {
+   "label": "Spinal cord injury",
+   "top": [
+    {
+     "city": "Ankara",
+     "score": 1
+    },
+    {
+     "city": "İstanbul",
+     "score": 0.91
+    },
+    {
+     "city": "İzmir",
+     "score": 0.874
+    },
+    {
+     "city": "Trabzon",
+     "score": 0.871
+    },
+    {
+     "city": "Antalya",
+     "score": 0.84
+    },
+    {
+     "city": "Samsun",
+     "score": 0.814
+    },
+    {
+     "city": "Elazığ",
+     "score": 0.814
+    },
+    {
+     "city": "Malatya",
+     "score": 0.809
+    },
+    {
+     "city": "Gaziantep",
+     "score": 0.805
+    },
+    {
+     "city": "Konya",
+     "score": 0.782
+    }
+   ]
+  },
+  "tbi": {
+   "label": "Traumatic brain injury",
+   "top": [
+    {
+     "city": "İstanbul",
+     "score": 1
+    },
+    {
+     "city": "Ankara",
+     "score": 0.962
+    },
+    {
+     "city": "İzmir",
+     "score": 0.945
+    },
+    {
+     "city": "Gaziantep",
+     "score": 0.854
+    },
+    {
+     "city": "Adana",
+     "score": 0.768
+    },
+    {
+     "city": "Konya",
+     "score": 0.762
+    },
+    {
+     "city": "Antalya",
+     "score": 0.755
+    },
+    {
+     "city": "Trabzon",
+     "score": 0.735
+    },
+    {
+     "city": "Erzurum",
+     "score": 0.719
+    },
+    {
+     "city": "Van",
+     "score": 0.713
+    }
+   ]
+  },
+  "burns": {
+   "label": "Major burns",
+   "top": [
+    {
+     "city": "İstanbul",
+     "score": 1
+    },
+    {
+     "city": "Ankara",
+     "score": 0.952
+    },
+    {
+     "city": "İzmir",
+     "score": 0.926
+    },
+    {
+     "city": "Gaziantep",
+     "score": 0.819
+    },
+    {
+     "city": "Antalya",
+     "score": 0.782
+    },
+    {
+     "city": "Adana",
+     "score": 0.775
+    },
+    {
+     "city": "Konya",
+     "score": 0.763
+    },
+    {
+     "city": "Bursa",
+     "score": 0.734
+    },
+    {
+     "city": "Kayseri",
+     "score": 0.702
+    },
+    {
+     "city": "Samsun",
+     "score": 0.693
+    }
+   ]
+  },
+  "crush": {
+   "label": "Crush injury with kidney failure",
+   "top": [
+    {
+     "city": "İstanbul",
+     "score": 1
+    },
+    {
+     "city": "Ankara",
+     "score": 0.933
+    },
+    {
+     "city": "İzmir",
+     "score": 0.903
+    },
+    {
+     "city": "Adana",
+     "score": 0.828
+    },
+    {
+     "city": "Antalya",
+     "score": 0.825
+    },
+    {
+     "city": "Bursa",
+     "score": 0.813
+    },
+    {
+     "city": "Konya",
+     "score": 0.793
+    },
+    {
+     "city": "Gaziantep",
+     "score": 0.789
+    },
+    {
+     "city": "Mersin",
+     "score": 0.767
+    },
+    {
+     "city": "Şanlıurfa",
+     "score": 0.763
+    }
+   ]
+  },
+  "face": {
+   "label": "Face and jaw injury",
+   "top": [
+    {
+     "city": "İstanbul",
+     "score": 1
+    },
+    {
+     "city": "Ankara",
+     "score": 0.947
+    },
+    {
+     "city": "İzmir",
+     "score": 0.926
+    },
+    {
+     "city": "Antalya",
+     "score": 0.795
+    },
+    {
+     "city": "Adana",
+     "score": 0.748
+    },
+    {
+     "city": "Gaziantep",
+     "score": 0.748
+    },
+    {
+     "city": "Konya",
+     "score": 0.721
+    },
+    {
+     "city": "Bursa",
+     "score": 0.717
+    },
+    {
+     "city": "Kayseri",
+     "score": 0.674
+    },
+    {
+     "city": "Samsun",
+     "score": 0.673
+    }
+   ]
+  },
+  "eye": {
+   "label": "Eye injury and eye disease",
+   "top": [
+    {
+     "city": "İstanbul",
+     "score": 1
+    },
+    {
+     "city": "Ankara",
+     "score": 0.826
+    },
+    {
+     "city": "Antalya",
+     "score": 0.793
+    },
+    {
+     "city": "İzmir",
+     "score": 0.781
+    },
+    {
+     "city": "Adana",
+     "score": 0.668
+    },
+    {
+     "city": "Bursa",
+     "score": 0.624
+    },
+    {
+     "city": "Gaziantep",
+     "score": 0.619
+    },
+    {
+     "city": "Muğla",
+     "score": 0.614
+    },
+    {
+     "city": "Mersin",
+     "score": 0.604
+    },
+    {
+     "city": "Konya",
+     "score": 0.597
+    }
+   ]
+  },
+  "other": {
+   "label": "Chest, abdomen and pelvis injury",
+   "top": [
+    {
+     "city": "İstanbul",
+     "score": 1
+    },
+    {
+     "city": "Ankara",
+     "score": 0.937
+    },
+    {
+     "city": "İzmir",
+     "score": 0.892
+    },
+    {
+     "city": "Gaziantep",
+     "score": 0.844
+    },
+    {
+     "city": "Adana",
+     "score": 0.834
+    },
+    {
+     "city": "Antalya",
+     "score": 0.831
+    },
+    {
+     "city": "Diyarbakır",
+     "score": 0.816
+    },
+    {
+     "city": "Bursa",
+     "score": 0.79
+    },
+    {
+     "city": "Konya",
+     "score": 0.784
+    },
+    {
+     "city": "Şanlıurfa",
+     "score": 0.771
+    }
+   ]
+  },
+  "critical": {
+   "label": "Critical illness in an epidemic",
+   "top": [
+    {
+     "city": "Ankara",
+     "score": 1
+    },
+    {
+     "city": "İstanbul",
+     "score": 0.97
+    },
+    {
+     "city": "İzmir",
+     "score": 0.894
+    },
+    {
+     "city": "Gaziantep",
+     "score": 0.871
+    },
+    {
+     "city": "Konya",
+     "score": 0.838
+    },
+    {
+     "city": "Adana",
+     "score": 0.808
+    },
+    {
+     "city": "Antalya",
+     "score": 0.795
+    },
+    {
+     "city": "Bursa",
+     "score": 0.772
+    },
+    {
+     "city": "Samsun",
+     "score": 0.772
+    },
+    {
+     "city": "Diyarbakır",
+     "score": 0.768
+    }
+   ]
+  },
+  "recovery": {
+   "label": "Nursing and recovery after hospital",
+   "top": [
+    {
+     "city": "Balıkesir",
+     "score": 1
+    },
+    {
+     "city": "Kütahya",
+     "score": 0.937
+    },
+    {
+     "city": "Afyonkarahisar",
+     "score": 0.931
+    },
+    {
+     "city": "İzmir",
+     "score": 0.912
+    },
+    {
+     "city": "Ankara",
+     "score": 0.909
+    },
+    {
+     "city": "Erzurum",
+     "score": 0.829
+    },
+    {
+     "city": "Antalya",
+     "score": 0.765
+    },
+    {
+     "city": "Çanakkale",
+     "score": 0.76
+    },
+    {
+     "city": "Yozgat",
+     "score": 0.732
+    },
+    {
+     "city": "Denizli",
+     "score": 0.702
+    }
+   ]
+  },
+  "cancer": {
+   "label": "Cancer treatment",
+   "top": [
+    {
+     "city": "İstanbul",
+     "score": 1
+    },
+    {
+     "city": "Ankara",
+     "score": 0.855
+    },
+    {
+     "city": "İzmir",
+     "score": 0.725
+    },
+    {
+     "city": "Bursa",
+     "score": 0.595
+    },
+    {
+     "city": "Antalya",
+     "score": 0.583
+    },
+    {
+     "city": "Adana",
+     "score": 0.573
+    },
+    {
+     "city": "Konya",
+     "score": 0.5
+    },
+    {
+     "city": "Kayseri",
+     "score": 0.42
+    },
+    {
+     "city": "Mersin",
+     "score": 0.415
+    },
+    {
+     "city": "Samsun",
+     "score": 0.409
+    }
+   ]
+  },
+  "dialysis": {
+   "label": "Long-term dialysis",
+   "top": [
+    {
+     "city": "İstanbul",
+     "score": 1
+    },
+    {
+     "city": "İzmir",
+     "score": 0.97
+    },
+    {
+     "city": "Antalya",
+     "score": 0.916
+    },
+    {
+     "city": "Adana",
+     "score": 0.908
+    },
+    {
+     "city": "Ankara",
+     "score": 0.887
+    },
+    {
+     "city": "Mersin",
+     "score": 0.859
+    },
+    {
+     "city": "Hatay",
+     "score": 0.848
+    },
+    {
+     "city": "Bursa",
+     "score": 0.825
+    },
+    {
+     "city": "Muğla",
+     "score": 0.798
+    },
+    {
+     "city": "Van",
+     "score": 0.783
+    }
+   ]
+  },
+  "heart": {
+   "label": "Heart disease",
+   "top": [
+    {
+     "city": "İstanbul",
+     "score": 1
+    },
+    {
+     "city": "Ankara",
+     "score": 0.924
+    },
+    {
+     "city": "İzmir",
+     "score": 0.79
+    },
+    {
+     "city": "Antalya",
+     "score": 0.733
+    },
+    {
+     "city": "Konya",
+     "score": 0.695
+    },
+    {
+     "city": "Bursa",
+     "score": 0.692
+    },
+    {
+     "city": "Adana",
+     "score": 0.689
+    },
+    {
+     "city": "Kayseri",
+     "score": 0.666
+    },
+    {
+     "city": "Mersin",
+     "score": 0.602
+    },
+    {
+     "city": "Samsun",
+     "score": 0.595
+    }
+   ]
+  },
+  "congenital": {
+   "label": "Children with congenital disease",
+   "top": [
+    {
+     "city": "İstanbul",
+     "score": 1
+    },
+    {
+     "city": "Ankara",
+     "score": 0.975
+    },
+    {
+     "city": "İzmir",
+     "score": 0.962
+    },
+    {
+     "city": "Gaziantep",
+     "score": 0.766
+    },
+    {
+     "city": "Konya",
+     "score": 0.734
+    },
+    {
+     "city": "Antalya",
+     "score": 0.684
+    },
+    {
+     "city": "Adana",
+     "score": 0.674
+    },
+    {
+     "city": "Bursa",
+     "score": 0.652
+    },
+    {
+     "city": "Kayseri",
+     "score": 0.636
+    },
+    {
+     "city": "Samsun",
+     "score": 0.632
+    }
+   ]
+  },
+  "blood": {
+   "label": "Blood disease",
+   "top": [
+    {
+     "city": "İstanbul",
+     "score": 1
+    },
+    {
+     "city": "Ankara",
+     "score": 0.976
+    },
+    {
+     "city": "İzmir",
+     "score": 0.963
+    },
+    {
+     "city": "Gaziantep",
+     "score": 0.754
+    },
+    {
+     "city": "Konya",
+     "score": 0.728
+    },
+    {
+     "city": "Antalya",
+     "score": 0.682
+    },
+    {
+     "city": "Adana",
+     "score": 0.666
+    },
+    {
+     "city": "Bursa",
+     "score": 0.646
+    },
+    {
+     "city": "Kayseri",
+     "score": 0.63
+    },
+    {
+     "city": "Samsun",
+     "score": 0.628
+    }
+   ]
+  },
+  "routine": {
+   "label": "Ordinary treatment no longer available at home",
+   "top": [
+    {
+     "city": "İstanbul",
+     "score": 1
+    },
+    {
+     "city": "Antalya",
+     "score": 0.744
+    },
+    {
+     "city": "Ankara",
+     "score": 0.716
+    },
+    {
+     "city": "İzmir",
+     "score": 0.658
+    },
+    {
+     "city": "Adana",
+     "score": 0.555
+    },
+    {
+     "city": "Muğla",
+     "score": 0.547
+    },
+    {
+     "city": "Bursa",
+     "score": 0.547
+    },
+    {
+     "city": "Mersin",
+     "score": 0.512
+    },
+    {
+     "city": "Samsun",
+     "score": 0.49
+    },
+    {
+     "city": "Konya",
+     "score": 0.483
+    }
+   ]
+  }
+ },
+ "shareForecast": {
+  "0": {
+   "patients": 1398580,
+   "revenue": 3022452000.0000005,
+   "top": [
+    {
+     "city": "İstanbul",
+     "share": 0.6
+    },
+    {
+     "city": "Antalya",
+     "share": 0.12
+    },
+    {
+     "city": "Ankara",
+     "share": 0.0786
+    },
+    {
+     "city": "İzmir",
+     "share": 0.03
+    },
+    {
+     "city": "Bursa",
+     "share": 0.018
+    },
+    {
+     "city": "Adana",
+     "share": 0.0176
+    },
+    {
+     "city": "Muğla",
+     "share": 0.0159
+    },
+    {
+     "city": "Mersin",
+     "share": 0.0108
+    },
+    {
+     "city": "Samsun",
+     "share": 0.0099
+    },
+    {
+     "city": "Aydın",
+     "share": 0.0095
+    }
+   ]
+  },
+  "3": {
+   "patients": 1619031.1725,
+   "revenue": 3498865996.5000005,
+   "top": [
+    {
+     "city": "İstanbul",
+     "share": 0.5854
+    },
+    {
+     "city": "Antalya",
+     "share": 0.1187
+    },
+    {
+     "city": "Ankara",
+     "share": 0.0795
+    },
+    {
+     "city": "İzmir",
+     "share": 0.0322
+    },
+    {
+     "city": "Bursa",
+     "share": 0.0186
+    },
+    {
+     "city": "Adana",
+     "share": 0.0184
+    },
+    {
+     "city": "Muğla",
+     "share": 0.0167
+    },
+    {
+     "city": "Mersin",
+     "share": 0.0115
+    },
+    {
+     "city": "Samsun",
+     "share": 0.0104
+    },
+    {
+     "city": "Aydın",
+     "share": 0.0096
+    }
+   ]
+  },
+  "5": {
+   "patients": 1784981.8676812504,
+   "revenue": 3857499761.141251,
+   "top": [
+    {
+     "city": "İstanbul",
+     "share": 0.5782
+    },
+    {
+     "city": "Antalya",
+     "share": 0.118
+    },
+    {
+     "city": "Ankara",
+     "share": 0.0799
+    },
+    {
+     "city": "İzmir",
+     "share": 0.0333
+    },
+    {
+     "city": "Bursa",
+     "share": 0.0189
+    },
+    {
+     "city": "Adana",
+     "share": 0.0188
+    },
+    {
+     "city": "Muğla",
+     "share": 0.017
+    },
+    {
+     "city": "Mersin",
+     "share": 0.0118
+    },
+    {
+     "city": "Samsun",
+     "share": 0.0106
+    },
+    {
+     "city": "Aydın",
+     "share": 0.0096
+    }
+   ]
+  },
+  "10": {
+   "patients": 2278139.447118395,
+   "revenue": 4923255822.492734,
+   "top": [
+    {
+     "city": "İstanbul",
+     "share": 0.5666
+    },
+    {
+     "city": "Antalya",
+     "share": 0.1169
+    },
+    {
+     "city": "Ankara",
+     "share": 0.0806
+    },
+    {
+     "city": "İzmir",
+     "share": 0.035
+    },
+    {
+     "city": "Adana",
+     "share": 0.0194
+    },
+    {
+     "city": "Bursa",
+     "share": 0.0194
+    },
+    {
+     "city": "Muğla",
+     "share": 0.0176
+    },
+    {
+     "city": "Mersin",
+     "share": 0.0123
+    },
+    {
+     "city": "Samsun",
+     "share": 0.011
+    },
+    {
+     "city": "Aydın",
+     "share": 0.0097
+    }
+   ]
+  }
+ },
+ "needs": {
+  "quake": {
+   "core": {
+    "admittedForeign": 2307.9642357892303,
+    "arrivalsForeign": 2400.312199999994,
+    "costUsd": 20113682.616573684,
+    "rows": [
+     {
+      "key": "limb",
+      "referred": 1227.490759,
+      "admitted": 1198.0957551424162,
+      "peak": 410.0905912552721,
+      "careDays": 40956.0055483651,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "amputation",
+      "referred": 265.7201800000001,
+      "admitted": 262.2958575443503,
+      "peak": 126.71898296106939,
+      "careDays": 11949.739621470602,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "sci",
+      "referred": 64.82448500000005,
+      "admitted": 64.6434133725498,
+      "peak": 48.112047880135556,
+      "careDays": 4165.6741393857055,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "tbi",
+      "referred": 65.18573600000005,
+      "admitted": 62.51704388977953,
+      "peak": 36.98659979771562,
+      "careDays": 3336.712565148678,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "burns",
+      "referred": 21.113113999999992,
+      "admitted": 20.51772019537486,
+      "peak": 8.560685045829684,
+      "careDays": 331.6148201270644,
+      "capacity": 210.00000000000003,
+      "coverage": 24.53074711612022
+     },
+     {
+      "key": "crush",
+      "referred": 138.72038399999997,
+      "admitted": 95.55314078450739,
+      "peak": 44.02675316237594,
+      "careDays": 4982.506854063163,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "face",
+      "referred": 21.113113999999992,
+      "admitted": 20.51772019537486,
+      "peak": 8.560685045829684,
+      "careDays": 331.6148201270644,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "eye",
+      "referred": 10.556556999999996,
+      "admitted": 10.25886009768743,
+      "peak": 4.280342522914842,
+      "careDays": 165.8074100635322,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "other",
+      "referred": 184.19787099999996,
+      "admitted": 173.36595663990664,
+      "peak": 59.68637936661988,
+      "careDays": 4599.165621299299,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "critical",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "recovery",
+      "referred": 401.3899999999997,
+      "admitted": 400.198767927284,
+      "peak": 258.24373140030013,
+      "careDays": 26812.10068059408,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "cancer",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "dialysis",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "heart",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "congenital",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "blood",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "routine",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     }
+    ]
+   },
+   "all_needs": {
+    "admittedForeign": 2307.9642357892303,
+    "arrivalsForeign": 2400.312199999994,
+    "costUsd": 20113682.616573684,
+    "rows": [
+     {
+      "key": "limb",
+      "referred": 1227.490759,
+      "admitted": 1198.0957551424162,
+      "peak": 410.0905912552721,
+      "careDays": 40956.0055483651,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "amputation",
+      "referred": 265.7201800000001,
+      "admitted": 262.2958575443503,
+      "peak": 126.71898296106939,
+      "careDays": 11949.739621470602,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "sci",
+      "referred": 64.82448500000005,
+      "admitted": 64.6434133725498,
+      "peak": 48.112047880135556,
+      "careDays": 4165.6741393857055,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "tbi",
+      "referred": 65.18573600000005,
+      "admitted": 62.51704388977953,
+      "peak": 36.98659979771562,
+      "careDays": 3336.712565148678,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "burns",
+      "referred": 21.113113999999992,
+      "admitted": 20.51772019537486,
+      "peak": 8.560685045829684,
+      "careDays": 331.6148201270644,
+      "capacity": 210.00000000000003,
+      "coverage": 24.53074711612022
+     },
+     {
+      "key": "crush",
+      "referred": 138.72038399999997,
+      "admitted": 95.55314078450739,
+      "peak": 44.02675316237594,
+      "careDays": 4982.506854063163,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "face",
+      "referred": 21.113113999999992,
+      "admitted": 20.51772019537486,
+      "peak": 8.560685045829684,
+      "careDays": 331.6148201270644,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "eye",
+      "referred": 10.556556999999996,
+      "admitted": 10.25886009768743,
+      "peak": 4.280342522914842,
+      "careDays": 165.8074100635322,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "other",
+      "referred": 184.19787099999996,
+      "admitted": 173.36595663990664,
+      "peak": 59.68637936661988,
+      "careDays": 4599.165621299299,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "critical",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "recovery",
+      "referred": 401.3899999999997,
+      "admitted": 400.198767927284,
+      "peak": 258.24373140030013,
+      "careDays": 26812.10068059408,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "cancer",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "dialysis",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "heart",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "congenital",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "blood",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "routine",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     }
+    ]
+   }
+  },
+  "conflict": {
+   "core": {
+    "admittedForeign": 6525.529209770524,
+    "arrivalsForeign": 9160.95000000031,
+    "costUsd": 61196899.93043207,
+    "rows": [
+     {
+      "key": "limb",
+      "referred": 2456.1224999999968,
+      "admitted": 2273.317016397171,
+      "peak": 255.52105233311394,
+      "careDays": 77137.21976709415,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "amputation",
+      "referred": 1061.1809999999987,
+      "admitted": 988.5924649351575,
+      "peak": 112.11239419690017,
+      "careDays": 33830.158482659965,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "sci",
+      "referred": 289.4129999999996,
+      "admitted": 269.61612680049745,
+      "peak": 30.576107508245492,
+      "careDays": 9226.406858907252,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "tbi",
+      "referred": 329.87249999999995,
+      "admitted": 277.7120251197976,
+      "peak": 26.920402452340838,
+      "careDays": 8189.664268156758,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "burns",
+      "referred": 252.0719999999999,
+      "admitted": 215.0986975021426,
+      "peak": 21.344280246921173,
+      "careDays": 6484.932496427534,
+      "capacity": 210.00000000000003,
+      "coverage": 9.838701402465501
+     },
+     {
+      "key": "crush",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "face",
+      "referred": 107.61659999999975,
+      "admitted": 99.38046373640574,
+      "peak": 4.643800037436565,
+      "careDays": 1565.1198538171147,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "eye",
+      "referred": 51.245999999999874,
+      "admitted": 47.3240303506694,
+      "peak": 2.2113333511602686,
+      "careDays": 745.29516848434,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "other",
+      "referred": 571.6763999999998,
+      "admitted": 499.3343533421719,
+      "peak": 61.07346455176072,
+      "careDays": 18264.623705353984,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "critical",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "recovery",
+      "referred": 411.7500000000019,
+      "admitted": 385.09322140375497,
+      "peak": 158.0660239108845,
+      "careDays": 40943.466338244354,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "cancer",
+      "referred": 3300.0000000000005,
+      "admitted": 1195.5490559412224,
+      "peak": 263.5704601826353,
+      "careDays": 93593.49772767116,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "dialysis",
+      "referred": 330.00000000000034,
+      "admitted": 274.51175424153047,
+      "peak": 226.0468144563831,
+      "careDays": 25107.44213234862,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "heart",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "congenital",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "blood",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "routine",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     }
+    ]
+   },
+   "all_needs": {
+    "admittedForeign": 9737.832729188352,
+    "arrivalsForeign": 13563.150000000096,
+    "costUsd": 90211648.31633143,
+    "rows": [
+     {
+      "key": "limb",
+      "referred": 2456.1224999999986,
+      "admitted": 2308.2750745823673,
+      "peak": 518.323897967412,
+      "careDays": 101247.06419987258,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "amputation",
+      "referred": 1061.1809999999996,
+      "admitted": 1003.7690362776348,
+      "peak": 227.55681793397648,
+      "careDays": 44435.61841435441,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "sci",
+      "referred": 289.4129999999998,
+      "admitted": 273.75519171208225,
+      "peak": 62.06095034562995,
+      "careDays": 12118.805022096656,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "tbi",
+      "referred": 329.8724999999999,
+      "admitted": 282.0929470567662,
+      "peak": 54.1910787811086,
+      "careDays": 10613.048883214755,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "burns",
+      "referred": 252.0719999999999,
+      "admitted": 218.4792082280755,
+      "peak": 43.00534294697336,
+      "careDays": 8421.899813487245,
+      "capacity": 210.00000000000003,
+      "coverage": 4.8831141809271275
+     },
+     {
+      "key": "crush",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "face",
+      "referred": 107.61659999999989,
+      "admitted": 102.27780917451508,
+      "peak": 18.71295904405156,
+      "careDays": 1633.6577657823846,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "eye",
+      "referred": 1219.4460000000013,
+      "admitted": 1158.9500624125458,
+      "peak": 212.04389522092822,
+      "careDays": 18511.618354903145,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "other",
+      "referred": 571.6763999999998,
+      "admitted": 505.11227828216835,
+      "peak": 121.96602551169968,
+      "careDays": 24445.539660496783,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "critical",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "recovery",
+      "referred": 411.7500000000019,
+      "admitted": 385.0932214037551,
+      "peak": 248.81360613089598,
+      "careDays": 54439.077930660525,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "cancer",
+      "referred": 3300.0000000000027,
+      "admitted": 923.0412617224337,
+      "peak": 203.21088156488236,
+      "careDays": 72276.9128662746,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "dialysis",
+      "referred": 330.00000000000034,
+      "admitted": 274.51175424153047,
+      "peak": 226.0468144563831,
+      "careDays": 25107.44213234862,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "heart",
+      "referred": 1072.5000000000007,
+      "admitted": 945.9407951645561,
+      "peak": 164.6816445505525,
+      "careDays": 14267.906960243121,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "congenital",
+      "referred": 1181.400000000001,
+      "admitted": 1082.3908341983467,
+      "peak": 193.3982703640058,
+      "careDays": 16825.357500788683,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "blood",
+      "referred": 980.1000000000006,
+      "admitted": 274.1432547315627,
+      "peak": 60.35363182477005,
+      "careDays": 21466.243121283555,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "routine",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     }
+    ]
+   }
+  },
+  "restricted": {
+   "core": {
+    "admittedForeign": 1727.126940189919,
+    "arrivalsForeign": 9160.95000000031,
+    "costUsd": 18170828.000622593,
+    "rows": [
+     {
+      "key": "limb",
+      "referred": 2456.1224999999968,
+      "admitted": 347.78020577694895,
+      "peak": 63.044457219372646,
+      "careDays": 11098.836556835813,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "amputation",
+      "referred": 1061.1809999999987,
+      "admitted": 152.464574713572,
+      "peak": 27.723497956632464,
+      "careDays": 4878.2146995414405,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "sci",
+      "referred": 289.4129999999996,
+      "admitted": 41.581247649156,
+      "peak": 7.560953988172489,
+      "careDays": 1330.4221907840292,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "tbi",
+      "referred": 329.87249999999995,
+      "admitted": 37.19065710892786,
+      "peak": 6.373809626014205,
+      "careDays": 1132.6550929245038,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "burns",
+      "referred": 252.0719999999999,
+      "admitted": 29.413910033635904,
+      "peak": 5.089312416028635,
+      "careDays": 902.9280831478948,
+      "capacity": 210.00000000000003,
+      "coverage": 41.26294140218459
+     },
+     {
+      "key": "crush",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "face",
+      "referred": 107.61659999999975,
+      "admitted": 14.999810908881107,
+      "peak": 1.1056021912315674,
+      "careDays": 225.91421760733797,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "eye",
+      "referred": 51.245999999999874,
+      "admitted": 7.142767099467194,
+      "peak": 0.5264772339197941,
+      "careDays": 107.5781988606371,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "other",
+      "referred": 571.6763999999998,
+      "admitted": 70.91301219967053,
+      "peak": 14.83517129107124,
+      "careDays": 2577.0539198248694,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "critical",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "recovery",
+      "referred": 411.7500000000019,
+      "admitted": 56.30065577592519,
+      "peak": 36.526774773480646,
+      "careDays": 5464.812291229692,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "cancer",
+      "referred": 3300.0000000000005,
+      "admitted": 940.2309050956725,
+      "peak": 254.92952755397147,
+      "careDays": 73064.82384497233,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "dialysis",
+      "referred": 330.00000000000034,
+      "admitted": 29.10919382806484,
+      "peak": 13.616800323660929,
+      "careDays": 2587.4251217225697,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "heart",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "congenital",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "blood",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "routine",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     }
+    ]
+   },
+   "all_needs": {
+    "admittedForeign": 2591.6216264130403,
+    "arrivalsForeign": 13563.150000000096,
+    "costUsd": 26004226.07234221,
+    "rows": [
+     {
+      "key": "limb",
+      "referred": 2456.1224999999986,
+      "admitted": 414.23315386448155,
+      "peak": 71.94156212111066,
+      "careDays": 17127.02487533725,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "amputation",
+      "referred": 1061.1809999999996,
+      "admitted": 181.67615718110275,
+      "peak": 31.64672588869657,
+      "careDays": 7530.305804393502,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "sci",
+      "referred": 289.4129999999998,
+      "admitted": 49.54804286757347,
+      "peak": 8.630925242371791,
+      "careDays": 2053.71976483459,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "tbi",
+      "referred": 329.8724999999999,
+      "admitted": 43.95562899238314,
+      "peak": 7.226807904667952,
+      "careDays": 1736.8201407934532,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "burns",
+      "referred": 252.0719999999999,
+      "admitted": 34.809090757985814,
+      "peak": 5.776863630042167,
+      "careDays": 1386.0711788439241,
+      "capacity": 210.00000000000003,
+      "coverage": 36.351905367457526
+     },
+     {
+      "key": "crush",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "face",
+      "referred": 107.61659999999989,
+      "admitted": 20.57656756177334,
+      "peak": 0.9569356228076596,
+      "careDays": 314.59486710098497,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "eye",
+      "referred": 1219.4460000000013,
+      "admitted": 233.16117594250616,
+      "peak": 10.843413725115937,
+      "careDays": 3564.7981102063172,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "other",
+      "referred": 571.6763999999998,
+      "admitted": 80.08901862666897,
+      "peak": 17.395430753665238,
+      "careDays": 4014.942381138572,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "critical",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "recovery",
+      "referred": 411.7500000000019,
+      "admitted": 56.30065577592518,
+      "peak": 43.62266801747896,
+      "careDays": 8102.1816476615095,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "cancer",
+      "referred": 3300.0000000000027,
+      "admitted": 825.6099881816046,
+      "peak": 203.36896775147483,
+      "careDays": 63361.13978093149,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "dialysis",
+      "referred": 330.00000000000034,
+      "admitted": 29.10919382806484,
+      "peak": 13.616800323660929,
+      "careDays": 2587.4251217225697,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "heart",
+      "referred": 1072.5000000000007,
+      "admitted": 170.49825280019041,
+      "peak": 7.923748588135234,
+      "careDays": 2569.5814352588186,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "congenital",
+      "referred": 1181.400000000001,
+      "admitted": 206.848533542838,
+      "peak": 9.605424476173512,
+      "careDays": 3142.0356404499566,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "blood",
+      "referred": 980.1000000000006,
+      "admitted": 245.20616648993652,
+      "peak": 60.40058342218801,
+      "careDays": 18818.25851493665,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "routine",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     }
+    ]
+   }
+  },
+  "epidemic": {
+   "core": {
+    "admittedForeign": 1881.1412558021061,
+    "arrivalsForeign": 2100,
+    "costUsd": 12051237.597002026,
+    "rows": [
+     {
+      "key": "limb",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "amputation",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "sci",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "tbi",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "burns",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": 210.00000000000003,
+      "coverage": null
+     },
+     {
+      "key": "crush",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "face",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "eye",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "other",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "critical",
+      "referred": 300.00000000000085,
+      "admitted": 185.3449604516033,
+      "peak": 20.20584177909769,
+      "careDays": 1778.112622433705,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "recovery",
+      "referred": 1200.000000000002,
+      "admitted": 1196.641517758343,
+      "peak": 375.9691115102219,
+      "careDays": 38171.96083536864,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "cancer",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "dialysis",
+      "referred": 600.0000000000017,
+      "admitted": 499.1547775921624,
+      "peak": 327.83915611496025,
+      "careDays": 45496.677247559004,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "heart",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "congenital",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "blood",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "routine",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     }
+    ]
+   },
+   "all_needs": {
+    "admittedForeign": 1881.1412558021061,
+    "arrivalsForeign": 2100,
+    "costUsd": 12051237.597002026,
+    "rows": [
+     {
+      "key": "limb",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "amputation",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "sci",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "tbi",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "burns",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": 210.00000000000003,
+      "coverage": null
+     },
+     {
+      "key": "crush",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "face",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "eye",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "other",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "critical",
+      "referred": 300.00000000000085,
+      "admitted": 185.3449604516033,
+      "peak": 20.20584177909769,
+      "careDays": 1778.112622433705,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "recovery",
+      "referred": 1200.000000000002,
+      "admitted": 1196.641517758343,
+      "peak": 375.9691115102219,
+      "careDays": 38171.96083536864,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "cancer",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "dialysis",
+      "referred": 600.0000000000017,
+      "admitted": 499.1547775921624,
+      "peak": 327.83915611496025,
+      "careDays": 45496.677247559004,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "heart",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "congenital",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "blood",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "routine",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     }
+    ]
+   }
+  },
+  "marmara": {
+   "core": {
+    "admittedForeign": 6494.426323396446,
+    "arrivalsForeign": 9160.95000000031,
+    "costUsd": 117304540.1491527,
+    "rows": [
+     {
+      "key": "limb",
+      "referred": 7268.1784872000935,
+      "admitted": 6993.266013652881,
+      "peak": 2362.5506783157443,
+      "careDays": 245218.8270629706,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "amputation",
+      "referred": 1952.2668000000203,
+      "admitted": 1884.2781128867073,
+      "peak": 625.7343814402766,
+      "careDays": 79989.32321936304,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "sci",
+      "referred": 444.9917640000027,
+      "admitted": 429.33004906925044,
+      "peak": 136.2517232874348,
+      "careDays": 22526.939750249076,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "tbi",
+      "referred": 525.6223752000008,
+      "admitted": 485.7153917444663,
+      "peak": 130.74689615700214,
+      "careDays": 19790.629237135152,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "burns",
+      "referred": 353.4149472000027,
+      "admitted": 330.27489277561034,
+      "peak": 98.4197168176375,
+      "careDays": 10477.272518512704,
+      "capacity": 210.00000000000003,
+      "coverage": 2.133718799344956
+     },
+     {
+      "key": "crush",
+      "referred": 665.8578431999913,
+      "admitted": 558.9089698507978,
+      "peak": 307.3835156111183,
+      "careDays": 28257.87865991655,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "face",
+      "referred": 208.95954720000404,
+      "admitted": 201.85462426801413,
+      "peak": 73.64304144881733,
+      "careDays": 4070.1775782669747,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "eye",
+      "referred": 101.91747360000198,
+      "admitted": 98.45213399214933,
+      "peak": 35.918496346567245,
+      "careDays": 1985.1795308653695,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "other",
+      "referred": 1362.4789224000112,
+      "admitted": 1279.7009992545338,
+      "peak": 388.41227192231935,
+      "careDays": 42650.62907442988,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "critical",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "recovery",
+      "referred": 1375.0859999999836,
+      "admitted": 1348.2943543637546,
+      "peak": 643.8399398422285,
+      "careDays": 117052.18947415457,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "cancer",
+      "referred": 3300.0000000000005,
+      "admitted": 1164.4461695671541,
+      "peak": 262.1681679231829,
+      "careDays": 90817.4075816453,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "dialysis",
+      "referred": 330,
+      "admitted": 299.4705461191525,
+      "peak": 244.84845168452705,
+      "careDays": 27394.69210047704,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "heart",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "congenital",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "blood",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "routine",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     }
+    ]
+   },
+   "all_needs": {
+    "admittedForeign": 9706.385531217502,
+    "arrivalsForeign": 13563.150000000096,
+    "costUsd": 161233521.15509284,
+    "rows": [
+     {
+      "key": "limb",
+      "referred": 7268.178487199999,
+      "admitted": 6974.940728211033,
+      "peak": 1926.8177587226699,
+      "careDays": 296008.99307839916,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "amputation",
+      "referred": 1952.2667999999987,
+      "admitted": 1880.881327290676,
+      "peak": 534.5681496106881,
+      "careDays": 95512.71706263097,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "sci",
+      "referred": 444.99176399999965,
+      "admitted": 428.5276683478147,
+      "peak": 124.67526410843266,
+      "careDays": 26592.28085456629,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "tbi",
+      "referred": 525.6223751999999,
+      "admitted": 479.3303764480419,
+      "peak": 116.39307541371672,
+      "careDays": 23254.873781479404,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "burns",
+      "referred": 353.4149472,
+      "admitted": 326.90698157392313,
+      "peak": 80.78169081843824,
+      "careDays": 12542.193135416926,
+      "capacity": 210.00000000000003,
+      "coverage": 2.5995989669489314
+     },
+     {
+      "key": "crush",
+      "referred": 665.8578431999996,
+      "admitted": 541.5578841158855,
+      "peak": 274.9625615291494,
+      "careDays": 28094.4587708472,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "face",
+      "referred": 208.95954719999983,
+      "admitted": 201.52047281989817,
+      "peak": 54.293345408715076,
+      "careDays": 5180.545711641129,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "eye",
+      "referred": 1270.1174736000007,
+      "admitted": 1224.900595576553,
+      "peak": 330.0108926720025,
+      "careDays": 31488.877724458183,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "other",
+      "referred": 1362.4789224,
+      "admitted": 1268.3512033232682,
+      "peak": 320.83419958071966,
+      "careDays": 51039.174525125956,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "critical",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "recovery",
+      "referred": 1375.0859999999836,
+      "admitted": 1348.2943543637546,
+      "peak": 643.83996177467,
+      "careDays": 130244.72247305347,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "cancer",
+      "referred": 3300.0000000000027,
+      "admitted": 898.7951568875424,
+      "peak": 202.1342852153472,
+      "careDays": 70112.2270335592,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "dialysis",
+      "referred": 330,
+      "admitted": 299.4705461191525,
+      "peak": 244.84845168452705,
+      "careDays": 27394.69210047704,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "heart",
+      "referred": 1072.5000000000005,
+      "admitted": 984.5006140213934,
+      "peak": 243.35216824164632,
+      "careDays": 22773.56409500712,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "congenital",
+      "referred": 1181.4000000000005,
+      "admitted": 1111.903402201209,
+      "peak": 279.3042534429291,
+      "careDays": 27187.671061210858,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "blood",
+      "referred": 980.1000000000006,
+      "admitted": 266.94216159560006,
+      "peak": 60.0338827089581,
+      "careDays": 20823.331428967056,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "routine",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     }
+    ]
+   }
+  },
+  "world": {
+   "core": {
+    "admittedForeign": 8335.68896301938,
+    "arrivalsForeign": 11561.26220000009,
+    "costUsd": 76534805.06377465,
+    "rows": [
+     {
+      "key": "limb",
+      "referred": 3683.613258999977,
+      "admitted": 3261.831630606369,
+      "peak": 432.949077809089,
+      "careDays": 110310.56258614329,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "amputation",
+      "referred": 1326.9011799999912,
+      "admitted": 1187.6431387952111,
+      "peak": 171.40422871836842,
+      "careDays": 43301.62162370224,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "sci",
+      "referred": 354.23748499999743,
+      "admitted": 318.16874589763387,
+      "peak": 49.89560640599056,
+      "careDays": 12509.364981769004,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "tbi",
+      "referred": 395.05823599999553,
+      "admitted": 314.9402377247087,
+      "peak": 41.83648658072671,
+      "careDays": 10730.222497250817,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "burns",
+      "referred": 273.18511399999716,
+      "admitted": 219.275766194363,
+      "peak": 25.610324661173678,
+      "careDays": 6659.39336787675,
+      "capacity": 210.00000000000003,
+      "coverage": 8.199817955387688
+     },
+     {
+      "key": "crush",
+      "referred": 138.72038399999843,
+      "admitted": 83.20650880512959,
+      "peak": 36.45138410226183,
+      "careDays": 4677.504048894449,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "face",
+      "referred": 128.72971399999966,
+      "admitted": 112.38345333574462,
+      "peak": 7.260452568806053,
+      "careDays": 1771.948950091099,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "eye",
+      "referred": 61.802556999999815,
+      "admitted": 53.95479073805132,
+      "peak": 3.485710639654124,
+      "careDays": 850.7047253215778,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "other",
+      "referred": 755.8742709999929,
+      "admitted": 626.6973497009105,
+      "peak": 86.10304474356293,
+      "careDays": 21952.45068583916,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "critical",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "recovery",
+      "referred": 813.1399999999808,
+      "admitted": 762.2178110045829,
+      "peak": 292.783054259777,
+      "careDays": 64480.16418182296,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "cancer",
+      "referred": 3299.9999999999905,
+      "admitted": 1151.5558280235562,
+      "peak": 263.8400202358448,
+      "careDays": 89567.75104272213,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "dialysis",
+      "referred": 330.00000000000057,
+      "admitted": 243.81370219311228,
+      "peak": 182.89295449663098,
+      "careDays": 22290.942566525173,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "heart",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "congenital",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "blood",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "routine",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     }
+    ]
+   },
+   "all_needs": {
+    "admittedForeign": 10811.25509802893,
+    "arrivalsForeign": 15963.462200000085,
+    "costUsd": 97929855.86064456,
+    "rows": [
+     {
+      "key": "limb",
+      "referred": 3683.6132589999843,
+      "admitted": 3145.0695086721034,
+      "peak": 440.06200060686353,
+      "careDays": 125659.33859319882,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "amputation",
+      "referred": 1326.901179999993,
+      "admitted": 1146.3988114680255,
+      "peak": 174.96070209847485,
+      "careDays": 49783.4262408822,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "sci",
+      "referred": 354.23748499999783,
+      "admitted": 307.6346636238222,
+      "peak": 51.16666299888939,
+      "careDays": 14512.352835731559,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "tbi",
+      "referred": 395.05823599999826,
+      "admitted": 305.7155083913466,
+      "peak": 42.409386055841026,
+      "careDays": 12340.385918131671,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "burns",
+      "referred": 273.185113999999,
+      "admitted": 212.24198140203887,
+      "peak": 25.772047741854472,
+      "careDays": 7534.601199994675,
+      "capacity": 210.00000000000003,
+      "coverage": 8.148362990145893
+     },
+     {
+      "key": "crush",
+      "referred": 138.7203840000003,
+      "admitted": 82.7344866641815,
+      "peak": 37.16423400088392,
+      "careDays": 4644.295018264173,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "face",
+      "referred": 128.72971399999997,
+      "admitted": 107.16226921470563,
+      "peak": 6.100067344491665,
+      "careDays": 1703.3717087612226,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "eye",
+      "referred": 1230.002557000002,
+      "admitted": 1023.9272740713969,
+      "peak": 58.285676231650456,
+      "careDays": 16275.586204578747,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "other",
+      "referred": 755.8742709999967,
+      "admitted": 607.1884054757642,
+      "peak": 87.5240546705273,
+      "careDays": 25254.41198828446,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "critical",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "recovery",
+      "referred": 813.1399999999808,
+      "admitted": 760.9217249422279,
+      "peak": 295.3607676919582,
+      "careDays": 71923.92988989891,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "cancer",
+      "referred": 3300.00000000001,
+      "admitted": 857.18856086316,
+      "peak": 203.5535431335465,
+      "careDays": 66250.84255383756,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "dialysis",
+      "referred": 330.00000000000057,
+      "admitted": 241.91433867699664,
+      "peak": 181.76888201070238,
+      "careDays": 22116.976449672617,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "heart",
+      "referred": 1072.5000000000023,
+      "admitted": 816.9099110195998,
+      "peak": 44.87214182282783,
+      "careDays": 12332.24797200438,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "congenital",
+      "referred": 1181.400000000002,
+      "admitted": 941.6626509672029,
+      "peak": 51.33766020557643,
+      "careDays": 14608.457513694075,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "blood",
+      "referred": 980.1000000000032,
+      "admitted": 254.58500257635856,
+      "peak": 60.455402310663324,
+      "careDays": 19676.500238489767,
+      "capacity": null,
+      "coverage": null
+     },
+     {
+      "key": "routine",
+      "referred": 0,
+      "admitted": 0,
+      "peak": 0,
+      "careDays": 0,
+      "capacity": null,
+      "coverage": null
+     }
+    ]
+   }
+  }
+ },
+ "potentialByScenario": {
+  "quake": {
+   "name": "Earthquake next door",
+   "referred": 2400.312199999994,
+   "couldBeTreated": 2307.9642357892303,
+   "treatedAtObservedShare": 203.14627348036325,
+   "observedShare": 0.08784473953013279,
+   "careAndTransferUsd": 20113682.616573684,
+   "companions": 2631.0792287997224,
+   "companionNights": 111299.27397193451,
+   "routinePatients": 0,
+   "routineUsd": 0
+  },
+  "conflict": {
+   "name": "Armed conflict, open corridor",
+   "referred": 9160.95000000031,
+   "couldBeTreated": 6525.529209770524,
+   "treatedAtObservedShare": 757.2886424230381,
+   "observedShare": 0.08784473953013279,
+   "careAndTransferUsd": 61196899.93043207,
+   "companions": 7439.103299138397,
+   "companionNights": 359200.1225510482,
+   "routinePatients": 3544.3972602739727,
+   "routineUsd": 7659748.164645276
+  },
+  "restricted": {
+   "name": "Armed conflict, restricted exit",
+   "referred": 9160.95000000031,
+   "couldBeTreated": 1727.126940189919,
+   "treatedAtObservedShare": 151.71901619645843,
+   "observedShare": 0.08784473953013279,
+   "careAndTransferUsd": 18170828.000622593,
+   "companions": 1968.9247118165074,
+   "companionNights": 117842.55720789425,
+   "routinePatients": 708.8287671232877,
+   "routineUsd": 1531840.0984207662
+  },
+  "epidemic": {
+   "name": "Regional epidemic",
+   "referred": 2100,
+   "couldBeTreated": 1881.1412558021061,
+   "treatedAtObservedShare": 165.24836359481932,
+   "observedShare": 0.08784473953013279,
+   "careAndTransferUsd": 12051237.597002026,
+   "companions": 2144.5010316144007,
+   "companionNights": 101015.8023962126,
+   "routinePatients": 0,
+   "routineUsd": 0
+  },
+  "marmara": {
+   "name": "Marmara earthquake",
+   "referred": 9160.95000000031,
+   "couldBeTreated": 6494.426323396446,
+   "treatedAtObservedShare": 757.288642423038,
+   "observedShare": 0.08784473953013279,
+   "careAndTransferUsd": 61628250.43722299,
+   "companions": 7403.646008671947,
+   "companionNights": 339009.5324625522,
+   "routinePatients": 3544.3972602739727,
+   "routineUsd": 7659748.164645276
+  },
+  "world": {
+   "name": "Distant crises",
+   "referred": 11561.26220000009,
+   "couldBeTreated": 8335.68896301938,
+   "treatedAtObservedShare": 926.0540556226715,
+   "observedShare": 0.08784473953013279,
+   "careAndTransferUsd": 76534805.06377465,
+   "companions": 9502.685417842093,
+   "companionNights": 443576.99963407294,
+   "routinePatients": 1772.1986301369866,
+   "routineUsd": 3829874.0823226385
+  }
+ }
+}
