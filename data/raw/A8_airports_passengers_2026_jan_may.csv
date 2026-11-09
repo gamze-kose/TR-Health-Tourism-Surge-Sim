@@ -1,0 +1,57 @@
+province_tr,airport_as_printed,operated_outside_dhmi_star,domestic_passengers,international_passengers,total_passengers,year,period,note
+İstanbul,İstanbul Atatürk,yes,6690023,26112252,32802275,2026,January-May,"Label as extracted; scale matches İstanbul Airport in DHMİ 2024 release, verify label"
+İstanbul,İstanbul Sabiha Gökçen,yes,8766427,10546958,19313385,2026,January-May,
+Ankara,Ankara Esenboğa,no,4281368,1387440,5668808,2026,January-May,
+İzmir,İzmir Adnan Menderes,no,3277480,1534277,4811757,2026,January-May,
+Antalya,Antalya,no,2726400,6443401,9169801,2026,January-May,
+,Gazipaşa Alanya,yes,141717,97861,239578,2026,January-May,
+Muğla,Muğla Dalaman,no,558006,582127,1140133,2026,January-May,
+Muğla,Muğla Milas-Bodrum,no,687354,252976,940330,2026,January-May,
+Adana,Adana Çukurova,yes,1701566,422410,2123976,2026,January-May,Province from printed name only; verify physical location
+Trabzon,Trabzon,no,1121126,108880,1230006,2026,January-May,
+Erzurum,Erzurum,no,536882,7151,544033,2026,January-May,
+Gaziantep,Gaziantep,no,1033139,179416,1212555,2026,January-May,
+Adıyaman,Adıyaman,no,151403,1567,152970,2026,January-May,
+Ağrı,Ağrı Ahmed-i Hani,no,162420,1048,163468,2026,January-May,
+Amasya,Amasya Merzifon,no,58596,7413,66009,2026,January-May,
+Aydın,Aydın Çıldır,yes,,,,2026,January-May,No figures printed
+Balıkesir,Balıkesir Koca Seyit,no,59217,15916,75133,2026,January-May,
+Balıkesir,Balıkesir Merkez,no,,,,2026,January-May,No figures printed
+Batman,Batman,no,333954,2958,336912,2026,January-May,
+Bingöl,Bingöl,no,40001,163,40164,2026,January-May,
+Bursa,Bursa Yenişehir,no,71129,22335,93464,2026,January-May,
+Çanakkale,Çanakkale,no,49522,1284,50806,2026,January-May,
+Çanakkale,Çanakkale Gökçeada,no,,,,2026,January-May,No figures printed
+Denizli,Denizli Çardak,no,180132,5750,185882,2026,January-May,
+Diyarbakır,Diyarbakır,no,825450,79028,904478,2026,January-May,
+Elazığ,Elazığ,no,436604,25761,462365,2026,January-May,
+Erzincan,Erzincan Yıldırım Akbulut,no,165642,1919,167561,2026,January-May,
+Eskişehir,Eskişehir Hasan Polatkan,yes,,45260,45273,2026,January-May,"International 45.260 and total 45.273 seen in extraction without clear column; assigned because they close the printed Türkiye totals exactly; domestic not read directly (residual 13), left blank"
+Hakkari,Hakkari Yüksekova Selahaddin Eyyubi,no,4441,,4441,2026,January-May,Domestic 4.441 as extracted; column confirmed because it closes the printed DHMİ domestic total exactly
+Hatay,Hatay,no,335706,46889,382595,2026,January-May,
+Iğdır,Iğdır Şehit Bülent Aydın,no,147511,2018,149529,2026,January-May,
+Isparta,Isparta Süleyman Demirel,no,21987,3863,25850,2026,January-May,
+Kahramanmaraş,Kahramanmaraş,no,126626,173,126799,2026,January-May,
+,Kapadokya,no,288354,2548,290902,2026,January-May,
+Kars,Kars Harakani,no,257160,,257160,2026,January-May,
+Kastamonu,Kastamonu,no,19141,2199,21340,2026,January-May,
+Kayseri,Kayseri,no,887236,170106,1057342,2026,January-May,
+Kocaeli,Kocaeli Cengiz Topel,no,535,834,1369,2026,January-May,
+Konya,Konya,no,315846,78016,393862,2026,January-May,
+Malatya,Malatya,no,336713,5885,342598,2026,January-May,
+Mardin,Mardin Prof. Dr. Aziz Sancar,no,404480,7205,411685,2026,January-May,
+Muş,Muş Sultan Alparslan,no,227124,2280,229404,2026,January-May,
+,Ordu-Giresun,no,457903,13552,471455,2026,January-May,Two province names in airport name
+,Rize-Artvin,no,504813,2726,507539,2026,January-May,Two province names in airport name
+Samsun,Samsun Çarşamba,no,595804,52486,648290,2026,January-May,
+Siirt,Siirt,no,,,,2026,January-May,No figures printed
+Sinop,Sinop,no,44143,97,44240,2026,January-May,
+Sivas,Sivas Nuri Demirağ,no,180145,6715,186860,2026,January-May,
+Şanlıurfa,Şanlıurfa GAP,no,421344,20689,442033,2026,January-May,
+Şırnak,Şırnak Şerafettin Elçi,no,176052,4163,180215,2026,January-May,
+Tekirdağ,Tekirdağ Çorlu Atatürk,no,11915,520,12435,2026,January-May,
+Tokat,Tokat,no,71988,4091,76079,2026,January-May,
+Uşak,Uşak,no,,,,2026,January-May,No figures printed
+Van,Van Ferit Melen,no,709987,6770,716757,2026,January-May,
+,Zafer,yes,15109,20424,35533,2026,January-May,
+Zonguldak,Zonguldak Çaycuma,yes,10402,22831,33233,2026,January-May,

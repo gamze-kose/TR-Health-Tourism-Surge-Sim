@@ -1,0 +1,19 @@
+setting,metric,value,unit,source_id,note
+"Gaza, October 2022",share of Gaza patient applications funded by the Palestinian MoH,88,%,WHO_HAB_2022_10,'88% were for referrals funded by the Palestinian MoH'; other payers not stated in the part read
+"Gaza, October 2022",Gaza referrals with Palestinian MoH financial coverage approved,2508,referrals,WHO_HAB_2022_10,
+"West Bank, October 2022",West Bank referrals with Palestinian MoH financial coverage approved,8745,referrals,WHO_HAB_2022_10,
+"Gaza, October 2022",companion permit applications,2324,applications,WHO_HAB_2022_10,
+"Gaza, October 2022",companion applications approved,37,%,WHO_HAB_2022_10,864 applications
+"Gaza, October 2022",companion applications denied,1,%,WHO_HAB_2022_10,19 applications
+"Gaza, October 2022",companion applications delayed,62,%,WHO_HAB_2022_10,"1,441 applications"
+"Gaza, October 2022",companion applications per patient application,1.34,ratio,WHO_HAB_2022_10,"Calculated here as 2,324 / 1,739; not stated in the report"
+Norway (Gaza medical evacuation),companions per patient (main rule),1,companions per patient,UDI_MEDEVAC_GAZA,"'in some cases, the patient can bring more'; companions can be siblings, parents or another caregiver"
+Norway (Gaza medical evacuation),accommodation provided by UDI,qualitative,statement,UDI_MEDEVAC_GAZA,UDI issues entry permits to patients and companions and provides accommodation for companions and for patients after discharge; who pays for treatment and travel is not stated
+Norway (Gaza medical evacuation),housing for patients under 15 without a companion,qualitative,statement,UDI_MEDEVAC_GAZA,Provided by Bufetat (Norwegian Child Welfare Services agency)
+"EU MEDEVAC for Ukraine, June 2022",family members,qualitative,statement,EU_COUNCIL_9951_22,Medical hubs are meant to coordinate the safe transfer of patients and their family members to other EU countries; the note does not say who pays for transport or treatment
+"Libya, government-funded treatment abroad (period not shown; URL dated 2013)",government spending on treatment abroad,800000000,USD,STIMSON_JOYCE,"'the government spent a staggering $800 million to send 40,000 people abroad for treatment'"
+"Libya, government-funded treatment abroad (period not shown; URL dated 2013)",people sent abroad at government expense,40000,people,STIMSON_JOYCE,
+"Libya, government-funded treatment abroad (period not shown; URL dated 2013)",cost per person,20000,USD per person,STIMSON_JOYCE,"Calculated here as USD 800 million / 40,000; not stated on the page"
+"Libya, government-funded treatment abroad (period not shown; URL dated 2013)",share of those treated abroad at government expense with war-related injuries,10-15,%,STIMSON_JOYCE,'10 to 15 percent'
+"Libya, government-funded treatment abroad (period not shown; URL dated 2013)",unpaid bills,qualitative,statement,STIMSON_JOYCE,Tunisia and Jordan threatened to stop serving Libyan patients unless Libya 'pays its multimillion-dollar health bills in these countries'; no exact figure on this page
+"Iraq and Syria, families travelling for care",who pays,qualitative,statement,DEWACHI_CONV,'Many families sell belongings or borrow money' to pay for a family member's care; no share given

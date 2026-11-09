@@ -1,0 +1,12 @@
+province_tr,project,type,year,status,source_id
+Antalya,"Antalya Şehir Hastanesi, 1,500 beds; health tourism contribution stated",city_hospital,2024,opened 18 March 2024,SYGM2024
+Bursa,Bursa Sağlık Serbest Bölgesi (BTSO project),health_free_zone,,"proposed; roadmap workshop, no decision reported; page undated",BTSO_ND
+İstanbul,Recovery House post-operative hotel (Estetik International),recovery_hotel,2024,in preparation per article,PARA2024
+Muğla,"Recovery House post-operative hotel, Bodrum (Estetik International)",recovery_hotel,2024,in preparation per article,PARA2024
+Tokat,"Designated new tourism centre, Thermal Tourism Master Plan second stage",master_plan_designation,,as stated in report; year not stated,OKA2020
+Tokat,Termal Sağlık Kompleksi pre-feasibility report,thermal_investment_feasibility,2020,feasibility study only; no investment confirmed,OKA2020
+Konya,Ilgın 4-star thermal hotel pre-feasibility report,thermal_investment_feasibility,2021,feasibility study only; no investment confirmed,MEVKA2021
+Amasya,Termal Turizm Kompleksi pre-feasibility report,thermal_investment_feasibility,2021,listing seen in search; report not opened,YD_AMASYA
+Karabük,Akkaya Termal Otel pre-feasibility report,thermal_investment_feasibility,2020,listing seen in search; report not opened,YD_KARABUK
+Diyarbakır,Termal tesis konsepti ile spa ve kongre merkezi pre-feasibility report,thermal_investment_feasibility,2021,listing seen in search; report not opened,YD_DIYARBAKIR
+Antalya,"American Hospital investment, USD 100 million (headline only)",private_hospital_investment,,headline seen in search; article and date not checked,EKONOMI_ANT

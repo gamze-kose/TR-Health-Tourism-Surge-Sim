@@ -1,0 +1,251 @@
+cca3,ccn3,name_en,name_tr,lat,lon,independent,landlocked,region,subregion
+ABW,533,Aruba,Aruba,12.5,-69.96666666,0,0,Americas,Caribbean
+AFG,004,Afghanistan,Afganistan,33,65,1,1,Asia,Southern Asia
+AGO,024,Angola,Angola,-12.5,18.5,1,0,Africa,Middle Africa
+AIA,660,Anguilla,Anguilla,18.25,-63.16666666,0,0,Americas,Caribbean
+ALA,248,Åland Islands,Åland,60.116667,19.9,0,0,Europe,Northern Europe
+ALB,008,Albania,Arnavutluk,41,20,1,0,Europe,Southeast Europe
+AND,020,Andorra,Andorra,42.5,1.5,1,1,Europe,Southern Europe
+ARE,784,United Arab Emirates,Birleşik Arap Emirlikleri,24,54,1,0,Asia,Western Asia
+ARG,032,Argentina,Arjantin,-34,-64,1,0,Americas,South America
+ARM,051,Armenia,Ermenistan,40,45,1,1,Asia,Western Asia
+ASM,016,American Samoa,Amerikan Samoası,-14.33333333,-170,0,0,Oceania,Polynesia
+ATA,010,Antarctica,Antarktika,-90,0,0,0,Antarctic,
+ATF,260,French Southern and Antarctic Lands,Fransız Güney ve Antarktika Toprakları,-49.25,69.167,0,0,Antarctic,
+ATG,028,Antigua and Barbuda,Antigua ve Barbuda,17.05,-61.8,1,0,Americas,Caribbean
+AUS,036,Australia,Avustralya,-27,133,1,0,Oceania,Australia and New Zealand
+AUT,040,Austria,Avusturya,47.33333333,13.33333333,1,1,Europe,Central Europe
+AZE,031,Azerbaijan,Azerbaycan,40.5,47.5,1,1,Asia,Western Asia
+BDI,108,Burundi,Burundi,-3.5,30,1,1,Africa,Eastern Africa
+BEL,056,Belgium,Belçika,50.83333333,4,1,0,Europe,Western Europe
+BEN,204,Benin,Benin,9.5,2.25,1,0,Africa,Western Africa
+BFA,854,Burkina Faso,Burkina Faso,13,-2,1,1,Africa,Western Africa
+BGD,050,Bangladesh,Bangladeş,24,90,1,0,Asia,Southern Asia
+BGR,100,Bulgaria,Bulgaristan,43,25,1,0,Europe,Southeast Europe
+BHR,048,Bahrain,Bahreyn,26,50.55,1,0,Asia,Western Asia
+BHS,044,Bahamas,Bahamalar,24.25,-76,1,0,Americas,Caribbean
+BIH,070,Bosnia and Herzegovina,Bosna-Hersek,44,18,1,0,Europe,Southeast Europe
+BLM,652,Saint Barthélemy,Saint Barthélemy,18.5,-63.41666666,0,0,Americas,Caribbean
+SHN,654,"Saint Helena, Ascension and Tristan da Cunha",Saint Helena,-15.95,-5.72,0,0,Africa,Western Africa
+BLR,112,Belarus,Belarus,53,28,1,1,Europe,Eastern Europe
+BLZ,084,Belize,Belize,17.25,-88.75,1,0,Americas,Central America
+BMU,060,Bermuda,Bermuda,32.33333333,-64.75,0,0,Americas,North America
+BOL,068,Bolivia,Bolivya,-17,-65,1,1,Americas,South America
+BES,535,Caribbean Netherlands,Karayip Hollandası,12.18,-68.25,0,0,Americas,Caribbean
+BRA,076,Brazil,Brezilya,-10,-55,1,0,Americas,South America
+BRB,052,Barbados,Barbados,13.16666666,-59.53333333,1,0,Americas,Caribbean
+BRN,096,Brunei,Brunei,4.5,114.66666666,1,0,Asia,South-Eastern Asia
+BTN,064,Bhutan,Butan,27.5,90.5,1,1,Asia,Southern Asia
+BVT,074,Bouvet Island,Bouvet Adası,-54.43333333,3.4,0,0,Antarctic,
+BWA,072,Botswana,Botsvana,-22,24,1,1,Africa,Southern Africa
+CAF,140,Central African Republic,Orta Afrika Cumhuriyeti,7,21,1,1,Africa,Middle Africa
+CAN,124,Canada,Kanada,60,-95,1,0,Americas,North America
+CCK,166,Cocos (Keeling) Islands,Cocos (Keeling) Adaları,-12.5,96.83333333,0,0,Oceania,Australia and New Zealand
+CHE,756,Switzerland,İsviçre,47,8,1,1,Europe,Western Europe
+CHL,152,Chile,şili,-30,-71,1,0,Americas,South America
+CHN,156,China,çin,35,105,1,0,Asia,Eastern Asia
+CIV,384,Ivory Coast,Fildişi Sahili,8,-5,1,0,Africa,Western Africa
+CMR,120,Cameroon,Kamerun,6,12,1,0,Africa,Middle Africa
+COD,180,DR Congo,Kongo Demokratik Cumhuriyeti,0,25,1,0,Africa,Middle Africa
+COG,178,Congo,Kongo Cumhuriyeti,-1,15,1,0,Africa,Middle Africa
+COK,184,Cook Islands,Cook Adaları,-21.23333333,-159.76666666,0,0,Oceania,Polynesia
+COL,170,Colombia,Kolombiya,4,-72,1,0,Americas,South America
+COM,174,Comoros,Komorlar,-12.16666666,44.25,1,0,Africa,Eastern Africa
+CPV,132,Cape Verde,Yeşil Burun,16,-24,1,0,Africa,Western Africa
+CRI,188,Costa Rica,Kosta Rika,10,-84,1,0,Americas,Central America
+CUB,192,Cuba,Küba,21.5,-80,1,0,Americas,Caribbean
+CUW,531,Curaçao,Curaçao,12.116667,-68.933333,0,0,Americas,Caribbean
+CXR,162,Christmas Island,Christmas Adası,-10.5,105.66666666,0,0,Oceania,Australia and New Zealand
+CYM,136,Cayman Islands,Cayman Adaları,19.5,-80.5,0,0,Americas,Caribbean
+CYP,196,Cyprus,Kıbrıs,35,33,1,0,Europe,Southern Europe
+CZE,203,Czechia,çekya,49.75,15.5,1,1,Europe,Central Europe
+DEU,276,Germany,Almanya,51,9,1,0,Europe,Western Europe
+DJI,262,Djibouti,Cibuti,11.5,43,1,0,Africa,Eastern Africa
+DMA,212,Dominica,Dominika,15.41666666,-61.33333333,1,0,Americas,Caribbean
+DNK,208,Denmark,Danimarka,56,10,1,0,Europe,Northern Europe
+DOM,214,Dominican Republic,Dominik Cumhuriyeti,19,-70.66666666,1,0,Americas,Caribbean
+DZA,012,Algeria,Cezayir,28,3,1,0,Africa,Northern Africa
+ECU,218,Ecuador,Ekvador,-2,-77.5,1,0,Americas,South America
+EGY,818,Egypt,Mısır,27,30,1,0,Africa,Northern Africa
+ERI,232,Eritrea,Eritre,15,39,1,0,Africa,Eastern Africa
+ESH,732,Western Sahara,Sahra Demokratik Arap Cumhuriyeti,24.5,-13,0,0,Africa,Northern Africa
+ESP,724,Spain,İspanya,40,-4,1,0,Europe,Southern Europe
+EST,233,Estonia,Estonya,59,26,1,0,Europe,Northern Europe
+ETH,231,Ethiopia,Etiyopya,8,38,1,1,Africa,Eastern Africa
+FIN,246,Finland,Finlandiya,64,26,1,0,Europe,Northern Europe
+FJI,242,Fiji,Fiji,-18,175,1,0,Oceania,Melanesia
+FLK,238,Falkland Islands,Falkland (Malvina) Adaları,-51.75,-59,0,0,Americas,South America
+FRA,250,France,Fransa,46,2,1,0,Europe,Western Europe
+FRO,234,Faroe Islands,Faroe Adaları,62,-7,0,0,Europe,Northern Europe
+FSM,583,Micronesia,Mikronezya,6.91666666,158.25,1,0,Oceania,Micronesia
+GAB,266,Gabon,Gabon,-1,11.75,1,0,Africa,Middle Africa
+GBR,826,United Kingdom,Birleşik Krallık,54,-2,1,0,Europe,Northern Europe
+GEO,268,Georgia,Gürcistan,42,43.5,1,0,Asia,Western Asia
+GGY,831,Guernsey,Guernsey,49.46666666,-2.58333333,0,0,Europe,Northern Europe
+GHA,288,Ghana,Gana,8,-2,1,0,Africa,Western Africa
+GIB,292,Gibraltar,Cebelitarık,36.13333333,-5.35,0,0,Europe,Southern Europe
+GIN,324,Guinea,Gine,11,-10,1,0,Africa,Western Africa
+GLP,312,Guadeloupe,Guadeloupe,16.25,-61.583333,0,0,Americas,Caribbean
+GMB,270,Gambia,Gambiya,13.46666666,-16.56666666,1,0,Africa,Western Africa
+GNB,624,Guinea-Bissau,Gine-Bissau,12,-15,1,0,Africa,Western Africa
+GNQ,226,Equatorial Guinea,Ekvator Ginesi,2,10,1,0,Africa,Middle Africa
+GRC,300,Greece,Yunanistan,39,22,1,0,Europe,Southern Europe
+GRD,308,Grenada,Grenada,12.11666666,-61.66666666,1,0,Americas,Caribbean
+GRL,304,Greenland,Grönland,72,-40,0,0,Americas,North America
+GTM,320,Guatemala,Guatemala,15.5,-90.25,1,0,Americas,Central America
+GUF,254,French Guiana,Fransız Guyanası,4,-53,0,0,Americas,South America
+GUM,316,Guam,Guam,13.46666666,144.78333333,0,0,Oceania,Micronesia
+GUY,328,Guyana,Guyana,5,-59,1,0,Americas,South America
+HKG,344,Hong Kong,Hong Kong,22.267,114.188,0,0,Asia,Eastern Asia
+HMD,334,Heard Island and McDonald Islands,Heard Adası ve McDonald Adaları,-53.1,72.51666666,0,0,Antarctic,
+HND,340,Honduras,Honduras,15,-86.5,1,0,Americas,Central America
+HRV,191,Croatia,Hırvatistan,45.16666666,15.5,1,0,Europe,Southeast Europe
+HTI,332,Haiti,Haiti,19,-72.41666666,1,0,Americas,Caribbean
+HUN,348,Hungary,Macaristan,47,20,1,1,Europe,Central Europe
+IDN,360,Indonesia,Endonezya,-5,120,1,0,Asia,South-Eastern Asia
+IMN,833,Isle of Man,Man Adası,54.25,-4.5,0,0,Europe,Northern Europe
+IND,356,India,Hindistan,20,77,1,0,Asia,Southern Asia
+IOT,086,British Indian Ocean Territory,Britanya Hint Okyanusu Toprakları,-6,71.5,0,0,Africa,Eastern Africa
+IRL,372,Ireland,İrlanda,53,-8,1,0,Europe,Northern Europe
+IRN,364,Iran,İran,32,53,1,0,Asia,Southern Asia
+IRQ,368,Iraq,Irak,33,44,1,0,Asia,Western Asia
+ISL,352,Iceland,İzlanda,65,-18,1,0,Europe,Northern Europe
+ISR,376,Israel,İsrail,31.47,35.13,1,0,Asia,Western Asia
+ITA,380,Italy,İtalya,42.83333333,12.83333333,1,0,Europe,Southern Europe
+JAM,388,Jamaica,Jamaika,18.25,-77.5,1,0,Americas,Caribbean
+JEY,832,Jersey,Jersey,49.25,-2.16666666,0,0,Europe,Northern Europe
+JOR,400,Jordan,ürdün,31,36,1,0,Asia,Western Asia
+JPN,392,Japan,Japonya,36,138,1,0,Asia,Eastern Asia
+KAZ,398,Kazakhstan,Kazakistan,48,68,1,1,Asia,Central Asia
+KEN,404,Kenya,Kenya,1,38,1,0,Africa,Eastern Africa
+KGZ,417,Kyrgyzstan,Kırgızistan,41,75,1,1,Asia,Central Asia
+KHM,116,Cambodia,Kamboçya,13,105,1,0,Asia,South-Eastern Asia
+KIR,296,Kiribati,Kiribati,1.41666666,173,1,0,Oceania,Micronesia
+KNA,659,Saint Kitts and Nevis,Saint Kitts ve Nevis,17.33333333,-62.75,1,0,Americas,Caribbean
+KOR,410,South Korea,Güney Kore,37,127.5,1,0,Asia,Eastern Asia
+UNK,,Kosovo,Kosova,42.666667,21.166667,0,1,Europe,Southeast Europe
+KWT,414,Kuwait,Kuveyt,29.5,45.75,1,0,Asia,Western Asia
+LAO,418,Laos,Laos,18,105,1,1,Asia,South-Eastern Asia
+LBN,422,Lebanon,Lübnan,33.83333333,35.83333333,1,0,Asia,Western Asia
+LBR,430,Liberia,Liberya,6.5,-9.5,1,0,Africa,Western Africa
+LBY,434,Libya,Libya,25,17,1,0,Africa,Northern Africa
+LCA,662,Saint Lucia,Saint Lucia,13.88333333,-60.96666666,1,0,Americas,Caribbean
+LIE,438,Liechtenstein,Lihtenştayn,47.26666666,9.53333333,1,1,Europe,Western Europe
+LKA,144,Sri Lanka,Sri Lanka,7,81,1,0,Asia,Southern Asia
+LSO,426,Lesotho,Lesotho,-29.5,28.5,1,1,Africa,Southern Africa
+LTU,440,Lithuania,Litvanya,56,24,1,0,Europe,Northern Europe
+LUX,442,Luxembourg,Lüksemburg,49.75,6.16666666,1,1,Europe,Western Europe
+LVA,428,Latvia,Letonya,57,25,1,0,Europe,Northern Europe
+MAC,446,Macau,Makao,22.16666666,113.55,0,0,Asia,Eastern Asia
+MAF,663,Saint Martin,Saint Martin,18.08333333,-63.95,0,0,Americas,Caribbean
+MAR,504,Morocco,Fas,32,-5,1,0,Africa,Northern Africa
+MCO,492,Monaco,Monako,43.73333333,7.4,1,0,Europe,Western Europe
+MDA,498,Moldova,Moldova,47,29,1,1,Europe,Eastern Europe
+MDG,450,Madagascar,Madagaskar,-20,47,1,0,Africa,Eastern Africa
+MDV,462,Maldives,Maldivler,3.25,73,1,0,Asia,Southern Asia
+MEX,484,Mexico,Meksika,23,-102,1,0,Americas,North America
+MHL,584,Marshall Islands,Marshall Adaları,9,168,1,0,Oceania,Micronesia
+MKD,807,North Macedonia,Kuzey Makedonya,41.83333333,22,1,1,Europe,Southeast Europe
+MLI,466,Mali,Mali,17,-4,1,1,Africa,Western Africa
+MLT,470,Malta,Malta,35.83333333,14.58333333,1,0,Europe,Southern Europe
+MMR,104,Myanmar,Myanmar,22,98,1,0,Asia,South-Eastern Asia
+MNE,499,Montenegro,Karadağ,42.5,19.3,1,0,Europe,Southeast Europe
+MNG,496,Mongolia,Moğolistan,46,105,1,1,Asia,Eastern Asia
+MNP,580,Northern Mariana Islands,Kuzey Mariana Adaları,15.2,145.75,0,0,Oceania,Micronesia
+MOZ,508,Mozambique,Mozambik,-18.25,35,1,0,Africa,Eastern Africa
+MRT,478,Mauritania,Moritanya,20,-12,1,0,Africa,Western Africa
+MSR,500,Montserrat,Montserrat,16.75,-62.2,0,0,Americas,Caribbean
+MTQ,474,Martinique,Martinik,14.666667,-61,0,0,Americas,Caribbean
+MUS,480,Mauritius,Mauritius,-20.28333333,57.55,1,0,Africa,Eastern Africa
+MWI,454,Malawi,Malavi,-13.5,34,1,1,Africa,Eastern Africa
+MYS,458,Malaysia,Malezya,2.5,112.5,1,0,Asia,South-Eastern Asia
+MYT,175,Mayotte,Mayotte,-12.83333333,45.16666666,0,0,Africa,Eastern Africa
+NAM,516,Namibia,Namibya,-22,17,1,0,Africa,Southern Africa
+NCL,540,New Caledonia,Yeni Kaledonya,-21.5,165.5,0,0,Oceania,Melanesia
+NER,562,Niger,Nijer,16,8,1,1,Africa,Western Africa
+NFK,574,Norfolk Island,Norfolk Adası,-29.03333333,167.95,0,0,Oceania,Australia and New Zealand
+NGA,566,Nigeria,Nijerya,10,8,1,0,Africa,Western Africa
+NIC,558,Nicaragua,Nikaragua,13,-85,1,0,Americas,Central America
+NIU,570,Niue,Niue,-19.03333333,-169.86666666,0,0,Oceania,Polynesia
+NLD,528,Netherlands,Hollanda,52.5,5.75,1,0,Europe,Western Europe
+NOR,578,Norway,Norveç,62,10,1,0,Europe,Northern Europe
+NPL,524,Nepal,Nepal,28,84,1,1,Asia,Southern Asia
+NRU,520,Nauru,Nauru,-0.53333333,166.91666666,1,0,Oceania,Micronesia
+NZL,554,New Zealand,Yeni Zelanda,-41,174,1,0,Oceania,Australia and New Zealand
+OMN,512,Oman,Umman,21,57,1,0,Asia,Western Asia
+PAK,586,Pakistan,Pakistan,30,70,1,0,Asia,Southern Asia
+PAN,591,Panama,Panama,9,-80,1,0,Americas,Central America
+PCN,612,Pitcairn Islands,Pitcairn Adaları,-25.06666666,-130.1,0,0,Oceania,Polynesia
+PER,604,Peru,Peru,-10,-76,1,0,Americas,South America
+PHL,608,Philippines,Filipinler,13,122,1,0,Asia,South-Eastern Asia
+PLW,585,Palau,Palau,7.5,134.5,1,0,Oceania,Micronesia
+PNG,598,Papua New Guinea,Papua Yeni Gine,-6,147,1,0,Oceania,Melanesia
+POL,616,Poland,Polonya,52,20,1,0,Europe,Central Europe
+PRI,630,Puerto Rico,Porto Riko,18.25,-66.5,0,0,Americas,Caribbean
+PRK,408,North Korea,Kuzey Kore,40,127,1,0,Asia,Eastern Asia
+PRT,620,Portugal,Portekiz,39.5,-8,1,0,Europe,Southern Europe
+PRY,600,Paraguay,Paraguay,-23,-58,1,1,Americas,South America
+PSE,275,Palestine,Filistin,31.9,35.2,0,0,Asia,Western Asia
+PYF,258,French Polynesia,Fransız Polinezyası,-15,-140,0,0,Oceania,Polynesia
+QAT,634,Qatar,Katar,25.5,51.25,1,0,Asia,Western Asia
+REU,638,Réunion,Réunion,-21.15,55.5,0,0,Africa,Eastern Africa
+ROU,642,Romania,Romanya,46,25,1,0,Europe,Southeast Europe
+RUS,643,Russia,Rusya,60,100,1,0,Europe,Eastern Europe
+RWA,646,Rwanda,Ruanda,-2,30,1,1,Africa,Eastern Africa
+SAU,682,Saudi Arabia,Suudi Arabistan,25,45,1,0,Asia,Western Asia
+SDN,729,Sudan,Sudan,15,30,1,0,Africa,Northern Africa
+SEN,686,Senegal,Senegal,14,-14,1,0,Africa,Western Africa
+SGP,702,Singapore,Singapur,1.36666666,103.8,1,0,Asia,South-Eastern Asia
+SGS,239,South Georgia,Güney Georgia ve Güney Sandwich Adaları,-54.5,-37,0,0,Antarctic,
+SJM,744,Svalbard and Jan Mayen,Svalbard ve Jan Mayen,78,20,0,0,Europe,Northern Europe
+SLB,090,Solomon Islands,Solomon Adaları,-8,159,1,0,Oceania,Melanesia
+SLE,694,Sierra Leone,Sierra Leone,8.5,-11.5,1,0,Africa,Western Africa
+SLV,222,El Salvador,El Salvador,13.83333333,-88.91666666,1,0,Americas,Central America
+SMR,674,San Marino,San Marino,43.76666666,12.41666666,1,1,Europe,Southern Europe
+SOM,706,Somalia,Somali,10,49,1,0,Africa,Eastern Africa
+SPM,666,Saint Pierre and Miquelon,Saint Pierre ve Miquelon,46.83333333,-56.33333333,0,0,Americas,North America
+SRB,688,Serbia,Sırbistan,44,21,1,1,Europe,Southeast Europe
+SSD,728,South Sudan,Güney Sudan,7,30,1,1,Africa,Middle Africa
+STP,678,São Tomé and Príncipe,São Tomé ve Príncipe,1,7,1,0,Africa,Middle Africa
+SUR,740,Suriname,Surinam,4,-56,1,0,Americas,South America
+SVK,703,Slovakia,Slovakya,48.66666666,19.5,1,1,Europe,Central Europe
+SVN,705,Slovenia,Slovenya,46.11666666,14.81666666,1,0,Europe,Central Europe
+SWE,752,Sweden,İsveç,62,15,1,0,Europe,Northern Europe
+SWZ,748,Eswatini,Esvatini,-26.5,31.5,1,1,Africa,Southern Africa
+SXM,534,Sint Maarten,Sint Maarten,18.033333,-63.05,0,0,Americas,Caribbean
+SYC,690,Seychelles,Seyşeller,-4.58333333,55.66666666,1,0,Africa,Eastern Africa
+SYR,760,Syria,Suriye,35,38,1,0,Asia,Western Asia
+TCA,796,Turks and Caicos Islands,Turks ve Caicos Adaları,21.75,-71.58333333,0,0,Americas,Caribbean
+TCD,148,Chad,çad,15,19,1,1,Africa,Middle Africa
+TGO,768,Togo,Togo,8,1.16666666,1,0,Africa,Western Africa
+THA,764,Thailand,Tayland,15,100,1,0,Asia,South-Eastern Asia
+TJK,762,Tajikistan,Tacikistan,39,71,1,1,Asia,Central Asia
+TKL,772,Tokelau,Tokelau,-9,-172,0,0,Oceania,Polynesia
+TKM,795,Turkmenistan,Türkmenistan,40,60,1,1,Asia,Central Asia
+TLS,626,Timor-Leste,Doğu Timor,-8.83333333,125.91666666,1,0,Asia,South-Eastern Asia
+TON,776,Tonga,Tonga,-20,-175,1,0,Oceania,Polynesia
+TTO,780,Trinidad and Tobago,Trinidad ve Tobago,11,-61,1,0,Americas,Caribbean
+TUN,788,Tunisia,Tunus,34,9,1,0,Africa,Northern Africa
+TUR,792,Türkiye,Türkiye,39,35,1,0,Asia,Western Asia
+TUV,798,Tuvalu,Tuvalu,-8,178,1,0,Oceania,Polynesia
+TWN,158,Taiwan,Tayvan,23.5,121,0,0,Asia,Eastern Asia
+TZA,834,Tanzania,Tanzanya,-6,35,1,0,Africa,Eastern Africa
+UGA,800,Uganda,Uganda,1,32,1,1,Africa,Eastern Africa
+UKR,804,Ukraine,Ukrayna,49,32,1,0,Europe,Eastern Europe
+UMI,581,United States Minor Outlying Islands,Amerika Birleşik Devletleri Küçük Dış Adaları,19.3,166.633333,0,0,Americas,North America
+URY,858,Uruguay,Uruguay,-33,-56,1,0,Americas,South America
+USA,840,United States,Amerika Birleşik Devletleri,38,-97,1,0,Americas,North America
+UZB,860,Uzbekistan,özbekistan,41,64,1,1,Asia,Central Asia
+VAT,336,Vatican City,Vatikan,41.9,12.45,1,1,Europe,Southern Europe
+VCT,670,Saint Vincent and the Grenadines,Saint Vincent ve Grenadinler,13.25,-61.2,1,0,Americas,Caribbean
+VEN,862,Venezuela,Venezuela,8,-66,1,0,Americas,South America
+VGB,092,British Virgin Islands,Virjin Adaları,18.431383,-64.62305,0,0,Americas,Caribbean
+VIR,850,United States Virgin Islands,ABD Virjin Adaları,18.35,-64.933333,0,0,Americas,Caribbean
+VNM,704,Vietnam,Vietnam,16.16666666,107.83333333,1,0,Asia,South-Eastern Asia
+VUT,548,Vanuatu,Vanuatu,-16,167,1,0,Oceania,Melanesia
+WLF,876,Wallis and Futuna,Wallis ve Futuna Adaları Bölgesi,-13.3,-176.2,0,0,Oceania,Polynesia
+WSM,882,Samoa,Bağımsız Samoa Devleti,-13.58333333,-172.33333333,1,0,Oceania,Polynesia
+YEM,887,Yemen,Yemen,15,48,1,0,Asia,Western Asia
+ZAF,710,South Africa,Güney Afrika,-29,24,1,0,Africa,Southern Africa
+ZMB,894,Zambia,Zambiya,-15,30,1,1,Africa,Eastern Africa
+ZWE,716,Zimbabwe,Zimbabve,-20,30,1,1,Africa,Eastern Africa

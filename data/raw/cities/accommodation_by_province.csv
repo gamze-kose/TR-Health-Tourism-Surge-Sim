@@ -1,0 +1,8 @@
+province_tr,year,foreign_arrivals,domestic_arrivals,foreign_nights,domestic_nights,occupancy_pct,source_id
+Antalya,2019,,,82599249,11518367,,TUROB2019
+İstanbul,2019,,,23570640,8618248,,TUROB2019
+Muğla,2019,,,10161366,4335856,,TUROB2019
+İzmir,2019,,,2978827,4269886,,TUROB2019
+Ankara,2019,,,,3907853,,TUROB2019
+Aydın,2019,,,3715650,,,TUROB2019
+Tokat,2019,,,6472,487560,,OKA2020

@@ -1,0 +1,5 @@
+province_tr,facilities,hospitals,year,source_id,note
+Erzurum,4,,2021,S24,"Authorised health facilities, Table 2 of the source, Ministry of Health data for 2021"
+Van,4,,2021,S24,"Authorised health facilities, Table 2 of the source, Ministry of Health data for 2021"
+Çanakkale,6,5,2024,S25,"The source names five certified hospitals and one private dental facility"
+Antalya,,32,2026,S26,"32 hospitals among 566 authorised facilities in the Ministry lists of 2 July 2026, counted by the source"

@@ -1,0 +1,7 @@
+year,population,age65_pct,basis,source_id
+2023,85372377,10.2,ADNKS result,O01;O02
+2024,,10.6,ADNKS result,O03
+2025,,11.1,ADNKS result,O04
+2030,88188221,13.5,Main scenario,O01;O04
+2040,,17.9,Main scenario,O04
+2050,93774618,23.1,Main scenario,O01;O02

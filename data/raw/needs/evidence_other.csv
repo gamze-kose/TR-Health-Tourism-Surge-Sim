@@ -1,0 +1,72 @@
+metric,value,range,unit,setting_or_note,source_id
+"Feb 2023 Kahramanmaraş earthquakes, injured","80,278",n/a,persons,Letter; no later official total seen,YILMAZ_2023
+"Feb 2023 Kahramanmaraş earthquakes, deaths","50,399",n/a,deaths,Letter,YILMAZ_2023
+Patients moved by airplane and helicopter,"1,715",n/a,patients,"To hospitals in various cities, including İstanbul, Ankara, İzmir (Table 1); attributed to officials via a TRT Haber report",YILMAZ_2023
+Patients moved by sea,n/r,n/a,n/a,"Mersin named as sea destination, no count",YILMAZ_2023
+"Patients moved to other provinces, all modes",n/r,n/a,n/a,No separate count beyond the air figure,YILMAZ_2023
+Transport Health Centers,3 sites,n/a,sites,"Adana, Mersin, Diyarbakır",YILMAZ_2023
+"Limb amputations, national count",850,n/a,cases,Letter,YILMAZ_2023
+Directly affected,13.5 million,n/a,persons,"10 provinces; 6,444 buildings collapsed",YILMAZ_2023
+"Injured-to-death ratio, Kahramanmaraş 2023",1.59,n/a,ratio,"Computed: 80,278 injured, 50,399 deaths",YILMAZ_2023
+"Injured-to-death ratio, Kashmir 2005",1.75,n/a,ratio,"Computed from Table 1: 128,309 injured, 73,338 deaths; review text gives about 106,000 and 76,000",GOSNEY_2013
+"Injured-to-death ratio, Wenchuan 2008",4.21,n/a,ratio,"Computed from Table 1: 368,412 injured, 87,564 deaths",GOSNEY_2013
+"Injured-to-death ratio, Haiti 2010",1.35,n/a,ratio,"Computed from Table 1: 300,000 injured, 222,570 deaths",GOSNEY_2013
+"Hospitalised, Wenchuan 2008","nearly 100,000",n/a,persons,Review text,GOSNEY_2013
+"Spinal cord injury survivors, Kashmir 2005",741 (Mallik 2010),"cohorts of 187, 194, 93; about 700 at AFIRM (text)",persons,As tabulated,GOSNEY_2013
+"Spinal cord injury survivors, Wenchuan 2008",about 336,"cohorts of 42, 65, 26, 51",persons,"Author estimate: 14,000 hospitalised times 2.4%",GOSNEY_2013
+"Spinal cord injury share of hospitalised, Wenchuan 2008",2.4,n/a,%,As tabulated,GOSNEY_2013
+"Spinal cord injury survivors, Haiti 2010",about 150 (Burns 2010),"cohorts of 18, 19",persons,As tabulated,GOSNEY_2013
+"Spinal cord injury share of injured, Table 1",0.00575 Kashmir; 0.00091 Wenchuan; 0.0005 Haiti,n/a,proportion,"Extract printed these with a % sign, but the reported counts give 0.58%, 0.09% and 0.05% (computed), so they read as proportions; confirm in the PDF",GOSNEY_2013
+AIS A (complete) share of spinal cord injury cohorts,"Kashmir 43, 46; Wenchuan 43, 23; Haiti 61",n/a,%,As tabulated,GOSNEY_2013
+Pressure sores in spinal cord injury cohorts,"Kashmir 29, 20, 15; Wenchuan 46, 47; Haiti 56",n/a,%,As tabulated,GOSNEY_2013
+"Spinal cord injury victims evacuated abroad, Haiti 2010",at least 25 to 30,n/a,persons,As stated,GOSNEY_2013
+"Delay effect, surgery, overall",1.06 to 1.08,n/a,hazard ratio per 4-week delay,Systematic review,HANNA_2020
+"Delay effect, colectomy",1.06,95% CI 1.01 to 1.12,hazard ratio per 4-week delay,Colon cancer,HANNA_2020
+"Delay effect, breast surgery",1.08,95% CI 1.03 to 1.13,hazard ratio per 4-week delay,Breast cancer,HANNA_2020
+"Delay effect, systemic treatment",1.01 to 1.28,n/a,hazard ratio per 4-week delay,Range across indications,HANNA_2020
+"Delay effect, radical radiotherapy",1.09,95% CI 1.05 to 1.14,hazard ratio per 4-week delay,Head and neck,HANNA_2020
+"Delay effect, adjuvant radiotherapy",1.23,95% CI 1.00 to 1.50,hazard ratio per 4-week delay,Cervix,HANNA_2020
+"Delay effect, adjuvant radiotherapy after breast-conserving surgery",0.98,"95% CI 0.88 to 1.09, not significant",hazard ratio per 4-week delay,Breast,HANNA_2020
+Evidence base,"34 studies, 17 indications, 1,272,681 patients",significant in 13 of 17 indications,n/a,Seven cancers,HANNA_2020
+"Kidney failure patients before Oct 2023, Gaza","about 1,100 (45 children)",n/a,patients,Commentary,ANKAH_2025
+"Dialysis sessions before Oct 2023, Gaza","more than 13,000",n/a,sessions per month,Gaza Strip hospitals,ANKAH_2025
+"Dialysis load, Al-Aqsa Hospital",about 143 before; about 600 during,n/a,patients,24 machines during the conflict,ANKAH_2025
+Session reduction,"4 h, 3 times weekly, to 2 h, twice weekly",n/a,n/a,During the conflict,ANKAH_2025
+"Hospitals destroyed or damaged, Gaza",32 of 36,n/a,hospitals,As reported in the 2025 commentary; only paediatric dialysis unit (15 machines) no longer able to provide dialysis,ANKAH_2025
+"Urgent evacuation approved, children with kidney failure",15,n/a,children,Approvals took weeks to months,ANKAH_2025
+Children in support programme evacuated,3 of 18,n/a,children,"2 to Egypt, 1 to UAE",ANKAH_2025
+Deaths from inadequate dialysis access,10,n/a,children,Children outside the support programme; dates n/r,ANKAH_2025
+"Italy to Germany, transfers",44,n/a,patients,"2020, stated 26 June 2020; 85 ICU beds reserved in 10 federal states",EC_COVID_2020
+"France to Germany, transfers",130,n/a,patients,2020; 98 ICU beds reserved in 10 federal states,EC_COVID_2020
+"Netherlands to Germany, transfers",46,n/a,patients,2020,EC_COVID_2020
+Italy and France to Austria,11 and 3,n/a,ICU patients,2020,EC_COVID_2020
+France to Luxembourg,"7 (Mulhouse, 25 March), 4 (Thionville)",6 more repatriated by air; 5 remained in ICU,ICU patients,2020,EC_COVID_2020
+Transport assets,German Air Force planes and helicopters; Luxembourg Air Rescue jets and two helicopters,n/a,n/a,2020,EC_COVID_2020
+Funding for patient transfers,n/r,n/a,n/a,n/a,EC_COVID_2020
+Earthquake patients referred for treatment outside the earthquake cities,92,n/a,% of patients,"Türkiye, 2023, n=1,571, data 27 Feb to 27 May 2023",YAGCI_2023
+Multiple or complicated fractures,82,n/a,% of patients,"Türkiye 2023 earthquake, n=1,571",YAGCI_2023
+Amputation,"176 (11.2%, derived 176/1571); 35 of these (19.9%) with more than one limb",n/a,patients,Same,YAGCI_2023
+"Peripheral nerve injury, at least one","603 (38.4%, derived)",n/a,patients,Same,YAGCI_2023
+Fasciotomy for compartment syndrome,"367 (23.4%, derived)",n/a,patients,Same,YAGCI_2023
+ICU follow-up at first admission,"505 (32.1%, derived)",n/a,patients,Same,YAGCI_2023
+Spinal cord injury,"189 of 198 with spinal fractures, shown as 92.4%; these do not reconcile (189/198 = 95.5%), verify",n/a,patients,"Same; lumbar 63%, thoracic 30%, cervical 7%",YAGCI_2023
+Patients reporting need for assistance,"1,317 (83.8%, derived)",n/a,patients,Same,YAGCI_2023
+Earthquake survivors in hotels,"about 100,000 (""100 bine ulaştı""), 21 provinces",n/a,persons,"Türkiye, snapshot 13 Feb 2023, 7 days after the first earthquake (derived from date)",DHA_2023
+Placed in Antalya hotels and public guesthouses,"more than 55,000, plus over 5,000 in teacher and police guesthouses",n/a,persons,"Antalya, 13 Feb 2023",DHA_2023
+"Patients evacuated, Oct 2023 to 1 Dec 2025","10,620",,patients,"Gaza; including 5,608 children",WHO_MEDEVAC_2025_12
+Companions,"12,074",,people,Gaza,WHO_MEDEVAC_2025_12
+Top five medical needs evacuated since 7 May 2024: trauma,879,,patients,Gaza,WHO_MEDEVAC_2025_12
+Top five medical needs evacuated since 7 May 2024: oncology,759,,patients,Gaza,WHO_MEDEVAC_2025_12
+Top five medical needs evacuated since 7 May 2024: congenital anomalies,272,,patients,Gaza,WHO_MEDEVAC_2025_12
+Top five medical needs evacuated since 7 May 2024: ophthalmology,269,,patients,Gaza,WHO_MEDEVAC_2025_12
+Top five medical needs evacuated since 7 May 2024: cardiovascular diseases,247,,patients,Gaza,WHO_MEDEVAC_2025_12
+"Destination counts, top ten since October 2023","6334, 1519, 970, 447, 553",,patients,"Printed beside Egypt, United Arab Emirates, Qatar, Turkey, EU countries. Pairing unclear in the extract, so not used",WHO_MEDEVAC_2025_12
+Patients in the programme,"5,621",,patients,"Ukraine, page dated 6 June 2025",UKR_MOH
+By need: injuries,"2,892",,patients,Ukraine,UKR_MOH
+By need: rehabilitation,991,,patients,Ukraine,UKR_MOH
+By need: prosthetics,744,,patients,Ukraine,UKR_MOH
+Timing of transfer,qualitative,,statement,Treatment is provided 'as soon as they are stable enough for transportation'; no further criteria,UKR_MOH
+"Foreign patients who came to Kayseri, 2011 to 2017","15,907",,patients,Kayseri,BIYIKLI_2019
+"Patients from Iraq, Iran, Libya and Afghanistan","3,637",,patients,"Iraq 1,510; Iran 696; Libya 1,182; Afghanistan 249. Reported as 22.8% of patients treated within health tourism. Syrian patients were excluded",BIYIKLI_2019
+Departments most used,qualitative,,statement,"Oncology, orthopaedics, obstetrics and gynaecology, then oral and dental care and ophthalmology. Figure only, no counts",BIYIKLI_2019
+Dialysis patients unable to keep regular sessions,56.9,,%,"Sudan, April 2023 war; 316 participants; denominator inferred",IDREES_2025

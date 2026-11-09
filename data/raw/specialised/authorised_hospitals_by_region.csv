@@ -1,0 +1,8 @@
+region,region_tr,authorised_hospitals,provinces_with_at_least_one,provinces_total,data_date,source_id
+Mediterranean,Akdeniz,67,7,8,2024-12,S23
+Central Anatolia,İç Anadolu,110,8,13,2024-12,S23
+Marmara,Marmara,261,10,11,2024-12,S23
+Aegean,Ege,101,8,8,2024-12,S23
+Eastern Anatolia,Doğu Anadolu,21,7,14,2024-12,S23
+Southeastern Anatolia,Güneydoğu Anadolu,36,6,9,2024-12,S23
+Black Sea,Karadeniz,54,14,18,2024-12,S23

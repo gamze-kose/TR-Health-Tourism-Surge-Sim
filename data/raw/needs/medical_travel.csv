@@ -1,0 +1,70 @@
+origin,destination,year,metric,value,unit,source_id,note
+Libya,Tunisia,2009,Libyans visiting Tunisia for medical care,>100000,patients,STIMSON_JOYCE,"'In 2009 more than 100,000 Libyans visited Tunisia to receive medical care'"
+Libya,Tunisia (Tunis private clinics),not shown,share of clinic beds occupied by Libyans,almost half,share,STIMSON_JOYCE,Private clinics described as '100 percent full'; period not shown; URL dated 2013
+Libya,abroad (destinations not shown),not shown,people sent abroad at government expense,40000,people,STIMSON_JOYCE,Only '10 to 15 percent' had war-related injuries; see payers_companions.csv
+Iraq and Syria,"Lebanon, Jordan, Türkiye, Iran, India",not shown,citizens who have travelled for care,hundreds of thousands,people,DEWACHI_CONV,'Hundreds of thousands of Iraqi and Syrian citizens'; no per-country figures. Fields named: trauma and war injuries; chronic conditions such as cancer and heart disease
+Iraq and Syria,"Lebanon, Jordan, Türkiye, Iran, India",not shown,framing term,therapeutic geographies,term,DEWACHI_CONV,Used for regional medical hubs serving displaced people across borders; the phrase 'medical travel' does not appear on the page
+Multiple conflict settings,Multiple,1980-2019,articles meeting inclusion criteria in a scoping review of cross-border healthcare in violent conflict,53,articles,DOAJ_SCOPING_2022,45 articles in the thematic analysis; themes: access to care; quality of care; governance of care. Abstract does not mention payment or medical tourism
+West Bank and Gaza,Egypt,2022,share of all Palestinian MoH referrals (October 2022),3,%,WHO_HAB_2022_10,Single month
+West Bank and Gaza,Jordan,2022,share of all Palestinian MoH referrals (October 2022),0.2,%,WHO_HAB_2022_10,Single month; 20 referrals
+West Bank and Gaza,Israeli hospitals,2022,share of all Palestinian MoH referrals (October 2022),5,%,WHO_HAB_2022_10,Single month
+West Bank and Gaza,East Jerusalem hospitals,2022,share of all Palestinian MoH referrals (October 2022),38,%,WHO_HAB_2022_10,Single month
+West Bank and Gaza,West Bank outside East Jerusalem,2022,share of all Palestinian MoH referrals (October 2022),49,%,WHO_HAB_2022_10,Single month
+West Bank and Gaza,within Gaza,2022,share of all Palestinian MoH referrals (October 2022),5,%,WHO_HAB_2022_10,Single month
+Gaza,East Jerusalem hospitals,2022,share of Gaza patient permit applications (October 2022),54,%,WHO_HAB_2022_10,Single month
+Gaza,West Bank outside East Jerusalem,2022,share of Gaza patient permit applications (October 2022),32,%,WHO_HAB_2022_10,Single month
+Gaza,Israeli hospitals,2022,share of Gaza patient permit applications (October 2022),14,%,WHO_HAB_2022_10,Single month
+Gaza,Türkiye,2023-2024,patients evacuated through Rafah (October 2023 to 20 June 2024),430,patients,WHO_MEDEVAC_2024_06,Medical evacuation and not ordinary medical travel; included because Türkiye is the destination
+Gaza,Egypt,2023-2024,patients evacuated through Rafah (October 2023 to 20 June 2024),2384,patients,WHO_MEDEVAC_2024_06,Medical evacuation and not ordinary medical travel
+Gaza,Qatar,2023-2024,patients evacuated through Rafah (October 2023 to 20 June 2024),970,patients,WHO_MEDEVAC_2024_06,Medical evacuation and not ordinary medical travel
+Gaza,United Arab Emirates,2023-2024,patients evacuated through Rafah (October 2023 to 20 June 2024),701,patients,WHO_MEDEVAC_2024_06,Medical evacuation and not ordinary medical travel
+Gaza,Algeria,2023-2024,patients evacuated through Rafah (October 2023 to 20 June 2024),136,patients,WHO_MEDEVAC_2024_06,Medical evacuation and not ordinary medical travel
+Iraq,Türkiye (Turgut Özal Medical Center Malatya),2018,international patients,36,patients,AYDOGDU_2023,Single hospital; Table 4; source stated as TÖTM 2023
+Iraq,Türkiye (Turgut Özal Medical Center Malatya),2019,international patients,32,patients,AYDOGDU_2023,Single hospital; Table 4
+Iraq,Türkiye (Turgut Özal Medical Center Malatya),2020,international patients,21,patients,AYDOGDU_2023,Single hospital; Table 4
+Iraq,Türkiye (Turgut Özal Medical Center Malatya),2021,international patients,14,patients,AYDOGDU_2023,Single hospital; Table 4
+Iraq,Türkiye (Turgut Özal Medical Center Malatya),2022,international patients,26,patients,AYDOGDU_2023,Single hospital; Table 4
+Iraq,Türkiye (Turgut Özal Medical Center Malatya),2018-2022,international patients (total),129,patients,AYDOGDU_2023,Single hospital; Table 4
+Syria,Türkiye (Turgut Özal Medical Center Malatya),2018,international patients,16,patients,AYDOGDU_2023,Single hospital; Table 4
+Syria,Türkiye (Turgut Özal Medical Center Malatya),2019,international patients,8,patients,AYDOGDU_2023,Single hospital; Table 4
+Syria,Türkiye (Turgut Özal Medical Center Malatya),2020,international patients,14,patients,AYDOGDU_2023,Single hospital; Table 4
+Syria,Türkiye (Turgut Özal Medical Center Malatya),2021,international patients,12,patients,AYDOGDU_2023,Single hospital; Table 4
+Syria,Türkiye (Turgut Özal Medical Center Malatya),2022,international patients,6,patients,AYDOGDU_2023,Single hospital; Table 4
+Syria,Türkiye (Turgut Özal Medical Center Malatya),2018-2022,international patients (total),56,patients,AYDOGDU_2023,Single hospital; Table 4
+Afghanistan,Türkiye (Turgut Özal Medical Center Malatya),2018,international patients,7,patients,AYDOGDU_2023,Single hospital; Table 4
+Afghanistan,Türkiye (Turgut Özal Medical Center Malatya),2019,international patients,11,patients,AYDOGDU_2023,Single hospital; Table 4
+Afghanistan,Türkiye (Turgut Özal Medical Center Malatya),2020,international patients,11,patients,AYDOGDU_2023,Single hospital; Table 4
+Afghanistan,Türkiye (Turgut Özal Medical Center Malatya),2021,international patients,12,patients,AYDOGDU_2023,Single hospital; Table 4
+Afghanistan,Türkiye (Turgut Özal Medical Center Malatya),2022,international patients,2,patients,AYDOGDU_2023,Single hospital; Table 4
+Afghanistan,Türkiye (Turgut Özal Medical Center Malatya),2018-2022,international patients (total),43,patients,AYDOGDU_2023,Single hospital; Table 4
+Yemen,Türkiye (Turgut Özal Medical Center Malatya),2018,international patients,7,patients,AYDOGDU_2023,Single hospital; Table 4
+Yemen,Türkiye (Turgut Özal Medical Center Malatya),2019,international patients,2,patients,AYDOGDU_2023,Single hospital; Table 4
+Yemen,Türkiye (Turgut Özal Medical Center Malatya),2020,international patients,5,patients,AYDOGDU_2023,Single hospital; Table 4
+Yemen,Türkiye (Turgut Özal Medical Center Malatya),2021,international patients,2,patients,AYDOGDU_2023,Single hospital; Table 4
+Yemen,Türkiye (Turgut Özal Medical Center Malatya),2018-2022,international patients (total),16,patients,AYDOGDU_2023,Single hospital; Table 4; table shows a dash for 2022
+Sudan,Türkiye (Turgut Özal Medical Center Malatya),2018,international patients,1,patients,AYDOGDU_2023,Single hospital; Table 4; table shows a dash for 2019 to 2022
+Azerbaijan,Türkiye (Turgut Özal Medical Center Malatya),2018-2022,international patients (total),350,patients,AYDOGDU_2023,Comparator origin; Table 4; yearly 104; 123; 59; 23; 41
+Jordan,Türkiye (Turgut Özal Medical Center Malatya),2018-2022,international patients (total),74,patients,AYDOGDU_2023,Comparator origin; Table 4
+England,Türkiye (Turgut Özal Medical Center Malatya),2018-2022,international patients (total),44,patients,AYDOGDU_2023,Comparator origin; Table 4
+Algeria,Türkiye (Turgut Özal Medical Center Malatya),2018-2022,international patients (total),37,patients,AYDOGDU_2023,Comparator origin; Table 4
+Germany,Türkiye (Turgut Özal Medical Center Malatya),2018-2022,international patients (total),18,patients,AYDOGDU_2023,Comparator origin; Table 4
+All nationalities,Türkiye (Turgut Özal Medical Center Malatya),2018,international patients,300,patients,AYDOGDU_2023,Single hospital; Table 4; Libya not listed in the table
+All nationalities,Türkiye (Turgut Özal Medical Center Malatya),2019,international patients,340,patients,AYDOGDU_2023,Single hospital; Table 4
+All nationalities,Türkiye (Turgut Özal Medical Center Malatya),2020,international patients,211,patients,AYDOGDU_2023,Single hospital; Table 4
+All nationalities,Türkiye (Turgut Özal Medical Center Malatya),2021,international patients,166,patients,AYDOGDU_2023,Single hospital; Table 4
+All nationalities,Türkiye (Turgut Özal Medical Center Malatya),2022,international patients,205,patients,AYDOGDU_2023,Single hospital; Table 4
+All nationalities,Türkiye (Turgut Özal Medical Center Malatya),2018-2022,international patients (total),1222,patients,AYDOGDU_2023,Single hospital; fields named: liver transplant; plastic surgery; general surgery; ear nose and throat
+All nationalities,Türkiye,2022,health tourists,1258382,people,AYDOGDU_2023,Attributed in the article to USHAŞ (2023); no nationality breakdown
+All nationalities,Türkiye,2022,health tourism income as printed,2119059,dollars as printed,AYDOGDU_2023,Attributed in the article to USHAŞ (2023); read here as probably thousands of USD because BULUT_2025 gives USD 2.1 billion; check the original
+All nationalities,Türkiye,2022,health tourism revenue,2.1,billion USD,BULUT_2025,Table 6
+All nationalities,Türkiye,2022,health tourists (approximate),1200000,people,BULUT_2025,Table 2; article has internal inconsistencies; check the original
+All nationalities,Türkiye,2021,health tourists,642444,people,BULUT_2025,Table 2; the article's stated '66% increase' to 2022 does not match these two figures
+All nationalities,Türkiye,not shown,treatment field share: dental health,30,%,BULUT_2025,Table 3; no source given for the table; not by nationality
+All nationalities,Türkiye,not shown,treatment field share: aesthetic and plastic surgery,25,%,BULUT_2025,Table 3; no source given for the table; not by nationality
+All nationalities,Türkiye,not shown,treatment field share: laser eye surgery,15,%,BULUT_2025,Table 3; no source given for the table; not by nationality
+All nationalities,Türkiye,not shown,treatment field share: orthopaedic surgery,10,%,BULUT_2025,Table 3; no source given for the table; not by nationality
+All nationalities,Türkiye,not shown,treatment field share: IVF,7,%,BULUT_2025,Table 3; no source given for the table; not by nationality
+All nationalities,Türkiye,not shown,treatment field share: rehabilitation,5,%,BULUT_2025,Table 3; no source given for the table; not by nationality
+All nationalities,Türkiye,not shown,treatment field share: heart surgery,5,%,BULUT_2025,Table 3; no source given for the table; not by nationality
+All nationalities,Türkiye,not shown,treatment field share: oncology,3,%,BULUT_2025,Table 3; no source given for the table; not by nationality
+Mostly high-income countries (Germany leading),"Türkiye (private hospital, central Antalya)",2015-2021,foreign patients who applied,8761,patients,YILMAZ_2025,Abstract only; no counts by nationality shown; top departments: emergency room; internal medicine; paediatrics
