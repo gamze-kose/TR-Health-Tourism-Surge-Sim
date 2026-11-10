@@ -956,7 +956,6 @@
 "No unit here": "Burada birim yok",
 "None": "Yok",
 "Not named in a source. Included so that the region matches the published count of provinces with an authorised hospital. Check it against the Ministry list.": "Bir kaynakta adı geçmiyor. Bölgedeki yetkili hastaneli il sayısı yayımlanmış sayıyla örtüşsün diye eklendi. Bakanlık listesiyle karşılaştırılmalıdır.",
-"One new city a year, more certified hospitals, smaller gaps in cancer and rehabilitation care, and a better prepared response.": "Yılda bir yeni şehir, daha çok yetkili hastane, kanser ve rehabilitasyon bakımında daha küçük açıklar ve daha hazırlıklı bir müdahale.",
 "Open a unit here": "Burada birim aç",
 "Open new units": "Yeni birimler açmak",
 "Certify more hospitals": "Daha çok hastanenin yetki belgesi almasını sağlamak",
@@ -994,7 +993,6 @@
 "This city has no unit, so its numbers cannot be used yet.": "Bu şehirde birim yok, bu yüzden sayıları henüz kullanılamaz.",
 "This course opens a unit here in {y}. It starts with one hospital and needs {n} years to reach full use.": "Bu seyirde burada {y} yılında birim açılır. Bir hastaneyle başlar ve tam kullanıma ulaşması {n} yıl sürer.",
 "Train and mobilise more rehabilitation staff.": "Daha çok rehabilitasyon personeli yetiştirin ve görevlendirin.",
-"Two new cities a year, most hospitals certified, the full need for radiotherapy met, and a national plan in place by 2040.": "Yılda iki yeni şehir, hastanelerin çoğunda yetki belgesi, radyoterapi ihtiyacının tamamının karşılanması ve 2040'a kadar yürürlüğe giren bir ulusal plan.",
 "Türkiye in {y}": "{y} yılında Türkiye",
 "Upper estimate of need, 411 (Becerir 2021)": "İhtiyacın üst tahmini, 411 (Becerir 2021)",
 "What can be done, period by period": "Dönem dönem neler yapılabilir",
@@ -1045,5 +1043,7 @@
 "Hospital capacity, length of stay and cost": "Hastane kapasitesi, yatış süresi ve maliyet",
 "Methods": "Yöntemler",
 "Official reports and datasets": "Resmî raporlar ve veri kümeleri",
-"Peer-reviewed articles, official publications and datasets the model draws on. Each record was checked in November 2026 against the publisher, the issuing body or another authoritative record. A few figures come from news reports of official statements or from sources whose details could not be confirmed. Those are named in the Settings tab and are not part of this list.": "Modelin dayandığı hakemli makaleler, resmî yayınlar ve veri kümeleri. Her künye Kasım 2026'da yayıncı, yayımlayan kurum veya başka bir yetkili kayıtla karşılaştırılmıştır. Az sayıda değer, resmî açıklamalara ilişkin basın haberlerinden veya künyesi doğrulanamayan kaynaklardan alınmıştır. Bunlar Ayarlar sekmesinde belirtilmiştir ve bu listede yer almamaktadır."
+"Peer-reviewed articles, official publications and datasets the model draws on. Each record was checked in November 2026 against the publisher, the issuing body or another authoritative record. A few figures come from news reports of official statements or from sources whose details could not be confirmed. Those are named in the Settings tab and are not part of this list.": "Modelin dayandığı hakemli makaleler, resmî yayınlar ve veri kümeleri. Her künye Kasım 2026'da yayıncı, yayımlayan kurum veya başka bir yetkili kayıtla karşılaştırılmıştır. Az sayıda değer, resmî açıklamalara ilişkin basın haberlerinden veya künyesi doğrulanamayan kaynaklardan alınmıştır. Bunlar Ayarlar sekmesinde belirtilmiştir ve bu listede yer almamaktadır.",
+"A first authorised unit in one province each year, more certified hospitals, smaller gaps in cancer and rehabilitation care, and a better prepared response.": "Her yıl bir ilde ilk yetkili birim, daha çok yetkili hastane, kanser ve rehabilitasyon bakımında daha küçük açıklar ve daha hazırlıklı bir müdahale.",
+"A first authorised unit in two provinces each year, most hospitals certified, the full need for radiotherapy met, and a national plan in place by 2040.": "Her yıl iki ilde ilk yetkili birim, hastanelerin çoğunda yetki belgesi, radyoterapi ihtiyacının tamamının karşılanması ve 2040'a kadar yürürlüğe giren bir ulusal plan."
 }

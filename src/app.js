@@ -46,8 +46,8 @@ const LEVELS = { limited: 'Limited', major: 'Major', extreme: 'Extreme' };
 const EXITS = { open: { l: 'Open', i: 'lock-open', d: 'Patients leave once cleared.' }, limited: { l: 'Limited', i: 'door-exit', d: 'Half the usual clearance.' }, restricted: { l: 'Almost closed', i: 'lock', d: 'Very few exit permits.' } };
 const PATHS = {
   current: { l: 'Current course', i: 'route', c: '#c7301e', d: 'Capacity follows past trends, more slowly each year. Cities without a unit stay closed.' },
-  planned: { l: 'Planned expansion', i: 'trending-up', c: '#1a5fcf', d: 'One new city a year, more certified hospitals, smaller gaps in cancer and rehabilitation care, and a better prepared response.' },
-  ambitious: { l: 'Ambitious programme', i: 'rocket', c: '#0f8a5a', d: 'Two new cities a year, most hospitals certified, the full need for radiotherapy met, and a national plan in place by 2040.' },
+  planned: { l: 'Planned expansion', i: 'trending-up', c: '#1a5fcf', d: 'A first authorised unit in one province each year, more certified hospitals, smaller gaps in cancer and rehabilitation care, and a better prepared response.' },
+  ambitious: { l: 'Ambitious programme', i: 'rocket', c: '#0f8a5a', d: 'A first authorised unit in two provinces each year, most hospitals certified, the full need for radiotherapy met, and a national plan in place by 2040.' },
 };
 const MINE = '#b52aa8';
 const STOCK = [['authBeds', 'Beds in authorised hospitals', 'building-hospital', 'beds'], ['authIcu', 'Intensive care beds in authorised hospitals', 'heart-rate-monitor', 'ICU beds'], ['dialSlots', 'Dialysis places', 'droplet', 'dialysis places'], ['oncSlots', 'Radiotherapy places', 'ribbon-health', 'radiotherapy places'], ['ftrBeds', 'Rehabilitation beds', 'wheelchair', 'rehabilitation beds'], ['thermal', 'Thermal beds', 'bath', 'thermal beds'], ['hotel', 'Licensed hotel beds', 'building', 'hotel beds']];
