@@ -31,7 +31,7 @@
 </p>
 
 <p align="center">
-  <strong>Gamze Köse</strong>, Independent Researcher, MSc in Health Tourism<br>
+  <strong>Gamze Köse</strong>, Independent Researcher, Health Tourism Master of Science<br>
   <a href="https://orcid.org/0000-0003-1225-5118">ORCID 0000-0003-1225-5118</a> &nbsp;·&nbsp; <a href="https://github.com/gamze-kose">github.com/gamze-kose</a><br><br>
   <strong>Prof. Dr. Utku Köse</strong>, Department of Computer Engineering and Artificial Intelligence Application and Research Center, Süleyman Demirel University<br>
   University of North Dakota, Universidad Panamericana, VelTech University<br>
