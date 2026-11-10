@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the paper below."
-title: TR-Health-Tourism-Surge-Sim
+title: "Türkiye Health Tourism Surge Capacity Simulator"
 abstract: >-
   A province-level stochastic network simulation of how the health tourism
   infrastructure of Türkiye could meet care needs created by epidemics, natural

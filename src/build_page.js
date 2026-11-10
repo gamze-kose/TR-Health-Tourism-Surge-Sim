@@ -20,7 +20,7 @@ delete model.scenarios; delete model.sweeps;
 const data = {
   model, countries, tr, marmara: JSON.parse(rd('data/marmara.json')),
   map: { countries: map.countries.map((c) => ({ d: c.d, iso: c.iso })), provinces: map.provinces.map((p) => ({ id: p.id, name: p.name, d: p.d })) },
-  levers, foot: { en: foot, tr: rd('src/foot_tr.html') }, cities,
+  levers, foot: { en: foot, tr: rd('src/foot_tr.html') }, cities, refs: JSON.parse(rd('data/references.json')),
 };
 const json = JSON.stringify(data).replace(/</g, '\\u003c');
 html = html.replace('<!--__ICONS__-->', () => icons).replace('/*__ENGINE__*/', () => engine).replace('/*__DATA__*/null', () => json).replace('/*__APP__*/', () => app);

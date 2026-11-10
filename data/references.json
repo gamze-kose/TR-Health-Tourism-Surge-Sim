@@ -1,0 +1,403 @@
+[
+ {
+  "k": "methods",
+  "items": [
+   {
+    "n": 1,
+    "id": "GARDNER_1985",
+    "c": "Gardner ES Jr, McKenzie E. Forecasting Trends in Time Series. Management Science. 1985;31(10):1237-1246.",
+    "d": "10.1287/mnsc.31.10.1237"
+   },
+   {
+    "n": 2,
+    "id": "HERMAN_2017",
+    "c": "Herman J, Usher W. SALib: An open-source Python library for Sensitivity Analysis. Journal of Open Source Software. 2017;2(9):97.",
+    "d": "10.21105/joss.00097"
+   },
+   {
+    "n": 3,
+    "id": "HWANG_1981",
+    "c": "Hwang CL, Yoon K. Multiple Attribute Decision Making: Methods and Applications. A State-of-the-Art Survey. Lecture Notes in Economics and Mathematical Systems, vol. 186. Berlin, Heidelberg: Springer; 1981.",
+    "d": "10.1007/978-3-642-48318-9"
+   },
+   {
+    "n": 4,
+    "id": "HYNDMAN_2021",
+    "c": "Hyndman RJ, Athanasopoulos G. Forecasting: Principles and Practice. 3rd edition. Melbourne: OTexts; 2021.",
+    "u": "https://otexts.com/fpp3/"
+   },
+   {
+    "n": 5,
+    "id": "SALTELLI_2002",
+    "c": "Saltelli A. Making best use of model evaluations to compute sensitivity indices. Computer Physics Communications. 2002;145(2):280-297.",
+    "d": "10.1016/S0010-4655(02)00280-1"
+   },
+   {
+    "n": 6,
+    "id": "SOBOL_2001",
+    "c": "Sobol′ IM. Global sensitivity indices for nonlinear mathematical models and their Monte Carlo estimates. Mathematics and Computers in Simulation. 2001;55(1-3):271-280.",
+    "d": "10.1016/S0378-4754(00)00270-6"
+   }
+  ]
+ },
+ {
+  "k": "turkey",
+  "items": [
+   {
+    "n": 7,
+    "id": "ASLAN_2026",
+    "c": "Aslan K. Fizyoterapi Hizmetlerinde Yönetim ve İşleyiş: Kamu Hastanelerine Teorik Bir Bakış. Sağlık Hizmetleri Araştırma Dergisi. 2026;4:5-14.",
+    "u": "https://dergipark.org.tr/tr/pub/hes/article/1715503"
+   },
+   {
+    "n": 8,
+    "id": "BECERIR_2021",
+    "c": "Becerir HB, Gürdallı S, Yapıcı B, Alkaya F, Çakır A, Yaray K, Gürsoy TO. Radiotherapy Equipment and Workforce in Turkey. Turkish Journal of Oncology. 2021;36(4):512-518.",
+    "d": "10.5505/tjo.2021.2896"
+   },
+   {
+    "n": 9,
+    "id": "CAVUS_2020",
+    "c": "Çavuş A, Gönenbaba İ. Erzurum'daki Hastanelerin Sağlık Turizmi Açısından Değerlendirilmesi. Atatürk Üniversitesi Sosyal Bilimler Enstitüsü Dergisi. 2020;24(4):1681-1693.",
+    "u": "https://dergipark.org.tr/tr/pub/ataunisosbil/issue/59389/654143"
+   },
+   {
+    "n": 10,
+    "id": "CUBUK_2022",
+    "c": "Çubuk M. Türkiye'de Büyükşehirlerin Sağlık Turizmi Potansiyellerinin CRITIC ve WASPAS Yöntemleri ile Karşılaştırılması. Bingöl Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi. 2022;6(2):147-174.",
+    "d": "10.33399/biibfad.1139104"
+   },
+   {
+    "n": 11,
+    "id": "ISIKCELIK_2026",
+    "c": "Işıkçelik F. Türkiye'de Seçilmiş İllerin Sağlık Turizmi Kapasitesinin Çok Kriterli Karar Verme Yöntemleriyle Karşılaştırmalı Analizi. Üçüncü Sektör Sosyal Ekonomi Dergisi. 2026;61(1):62-79.",
+    "d": "10.63556/tisej.2026.1710"
+   },
+   {
+    "n": 12,
+    "id": "KAYA_ARCHIVE",
+    "c": "Kaya E. Türkiye Sağlık İstatistikleri Arşivi: Sağlık Bakanlığı yıllıklarından derlenmiş il ve ulusal veri seti, 1964–2024. Version 1.1.0 [dataset]. Zenodo; 2026.",
+    "d": "10.5281/zenodo.23325100"
+   },
+   {
+    "n": 13,
+    "id": "KERVAN_2011",
+    "c": "Kervan Ü, Koç O, Özatik MA, Bayraktar G, Şener E, Çağlı K, Yekeler İ, Paç M. Türkiye'deki kalp damar cerrahisi kliniklerinin dağılımı ve hizmetlerinin niteliği. Türk Göğüs Kalp Damar Cerrahisi Dergisi. 2011;19(4):483-489.",
+    "d": "10.5606/tgkdc.dergisi.2011.074"
+   },
+   {
+    "n": 14,
+    "id": "ODABASI_2023",
+    "c": "Odabaşı O. Türkiye Tıp Fakülteleri 2023. Sürekli Tıp Eğitimi Dergisi. 2023;32(1):37-61.",
+    "d": "10.17942/sted.1259646"
+   },
+   {
+    "n": 15,
+    "id": "OZGOBEK_2026",
+    "c": "Özgöbek HR. Türkiye'de Fizyoterapist Sayısı Yeterli mi? Mevcut Durum, Gereksinimler ve Politika Önerileri. İzmir Kâtip Çelebi Üniversitesi Sağlık Bilimleri Fakültesi Dergisi. 2026;11(2):483-492.",
+    "d": "10.61399/ikcusbfd.1594430"
+   },
+   {
+    "n": 16,
+    "id": "YEARBOOK_2024",
+    "c": "T.C. Sağlık Bakanlığı. Sağlık İstatistikleri Yıllığı 2024.",
+    "u": "https://www.saglik.gov.tr/TR-114952/saglik-istatistikleri-yilligi-2024.html"
+   },
+   {
+    "n": 17,
+    "id": "TASAR_2024",
+    "c": "Taşar MT, Buluk Eşitti B. Sağlık Turizmi Yetki Belgesi Bulunan Sağlık Tesislerinin Web Sitelerinin İncelenmesi: Çanakkale Örneği. Turar Turizm ve Araştırma Dergisi. 2024;13(2):151-179.",
+    "d": "10.7460/turar.1520705"
+   },
+   {
+    "n": 18,
+    "id": "TUIK_ELDERLY_2024",
+    "c": "Türkiye İstatistik Kurumu. İstatistiklerle Yaşlılar, 2024. 13 Mart 2025."
+   },
+   {
+    "n": 19,
+    "id": "TUIK_ELDERLY_2025",
+    "c": "Türkiye İstatistik Kurumu. İstatistiklerle Yaşlılar, 2025. 12 Mart 2026."
+   },
+   {
+    "n": 20,
+    "id": "TUIK_POP_2024",
+    "c": "Türkiye İstatistik Kurumu. Nüfus Projeksiyonları, 2023-2100. Haber Bülteni 53699. 30 Temmuz 2024.",
+    "u": "https://data.tuik.gov.tr/Bulten/Index?p=Nufus-Projeksiyonlari-2023-2100-53699"
+   },
+   {
+    "n": 21,
+    "id": "USTE_2026",
+    "c": "Uluslararası Sağlık Turizmi Enstitüsü. Sağlık Turizmi Gelirleri 2025'te 3 Milyar Doları Aştı. 16 Mart 2026.",
+    "u": "https://www.uste.org.tr/saglik-turizmi-gelirleri-2025te-3-milyar-dolari-asti/"
+   },
+   {
+    "n": 22,
+    "id": "REGULATION_2025",
+    "c": "Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik. T.C. Resmî Gazete, 26 Nisan 2025, Sayı 32882.",
+    "u": "https://www.resmigazete.gov.tr/eskiler/2025/04/20250426-2.htm"
+   },
+   {
+    "n": 23,
+    "id": "YORULMAZ_AKSOY_2024",
+    "c": "Yorulmaz M, Aksoy MR. Türkiye'de Sağlık Turizmi Açısından Yetkilendirilmiş Hastaneler ve Sağlık Turizmi Acentelerinin Bölgelere Göre Değerlendirilmesi. In: International Artuklu Congress on Medicine, Nursing, Midwifery, and Health Sciences, Congress Proceedings Book; 2024. p. 1029-1037.",
+    "d": "10.30546/19023.978-9952-8541-5-2.2024.4098"
+   }
+  ]
+ },
+ {
+  "k": "params",
+  "items": [
+   {
+    "n": 24,
+    "id": "AYLI_2026",
+    "c": "Aylı BI, Demir ME, Akgül A, Şahin H. Environmental footprint of in-center hemodialysis in Türkiye: A national, scenario-based analysis of water, energy, and waste. PLOS ONE. 2026;21(7):e0354903.",
+    "d": "10.1371/journal.pone.0354903"
+   },
+   {
+    "n": 25,
+    "id": "BAGUST_1999",
+    "c": "Bagust A, Place M, Posnett JW. Dynamics of bed use in accommodating emergency admissions: stochastic simulation model. BMJ. 1999;319(7203):155-158.",
+    "d": "10.1136/bmj.319.7203.155"
+   },
+   {
+    "n": 26,
+    "id": "BAS_2026",
+    "c": "Baş F, Erdoğan NM, Ethemoğlu FB. Cost Analysis of 30,446 Intensive Care Unit Admissions in a Tertiary City Hospital in Türkiye. Research Square [preprint, not peer reviewed]. Posted 17 June 2026.",
+    "d": "10.21203/rs.3.rs-9710531/v1"
+   },
+   {
+    "n": 27,
+    "id": "BRICK_2025",
+    "c": "Brick A, Kakoulidou T, Humes H. Projections of national demand and bed capacity requirements for public acute hospitals in Ireland, 2023–2040: Based on the Hippocrates model. ESRI Research Series 213. Dublin: Economic and Social Research Institute; 2025.",
+    "d": "10.26504/rs213"
+   },
+   {
+    "n": 28,
+    "id": "GRASSELLI_2020",
+    "c": "Grasselli G, Pesenti A, Cecconi M. Critical Care Utilization for the COVID-19 Outbreak in Lombardy, Italy: Early Experience and Forecast During an Emergency Response. JAMA. 2020;323(16):1545-1546.",
+    "d": "10.1001/jama.2020.4031"
+   },
+   {
+    "n": 29,
+    "id": "KAO_2022",
+    "c": "Kao YH, Chen Y, Deutsch A, Wen H, Tseng TS. Rehabilitation length of stay and functional improvement among patients with traumatic spinal cord injury. Spinal Cord. 2022;60(3):237-244.",
+    "d": "10.1038/s41393-021-00686-6"
+   },
+   {
+    "n": 30,
+    "id": "KAYA_2024",
+    "c": "Kaya B, Balal M, Seyrek N, Mete B, Karayaylali I. Hemodialysis Experience After Kahramanmaraş Earthquake. Journal of Clinical Medicine. 2024;13(21):6610.",
+    "d": "10.3390/jcm13216610"
+   },
+   {
+    "n": 31,
+    "id": "SENSOY_2025",
+    "c": "Ozer Sensoy NN, Kazan S, Güngör O. In Türkiye, very few internal medicine research assistants consider becoming nephrologists in the future. Scientific Reports. 2025;15:45488.",
+    "d": "10.1038/s41598-025-28375-x"
+   },
+   {
+    "n": 32,
+    "id": "REES_2020",
+    "c": "Rees EM, Nightingale ES, Jafari Y, Waterlow NR, Clifford S, Pearson CAB, CMMID Working Group, Jombart T, Procter SR, Knight GM. COVID-19 length of hospital stay: a systematic review and data synthesis. BMC Medicine. 2020;18:270.",
+    "d": "10.1186/s12916-020-01726-3"
+   },
+   {
+    "n": 33,
+    "id": "TURGUT_2024",
+    "c": "Turgut M, Ağırbaş İ, Nergizoğlu G. Cost Analysis of Hemodialysis Session: A Comparison Between Activity-Based Costing and Traditional Costing Methods. Clinical and Experimental Health Sciences. 2024;14(4):1106-1112.",
+    "d": "10.33808/clinexphealthsci.1318606"
+   },
+   {
+    "n": 34,
+    "id": "VAN_DEN_HEEDE_2019",
+    "c": "Van den Heede K, Bouckaert N, Van de Voorde C. The impact of an ageing population on the required hospital capacity: results from forecast analysis on administrative data. European Geriatric Medicine. 2019;10(5):697-705.",
+    "d": "10.1007/s41999-019-00219-8"
+   },
+   {
+    "n": 35,
+    "id": "WHO_BLUEBOOK_2021",
+    "c": "World Health Organization. Classification and minimum standards for emergency medical teams. Geneva: World Health Organization; 2021.",
+    "u": "https://www.who.int/publications/i/item/9789240029330"
+   },
+   {
+    "n": 36,
+    "id": "WHO_CHOICE",
+    "c": "World Health Organization, Economic Analysis and Evaluation Team, Department of Health Systems Governance and Financing. WHO-CHOICE estimates of cost for inpatient and outpatient health service delivery.",
+    "u": "https://cdn.who.int/media/docs/default-source/health-economics/who-choice-estimates-of-cost-for-inpatient-and-outpatient-health-service-delivery.pdf"
+   }
+  ]
+ },
+ {
+  "k": "needs",
+  "items": [
+   {
+    "n": 37,
+    "id": "AEBISCHER_2017",
+    "c": "Aebischer Perone S, Martinez E, du Mortier S, Rossi R, Pahud M, Urbaniak V, Chappuis F, Hagon O, Jacquérioz Bausch F, Beran D. Non-communicable diseases in humanitarian settings: ten essential questions. Conflict and Health. 2017;11:17.",
+    "d": "10.1186/s13031-017-0119-8"
+   },
+   {
+    "n": 38,
+    "id": "ANKAH_2025",
+    "c": "Ankah AH, Alanqar MM, Mansour BM, AlZebda MM, Idris AE, Brown P, Melhem NZ, Ayyad NA. Experiences of children with kidney failure in Gaza. Eastern Mediterranean Health Journal. 2025;31(4):250-253.",
+    "d": "10.26719/2025.31.4.250"
+   },
+   {
+    "n": 39,
+    "id": "BILIR_2024",
+    "c": "Bilir EE, Borman P, Ata AM, Alemdaroğlu E, Bodur H, Yanık B, Yurdakul F, Kesikburun B, Güler T, Başkan B, Akkuş S, Uzun O, Yaşar E. Clinical properties and rehabilitation needs of earthquake survivors in a subacute rehabilitation setting. Ulusal Travma ve Acil Cerrahi Dergisi. 2024;30(4):297-304.",
+    "d": "10.14744/tjtes.2024.27553"
+   },
+   {
+    "n": 40,
+    "id": "BILIR_2025",
+    "c": "Bilir EE, Ata AM, Borman P, Savtok BE, Afşin B, Eser F. Retrospective Analysis of Functional and Demographic Data of Earthquake-Related Peripheral Nerve Injuries. Archives of Health Science and Research. 2025;12:1-5.",
+    "d": "10.5152/ArcHealthSciRes.2024.23161"
+   },
+   {
+    "n": 41,
+    "id": "BIYIKLI_2019",
+    "c": "Bıyıklı K, Taşkın R, Ceylan A, Ulutabanca RÖ, Benli AR. War and Health Tourism: Data of Kayseri Province. International Journal of Health Management and Tourism. 2019;4(1):73-81.",
+    "d": "10.31201/ijhmt.441373"
+   },
+   {
+    "n": 42,
+    "id": "BUYURGAN_2023",
+    "c": "Buyurgan ÇS, Bozkurt Babuş S, Yarkaç A, Köse A, Usluer HO, Ayrık C, Narcı H, Orekici Temel G. Demographic and Clinical Characteristics of Earthquake Victims Presented to the Emergency Department with and without Crush Injury upon the 2023 Kahramanmaraş (Turkey) Earthquake. Prehospital and Disaster Medicine. 2023;38(6):707-715.",
+    "d": "10.1017/S1049023X23006416"
+   },
+   {
+    "n": 43,
+    "id": "FILY_2019",
+    "c": "Fily F, Ronat JB, Malou N, Kanapathipillai R, Seguin C, Hussein N, Fakhri RM, Langendorf C. Post-traumatic osteomyelitis in Middle East war-wounded civilians: resistance to first-line antibiotics in selected bacteria over the decade 2006–2016. BMC Infectious Diseases. 2019;19(1):103.",
+    "d": "10.1186/s12879-019-3741-9"
+   },
+   {
+    "n": 44,
+    "id": "GOSNEY_2013",
+    "c": "Gosney JE, Reinhardt JD, von Groote PM, Rathore FA, Melvin JL. Medical rehabilitation of spinal cord injury following earthquakes in rehabilitation resource-scarce settings: implications for disaster research. Spinal Cord. 2013;51(8):603-609.",
+    "d": "10.1038/sc.2013.50"
+   },
+   {
+    "n": 45,
+    "id": "HALACLI_2025",
+    "c": "Halacli B, Guven G, Kaya EK, Yildirim M, Bulut Yuksel ND, Kocak G, Bulut K, Gulen D, Erdemir Sullu B, Kilicaslan B, Seven AE, Gemcioglu E, Simsek M, Yuksel RC, Temel S, Kaynar AS, Deveci K, Alptekinoglu Mendil N, Aydin E, Ulger B, Esmaoglu A, Boyaci Dundar N, Ortac Ersoy E, Gundogan K, Akinci SB, Topeli A, on behalf of the Turkish Intensive Care Studies-Network (TRICS-Net). Evaluation of the clinical characteristics and outcomes of patients admitted to intensive care units after the Kahramanmaras (Türkiye) earthquake: a multicenter observational study. Frontiers in Medicine. 2025;12:1517344.",
+    "d": "10.3389/fmed.2025.1517344"
+   },
+   {
+    "n": 46,
+    "id": "HANNA_2020",
+    "c": "Hanna TP, King WD, Thibodeau S, Jalink M, Paulin GA, Harvey-Jones E, O'Sullivan DE, Booth CM, Sullivan R, Aggarwal A. Mortality due to cancer treatment delay: systematic review and meta-analysis. BMJ. 2020;371:m4087.",
+    "d": "10.1136/bmj.m4087"
+   },
+   {
+    "n": 47,
+    "id": "IDREES_2025",
+    "c": "Idrees MHD, Bashir MMI, Mohamed BAA, Ahmed AEA, Abdalla HMM, Shaaban KMA. April 15th war and hemodialysis patients in Sudan: a cross-sectional study. BMC Public Health. 2025;25:230.",
+    "d": "10.1186/s12889-025-21369-4"
+   },
+   {
+    "n": 48,
+    "id": "MENDES_2025",
+    "c": "Mendeş E, Gümüşburun N. A 10-Year Analysis of Surgical Interventions Applied to Migrants: A Border Hospital Experience During the Syrian Civil War. Turkish Journal of Anaesthesiology and Reanimation. 2025;53(5):263-276.",
+    "d": "10.4274/TJAR.2025.252054"
+   },
+   {
+    "n": 49,
+    "id": "MOITINHO_2019",
+    "c": "Moitinho de Almeida M, van Loenhout JAF, Thapa SS, Kumar KC, Schlüter BS, Singh R, Banse X, Putineanu D, Mahara DP, Guha-Sapir D. Clinical and demographic profile of admitted victims in a tertiary hospital after the 2015 earthquake in Nepal. PLoS ONE. 2019;14(7):e0220016.",
+    "d": "10.1371/journal.pone.0220016"
+   },
+   {
+    "n": 50,
+    "id": "NORTON_2013",
+    "c": "Norton I, von Schreeb J, Aitken P, Herard P, Lajolo C. Classification and Minimum Standards for Foreign Medical Teams in Sudden Onset Disasters. World Health Organization; 2013.",
+    "u": "https://cdn.who.int/media/docs/default-source/documents/publications/classification-and-minimum-standards-for-foreign-medical-teams-in-suddent-onset-disasters65829584-c349-4f98-b828-f2ffff4fe089.pdf"
+   },
+   {
+    "n": 51,
+    "id": "OZTURK_2024",
+    "c": "Ozturk I, Gungor O, Ozturk S, Olmaz R, Gunes Keskin AJ, Kocyigit I, Sipahioglu MH, Dede F, Ulu S, Turgutalp K, Torun D, Sahutoglu T, Erdur FM, Altunoren O, Danis R, Yildiz G, Gurel A, Horoz M, Kucuksu M, Karakose S, Yildirim T, Altiparmak MR, Ayli MD, Tugcu M, Eren Z, Eroglu E, Coskun Yavuz Y, Akcali E, Sit D, Polat M, Yildirim S, Alagoz S, Gokcay Bek S, Pembegul I, Karaaslan T, Keles M, Sari F, Yilmaz U, Gorgulu N, Sahin G, Aydin Z, Yadigar S, Ulutas O, Selcuk NY, Ayar Y, Turgut D, Oto OA, Koc M, Yıldız A, Tuglular S, Sever MS. Epidemiological analysis of the victıms wıth crush syndrome in earthquakes of southeastern Turkey. Journal of Nephrology. 2024;37(9):2589-2599.",
+    "d": "10.1007/s40620-024-02051-1"
+   },
+   {
+    "n": 52,
+    "id": "REDMOND_2011",
+    "c": "Redmond AD, Mardel S, Taithe B, Calvot T, Gosney J, Duttine A, Girois S. A Qualitative and Quantitative Study of the Surgical and Rehabilitation Response to the Earthquake in Haiti, January 2010. Prehospital and Disaster Medicine. 2011;26(6):449-456.",
+    "d": "10.1017/S1049023X12000088"
+   },
+   {
+    "n": 53,
+    "id": "YILMAZ_2023",
+    "c": "Yilmaz S. Transportation model utilized in the first week following the Kahramanmaraş earthquakes in Turkey - transport health centers. Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine. 2023;31:40. Correction: 2023;31:67.",
+    "d": "10.1186/s13049-023-01108-7"
+   }
+  ]
+ },
+ {
+  "k": "data",
+  "items": [
+   {
+    "n": 54,
+    "id": "EC_COVID_2020",
+    "c": "European Commission. Coronavirus: European Solidarity in action. Factsheet. 26 June 2020.",
+    "u": "https://ec.europa.eu/commission/presscorner/api/files/attachment/865847/Covid19_factsheet_EuropeanSolidarity_EN_26JUne.pdf.pdf"
+   },
+   {
+    "n": 55,
+    "id": "OWID_COVID",
+    "c": "Mathieu E, Ritchie H, Rodés-Guirao L, Appel C, Gavrilov D, Giattino C, Hasell J, Macdonald B, Dattani S, Beltekian D, Ortiz-Ospina E, Roser M. COVID-19 Pandemic. Our World in Data; 2020.",
+    "u": "https://ourworldindata.org/coronavirus"
+   },
+   {
+    "n": 56,
+    "id": "WHO_MEDEVAC_2025",
+    "c": "Medical evacuation of Gaza patients: Oct 2023 - 1 Dec 2025. Summary sheet hosted by the World Health Organization Regional Office for the Eastern Mediterranean.",
+    "u": "https://www.emro.who.int/images/stories/palestine/Medevac_1Dec25.pdf"
+   },
+   {
+    "n": 57,
+    "id": "UKR_MOH_2025",
+    "c": "Ministry of Health of Ukraine. Medevac Ukraine: over 5,600 Ukrainian patients have participated in the medical evacuation program abroad. 6 June 2025.",
+    "u": "https://moz.gov.ua/en/medevac-ukraine-over-5-600-ukrainian-patients-have-participated-in-the-medical-evacuation-program-abroad"
+   },
+   {
+    "n": 58,
+    "id": "NATURAL_EARTH",
+    "c": "Natural Earth. Free vector and raster map data.",
+    "u": "https://www.naturalearthdata.com"
+   },
+   {
+    "n": 59,
+    "id": "WHO_EUR_2026",
+    "c": "WHO Regional Office for Europe. Over 6400 Ukrainians receive life-saving treatment abroad through medical evacuations. News release. 3 March 2026.",
+    "u": "https://www.who.int/europe/news/item/03-03-2026-over-6400-ukrainians-receive-life-saving-treatment-abroad-through-medical-evacuations"
+   },
+   {
+    "n": 60,
+    "id": "WHO_HAB_2022",
+    "c": "World Health Organization. Health Access Barriers for patients in the occupied Palestinian territory. Monthly report, October 2022. Published 7 December 2022.",
+    "u": "https://www.emro.who.int/images/stories/palestine/Oct_2022_Monthly.pdf"
+   },
+   {
+    "n": 61,
+    "id": "WHO_GAZA_2025",
+    "c": "World Health Organization, Office for the occupied Palestinian territory. Estimating Trauma Rehabilitation Needs in Gaza: September 2025 Update. Technical note. 2 October 2025.",
+    "u": "https://cdn.who.int/media/docs/default-source/hq-whe/estimating-trauma-rehabilitation-needs-in-gaza-september-2025.pdf"
+   },
+   {
+    "n": 62,
+    "id": "WHO_EMRO_2026",
+    "c": "World Health Organization, Regional Office for the Eastern Mediterranean. One in four injuries in Gaza is life-changing while rehabilitation services struggle to keep pace, WHO reports. 12 May 2026.",
+    "u": "https://www.emro.who.int/opt/news/one-in-four-injuries-in-gaza-is-life-changing-while-rehabilitation-services-struggle-to-keep-pace-who-reports.html"
+   },
+   {
+    "n": 63,
+    "id": "WHO_REHAB_2021",
+    "c": "World Health Organization. Rehabilitation needs of people recovering from COVID-19. Scientific brief. WHO/2019-nCoV/Sci_Brief/Rehabilitation/2021.1. 29 November 2021.",
+    "u": "https://www.who.int/docs/default-source/coronaviruse/scientific-brief-rehabilitation-and-covid-19_.pdf"
+   }
+  ]
+ }
+]

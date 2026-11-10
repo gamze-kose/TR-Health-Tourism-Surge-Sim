@@ -91,7 +91,7 @@ Country profiles and the size of a crisis stay fixed over the years. The crisis 
 
 [4] Çubuk, M. (2022). Türkiye'de Büyükşehirlerin Sağlık Turizmi Potansiyellerinin CRITIC ve WASPAS Yöntemleri ile Karşılaştırılması. Bingöl Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi, 6(2), 147-174. https://doi.org/10.33399/biibfad.1139104
 
-[5] Taşar, M. T., & Buluk Eşitti, B. (2024). Sağlık Turizmi Yetki Belgesi Bulunan Sağlık Tesislerinin Web Sitelerinin İncelenmesi: Çanakkale Örneği. Turizm ve Araştırma Dergisi, 13(2), 151-179. https://doi.org/10.7460/turar.1520705
+[5] Taşar, M. T., & Buluk Eşitti, B. (2024). Sağlık Turizmi Yetki Belgesi Bulunan Sağlık Tesislerinin Web Sitelerinin İncelenmesi: Çanakkale Örneği. Turar Turizm ve Araştırma Dergisi, 13(2), 151-179. https://doi.org/10.7460/turar.1520705
 
 [6] Hasdemir, A. (27 September 2026). Antalya sağlık turizminde hangi alanlarda öne çıkıyor? Antalya Kent Haber. https://antalyakenthaber.com/antalya-saglik-turizminde-hangi-alanlarda-one-cikiyor-45591
 
@@ -99,7 +99,7 @@ Country profiles and the size of a crisis stay fixed over the years. The crisis 
 
 [8] Gardner, E. S., Jr., & McKenzie, E. (1985). Forecasting trends in time series. Management Science, 31(10), 1237-1246. https://doi.org/10.1287/mnsc.31.10.1237
 
-[9] Hyndman, R. J., & Athanasopoulos, G. (2021). Forecasting: Principles and Practice (3rd ed.). OTexts. https://otexts.com/fpp3/holt.html
+[9] Hyndman, R. J., & Athanasopoulos, G. (2021). Forecasting: Principles and Practice (3rd ed.). Melbourne: OTexts. https://otexts.com/fpp3/holt.html
 
 [10] TÜİK. Nüfus Projeksiyonları, 2023-2100. Bulletin 53699, 30 July 2024. Read through press reports, listed in `data/raw/outlook/SOURCES.md`.
 
@@ -107,7 +107,7 @@ Country profiles and the size of a crisis stay fixed over the years. The crisis 
 
 [12] TÜİK. İstatistiklerle Yaşlılar, 2025. Read through press reports, listed in `data/raw/outlook/SOURCES.md`.
 
-[13] Brick, A., Kakoulidou, T., & Humes, H. (2025). Projections of national demand and bed capacity requirements for public acute hospitals in Ireland, 2023-2040: Based on the Hippocrates model. ESRI Research Series 213. The Economic and Social Research Institute. https://doi.org/10.26504/rs213
+[13] Brick, A., Kakoulidou, T., & Humes, H. (2025). Projections of national demand and bed capacity requirements for public acute hospitals in Ireland, 2023–2040: Based on the Hippocrates model. ESRI Research Series 213. The Economic and Social Research Institute. https://doi.org/10.26504/rs213
 
 [14] Van den Heede, K., Bouckaert, N., & Van de Voorde, C. (2019). The impact of an ageing population on the required hospital capacity: results from forecast analysis on administrative data. European Geriatric Medicine, 10, 697-705. https://doi.org/10.1007/s41999-019-00219-8
 

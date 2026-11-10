@@ -1,4 +1,4 @@
-/* Health Tourism Surge Map: interface code. The simulation itself lives in engine.js and is the same code the batch analyses run. */
+/* Health Tourism Surge Capacity Simulator: interface code. The simulation itself lives in engine.js and is the same code the batch analyses run. */
 (function () {
 'use strict';
 const TR = DATA.tr || {};
@@ -167,7 +167,7 @@ function run(now) {
   };
   if (now) go(); else timer = setTimeout(go, 60);
 }
-function renderResults() { spark(); paint(); tintCountries(); renderBanner(); renderKPI(); renderSummary(); renderFindings(); renderBoard(true); renderRank(); renderPlanEff(); if (S.tab === 'needs') renderNeeds(); if (S.tab === 'impact') renderImpact(); if (S.tab === 'outlook') renderOutlook(); if (S.sel !== null) renderCity(); }
+function renderResults() { spark(); paint(); tintCountries(); renderBanner(); renderKPI(); renderSummary(); renderFindings(); renderBoard(true); renderRank(); renderPlanEff(); if (S.tab === 'needs') renderNeeds(); if (S.tab === 'refs') renderRefs(); if (S.tab === 'impact') renderImpact(); if (S.tab === 'outlook') renderOutlook(); if (S.sel !== null) renderCity(); }
 
 /* ---- Map ---- */
 const svg = $('chart');
@@ -1025,10 +1025,11 @@ function buildStatic() {
   $('lineKey').innerHTML = Object.entries(LAYERNAME).map(([k, v]) => `<span><span class="dot" style="background:${GC[k]}"></span>${esc(T(v))}</span>`).join('');
   $('strip').innerHTML = SVC.map((s) => `<button data-svc="${s.key}" aria-pressed="${S.service === s.key}" title="${esc(T(s.label))}">${tok(GC[s.layer], s.icon)}<span>${esc(T(s.short))}</span></button>`).join('');
   $('foot').innerHTML = DATA.foot[LANG];
+  const rf = $('refsFoot'); if (rf) rf.innerHTML = refsHTML();
   pinLabel(); mapLabels();
 }
 function applyLang() {
-  document.documentElement.lang = LANG; document.title = T('Health Tourism Surge Map');
+  document.documentElement.lang = LANG; document.title = T('Türkiye Health Tourism Surge Capacity Simulator');
   document.querySelectorAll('[data-t]').forEach((e) => { if (e.dataset.en === undefined) e.dataset.en = e.textContent; e.textContent = T(e.dataset.en); });
   document.querySelectorAll('[data-ta]').forEach((e) => e.setAttribute('aria-label', T(e.dataset.ta)));
   document.querySelectorAll('[data-tp]').forEach((e) => e.setAttribute('placeholder', T(e.dataset.tp)));
@@ -1039,12 +1040,28 @@ function applyLang() {
   if (S.ran) { renderResults(); } else if (S.res) paint();
 }
 
+/* ---- References ---- */
+function refGroupTitle(k) {
+  return ({ needs: T('Care needs after crises'), turkey: T('Türkiye: capacity, health tourism and regulation'), params: T('Hospital capacity, length of stay and cost'), methods: T('Methods'), data: T('Official reports and datasets') })[k] || k;
+}
+function refLink(r) {
+  if (r.d) return ` <a href="https://doi.org/${esc(r.d)}" rel="noopener" target="_blank">doi:${esc(r.d)}</a>`;
+  return r.u ? ` <a href="${esc(r.u)}" rel="noopener" target="_blank">${esc(r.u.replace(/^https?:\/\//, ''))}</a>` : '';
+}
+function refsHTML() {
+  return (DATA.refs || []).map((g) => `<section class="refgrp"><h3>${esc(refGroupTitle(g.k))}</h3><ul class="refs">${g.items.map((r) => `<li><span class="rn">[${r.n}]</span><span>${esc(r.c)}${refLink(r)}</span></li>`).join('')}</ul></section>`).join('');
+}
+function renderRefs() {
+  $('t-refs').innerHTML = `<div class="card"><h2>${ic('bookmark')}${T('References')}</h2><p class="note">${T('Peer-reviewed articles, official publications and datasets the model draws on. Each record was checked in November 2026 against the publisher, the issuing body or another authoritative record. A few figures come from news reports of official statements or from sources whose details could not be confirmed. Those are named in the Settings tab and are not part of this list.')}</p>${refsHTML()}</div>`;
+}
+
 /* ---- Wiring ---- */
 function setTab(k) {
-  S.tab = k; ['summary', 'outlook', 'needs', 'cities', 'impact', 'settings'].forEach((t) => { $('tab-' + t).setAttribute('aria-selected', t === k); $('t-' + t).hidden = t !== k; });
+  S.tab = k; ['summary', 'outlook', 'needs', 'cities', 'impact', 'settings', 'refs'].forEach((t) => { $('tab-' + t).setAttribute('aria-selected', t === k); $('t-' + t).hidden = t !== k; });
   if (k === 'outlook') renderOutlook();
   if (k === 'impact') renderImpact();
   if (k === 'needs') renderNeeds();
+  if (k === 'refs') renderRefs();
 }
 function selectService(k, stay) {
   S.service = S.service === k ? null : k; if (S.service) { if (S.layer !== 'need') S.layer = 'pot'; } else S.layer = 'load'; $('layer').value = S.layer;
@@ -1106,7 +1123,7 @@ svg.addEventListener('click', (e) => {
 });
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && S.sel !== null) { S.sel = null; $('citySel').value = ''; paint(); renderCity(); renderHint(); } });
 document.querySelectorAll('.cam button').forEach((b) => { b.onclick = () => setCam(b.dataset.cam); });
-['summary', 'outlook', 'needs', 'cities', 'impact', 'settings'].forEach((t) => { $('tab-' + t).onclick = () => setTab(t); });
+['summary', 'outlook', 'needs', 'cities', 'impact', 'settings', 'refs'].forEach((t) => { $('tab-' + t).onclick = () => setTab(t); });
 $('country').onchange = (e) => { if (e.target.value) pickCountry(e.target.value); };
 $('next1').onclick = () => goStep(2); $('next2').onclick = () => goStep(3); $('next3').onclick = () => goStep(4); $('runBtn').onclick = runScenario; $('runNow').onclick = runScenario;
 $('year').oninput = (e) => { S.plan.year = +e.target.value; $('o-year').textContent = S.plan.year; $('yearFacts').innerHTML = yearFacts(); syncHz(); run(); };

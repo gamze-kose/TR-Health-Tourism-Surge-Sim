@@ -326,7 +326,6 @@
 "Half of the injuries on a WHO register of patients needing medical evacuation from a conflict zone were major limb injuries.": "Bir çatışma bölgesinden tıbbi tahliye gerektiren hastalara ilişkin bir WHO kaydındaki yaralanmaların yarısını ağır uzuv yaralanmaları oluşturmuştur.",
 "Half the usual clearance.": "Olağan çıkış onayı sayısının yarısı.",
 "Hattusha: the Hittite Capital": "Hattuşa: Hitit Başkenti",
-"Health Tourism Surge Map": "Sağlık Turizmi Acil Kapasite Haritası",
 "Health capacity": "Sağlık kapasitesi",
 "Health system, 2015 to 2024": "Sağlık sistemi, 2015-2024",
 "Health tourism already here": "Mevcut sağlık turizmi",
@@ -1036,5 +1035,15 @@
 "No city has been changed, so the default values will be used.": "Hiçbir şehir değiştirilmedi, varsayılan değerler kullanılacak.",
 "{v} patients admitted. Average wait {b} days, against {a} with the default values.": "{v} hasta kabul edildi. Ortalama bekleme {b} gün, varsayılan değerlerle {a} gün.",
 "In {y}, {n} of the 81 cities can receive patients from abroad. Striped cities have no authorised hospital on record and receive nobody until a unit opens. Change a city to test your own assumptions, or leave them all as they are. The default values are the latest data in the model, carried forward to the chosen year.": "{y} yılında 81 şehrin {n} tanesi yurt dışından hasta kabul edebiliyor. Çizgili şehirlerde kayıtlı yetkili hastane yoktur, birim açılana kadar buraya hasta gitmez. Kendi varsayımlarınızı denemek için bir şehri değiştirin ya da hiçbirine dokunmayın. Varsayılan değerler modeldeki en güncel verilerin seçilen yıla taşınmış hâlidir.",
-"Run with the default values": "Varsayılan değerlerle çalıştır"
+"Run with the default values": "Varsayılan değerlerle çalıştır",
+"Health Tourism Surge Capacity Simulator": "Sağlık Turizmi Acil Kapasite Simülatörü",
+"Türkiye Health Tourism Surge Capacity Simulator": "Türkiye Sağlık Turizmi Acil Kapasite Simülatörü",
+"Sources": "Kaynaklar",
+"References": "Kaynakça",
+"Care needs after crises": "Krizlerin ardından ortaya çıkan bakım ihtiyaçları",
+"Türkiye: capacity, health tourism and regulation": "Türkiye: Kapasite, sağlık turizmi ve mevzuat",
+"Hospital capacity, length of stay and cost": "Hastane kapasitesi, yatış süresi ve maliyet",
+"Methods": "Yöntemler",
+"Official reports and datasets": "Resmî raporlar ve veri kümeleri",
+"Peer-reviewed articles, official publications and datasets the model draws on. Each record was checked in November 2026 against the publisher, the issuing body or another authoritative record. A few figures come from news reports of official statements or from sources whose details could not be confirmed. Those are named in the Settings tab and are not part of this list.": "Modelin dayandığı hakemli makaleler, resmî yayınlar ve veri kümeleri. Her künye Kasım 2026'da yayıncı, yayımlayan kurum veya başka bir yetkili kayıtla karşılaştırılmıştır. Az sayıda değer, resmî açıklamalara ilişkin basın haberlerinden veya künyesi doğrulanamayan kaynaklardan alınmıştır. Bunlar Ayarlar sekmesinde belirtilmiştir ve bu listede yer almamaktadır."
 }

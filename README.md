@@ -1,12 +1,13 @@
-<h1 align="center">TR-Health-Tourism-Surge-Sim</h1> 
+<h1 align="center">Türkiye Health Tourism Surge Capacity Simulator</h1>
+<h3 align="center">Türkiye Sağlık Turizmi Acil Kapasite Simülatörü</h3>
 
 <p align="center">
-  <strong>If a crisis happened in a country you choose, how much of the care it needs could Türkiye's health tourism infrastructure provide, today and by 2047?</strong><br>
-  A province-level simulation of hypothetical scenarios, in English and Turkish, based on published evidence.
+  <strong>Province-level scenarios of how much of the care created by epidemics, disasters and armed conflicts abroad Türkiye's health tourism infrastructure could provide, from 2027 to 2047.</strong><br>
+  All scenarios are hypothetical. In English and Turkish, based on published evidence.
 </p>
 
 <p align="center">
-  <em>Seçtiğiniz bir ülkede kriz yaşansa, ortaya çıkan bakım ihtiyacının ne kadarını Türkiye'nin sağlık turizmi altyapısı bugün ve 2047'ye kadar karşılayabilir?</em>
+  <em>Yurt dışındaki salgın, afet ve silahlı çatışmaların doğurduğu bakım ihtiyacının ne kadarının Türkiye'nin sağlık turizmi altyapısıyla 2027-2047 döneminde karşılanabileceğini gösteren, il düzeyinde varsayımsal senaryolar.</em>
 </p>
 
 <p align="center">
@@ -49,7 +50,7 @@
 
 Epidemics, natural disasters and armed conflicts can create care needs that the affected health system cannot meet. People living through a crisis do not travel for elective treatment. They need limb reconstruction, prostheses, rehabilitation after spinal cord or brain injury, burn care, kidney support after crush injury, and the cancer or dialysis treatment that the crisis has cut off.
 
-Türkiye has built a large health tourism sector, with authorised hospitals, international patient services, transport links, hotels and thermal facilities. How much of these needs that infrastructure could meet has not been measured. The 2025 health tourism regulation mentions war and disaster in one place, Article 2, which allows a presidential decision to designate countries whose patients are treated outside the regulation's commercial rules.
+Türkiye has built a large health tourism sector, with authorised hospitals, international patient services, transport links, hotels and thermal facilities, and it received 1,398,580 health tourists in 2025 [21]. How much of these needs that infrastructure could meet has not been measured. The 2025 health tourism regulation mentions war and disaster in one place: Article 2(2)(a) places patients and injured people from countries designated by presidential decision in such situations outside its scope [22].
 
 **Research question.** How much of the treatment needs that disasters, wars and epidemics would create, and that could not be met locally, could Türkiye's health tourism infrastructure meet, in which cities, under what conditions, and how will this change by 2047?
 
@@ -57,7 +58,7 @@ Türkiye has built a large health tourism sector, with authorised hospitals, int
 
 ## Key findings
 
-**The reserve is real, but it sits in few places.** Authorised hospitals are found in 60 of Türkiye's 81 provinces (44 named in published sources, 16 inferred from regional counts), and in each reference scenario 10 to 17 cities take 80% of the patients. After a hypothetical earthquake next door, 96% of referred patients are admitted (5th to 95th percentile: 91 to 98). In a year of armed conflict with an open corridor the share is 72% (55 to 91). In foreign crises no province goes above 85% occupancy, and idle authorised beds meet the reference demand, so paying patients do not have to be displaced.
+**The reserve is real, but it sits in few places.** Authorised hospitals are found in 60 of Türkiye's 81 provinces (44 named in published sources, 16 inferred from regional counts) [9, 10, 11, 17, 23], and in each reference scenario 10 to 17 cities take 80% of the patients. After a hypothetical earthquake next door, 96% of referred patients are admitted (5th to 95th percentile: 91 to 98). In a year of armed conflict with an open corridor the share is 72% (55 to 91). In foreign crises no province goes above 85% occupancy, and idle authorised beds meet the reference demand, so paying patients do not have to be displaced.
 
 **Beds are not what runs short.** Cancer care is the first limit: in an open-corridor conflict 1,196 of 3,300 cancer patients are admitted. Inpatient rehabilitation saturates at two to four times the reference casualties. When the exit from the country is restricted, only 20% (8 to 33) are admitted, and daily exit clearance explains 82% of the variance. In conflict, 63% are admitted with an unplanned response and 81% with a coordinated response prepared in advance.
 
@@ -123,13 +124,15 @@ Tap a city to see why patients go there, how it has changed since 2015, how read
 
 <table><tr><td><img src="docs/img/en/13-city-past.png" width="430" alt="City panel: past years"></td><td><img src="docs/img/en/14-city-forecast.png" width="430" alt="City panel: forecast and capacity"></td></tr></table>
 
-### Needs, Cities, Impact and Settings
+### Needs, Cities, Impact, Settings and Sources
 
-Needs sets out each care need with its evidence and sources. Cities rates every city for every need and lets you add stars for your own forecast. Impact gives the potential for Türkiye, who would pay and what holds the response back. Settings holds every parameter with its basis, and a code to save or share the setup.
+Needs sets out each care need with its evidence and sources. Cities rates every city for every need and lets you add stars for your own forecast. Impact gives the potential for Türkiye, who would pay and what holds the response back. Settings holds every parameter with its basis, and a code to save or share the setup. Sources lists the published works the model draws on.
 
 <table><tr><td><img src="docs/img/en/16-needs.png" width="430" alt="Needs tab"></td><td><img src="docs/img/en/17-cities-tab.png" width="430" alt="Cities tab"></td></tr></table>
 
 <table><tr><td><img src="docs/img/en/18-impact.png" width="430" alt="Impact tab"></td><td><img src="docs/img/en/19-settings.png" width="430" alt="Settings tab"></td></tr></table>
+
+<p align="center"><img src="docs/img/en/21-sources.png" width="620" alt="Sources tab"></p>
 
 ### On a phone
 
@@ -150,25 +153,29 @@ The study first sets out what the literature reports for each need. The full tab
 
 The people in the first two layers are patients, not tourists. The study therefore speaks of the infrastructure of health tourism and not of tourists.
 
+The evidence comes from studies of injuries and rehabilitation after earthquakes [39, 40, 42, 44, 45, 49, 51, 52, 53], war wounds and rehabilitation needs in conflict [41, 43, 48, 61, 62], treatment cut off by crises [37, 38, 46, 47, 60], recovery after critical illness [63], medical evacuation programmes [54, 56, 57, 59] and minimum standards for emergency medical teams [35, 50].
+
 ## Model
 
 The engine is a stochastic, capacity-constrained compartmental network model with a daily time step over one year. All analyses and the map run on the same file, `src/engine.js`.
 
-**Places.** Provinces of Türkiye, 178 countries that can be chosen, and a domestic node for a disaster inside Türkiye. A health facility must hold the Ministry of Health's authorisation certificate before it can treat international patients. Patients therefore go only to provinces with an authorised hospital: 60 of 81, based on the count of 650 hospitals in December 2024. The other 21 receive nobody until a unit opens there. The rule and its limits are in [`docs/course_of_years.md`](docs/course_of_years.md).
+**Places.** Provinces of Türkiye, 178 countries that can be chosen, and a domestic node for a disaster inside Türkiye. A health facility must hold the Ministry of Health's authorisation certificate before it can treat international patients [22]. Patients therefore go only to provinces with an authorised hospital: 60 of 81, based on the count of 650 hospitals in December 2024 [9, 10, 11, 17, 23]. The other 21 receive nobody until a unit opens there. The rule and its limits are in [`docs/course_of_years.md`](docs/course_of_years.md).
 
 **Common country parameters.** Every country is described in the same way: population, hospital beds per 1,000 people, human development index, share of people aged 65 or over, diabetes prevalence, road border gates with Türkiye and travel time. A crisis is built from these parameters and from figures published on past events. The rules are in [`docs/scenario_rules.md`](docs/scenario_rules.md).
 
-**Care lines.** Intensive care, trauma and reconstruction, dialysis, oncology, inpatient rehabilitation and step-down care. Each line has Erlang-distributed stays, and a patient waiting for the next line keeps occupying a bed. Referrals on each line are split into 17 needs using published injury and referral patterns.
+**Care lines.** Intensive care, trauma and reconstruction, dialysis, oncology, inpatient rehabilitation and step-down care. Each line has Erlang-distributed stays [29, 32, 40], and a patient waiting for the next line keeps occupying a bed. Referrals on each line are split into 17 needs using published injury and referral patterns.
 
-**Reserve.** Idle beds in authorised facilities, counted up to a safe occupancy of 85%, a released share of beds used by paying patients, rehabilitation hospital beds, haemodialysis capacity, radiotherapy capacity, and thermal and hotel beds for step-down care.
+**Reserve.** Idle beds in authorised facilities, counted up to a safe occupancy of 85% [25], a released share of beds used by paying patients, rehabilitation hospital beds [7, 15], haemodialysis capacity [24, 30, 31], radiotherapy capacity [8], and thermal and hotel beds for step-down care.
 
 **Getting patients here.** Daily exit clearance, land corridors, a shared air pool, case coordinators, then placement by capacity and travel time.
 
-**The course of the years.** Beds, intensive care beds and specialists follow each province's trend for 2015 to 2024, damped year by year. Population and ageing follow the main scenario of TÜİK, and domestic demand for beds rises with them. Three development paths show what can be done. The equations and every target are in [`docs/course_of_years.md`](docs/course_of_years.md).
+**The course of the years.** Beds, intensive care beds and specialists follow each province's trend for 2015 to 2024, damped year by year [1, 4]. Population and ageing follow the main scenario of TÜİK [18, 19, 20], and domestic demand for beds rises with them [27, 34]. Three development paths show what can be done. The equations and every target are in [`docs/course_of_years.md`](docs/course_of_years.md).
 
-**City readiness.** Each city is rated for each need with TOPSIS, using 20 indicators of specialised care, general capacity, tourism facilities, access and existing health tourism. Details are in [`docs/city_readiness.md`](docs/city_readiness.md).
+**City readiness.** Each city is rated for each need with TOPSIS [3], using 20 indicators of specialised care [8, 13, 14], general capacity, tourism facilities, access and existing health tourism. Details are in [`docs/city_readiness.md`](docs/city_readiness.md).
 
-**Analysis.** 2,000 Monte Carlo runs per scenario over parameter uncertainty and Poisson referral noise, Sobol indices with SALib, removal of one limit at a time, policy packages, saturation tests and greedy hub selection. Mass balance, extreme conditions, monotonicity and reproducibility are tested in `tests/test_engine.js`.
+**Parameters.** Occupancy limits, the activation of idle capacity, lengths of stay, dialysis, rehabilitation, costs and ageing effects come from published work [7, 15, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]. Values without a published basis are stated as assumptions.
+
+**Analysis.** 2,000 Monte Carlo runs per scenario over parameter uncertainty and Poisson referral noise, Sobol indices [5, 6] with SALib [2], removal of one limit at a time, policy packages, saturation tests and greedy hub selection. Mass balance, extreme conditions, monotonicity and reproducibility are tested in `tests/test_engine.js`.
 
 ## Results
 
@@ -231,7 +238,7 @@ Where exit permits set the limit, as under restricted exit, Türkiye's own inves
 
 ## Data and limits
 
-Country parameters are national averages from the United Nations, the World Bank, the OECD, UNDP and the International Diabetes Federation, compiled by Our World in Data. Beds, intensive care beds, occupancy and workforce in Türkiye are province-level figures from the Ministry of Health yearbooks, 2015 to 2024. Sources and caveats are listed in [`data/SOURCES.md`](data/SOURCES.md), and all 158 parameters are listed with their basis in [`docs/parameters.md`](docs/parameters.md).
+Country parameters are national averages from the United Nations, the World Bank, the OECD, UNDP and the International Diabetes Federation, compiled by Our World in Data [55]. Beds, intensive care beds, occupancy and workforce in Türkiye are province-level figures from the Ministry of Health yearbooks, 2015 to 2024 [12, 16]. Map boundaries are from Natural Earth [58]. Sources and caveats are listed in [`data/SOURCES.md`](data/SOURCES.md), and all 158 parameters are listed with their basis in [`docs/parameters.md`](docs/parameters.md).
 
 Which provinces can receive patients is known by region only. The Ministry's list of authorised facilities declined automated reading. Of the 60 receiving provinces, 44 are named in published sources and 16 are inferred from the regional count. Each city panel says which, and the list can be replaced in one place. Health tourist shares, authorised beds, rehabilitation beds and oncology places by province are estimates built from national totals. No province list of burn units, rehabilitation hospitals, prosthetic workshops or paediatric centres was found.
 
@@ -274,7 +281,7 @@ The abstract is in [`docs/abstract_INHSC2026.md`](docs/abstract_INHSC2026.md).
 
 Salgınlar, doğal afetler ve silahlı çatışmalar, etkilenen sağlık sisteminin karşılayamayacağı bakım ihtiyaçları doğurabilmektedir. Kriz yaşayan insanlar seçmeli bir tedavi için yola çıkmaz. Onların ihtiyacı uzuv rekonstrüksiyonu, protez, omurilik veya beyin yaralanması sonrası rehabilitasyon, yanık bakımı, ezilme yaralanması sonrası böbrek desteği ve krizin kestiği kanser veya diyaliz tedavisidir.
 
-Türkiye, yetkili hastaneleri, uluslararası hasta birimleri, ulaşım bağlantıları, otelleri ve termal tesisleriyle büyük bir sağlık turizmi sektörü kurmuştur. Bu altyapının söz konusu ihtiyaçların ne kadarını karşılayabileceği ise ölçülmemiştir. 2025 tarihli sağlık turizmi yönetmeliği savaş ve afetten yalnızca 2. maddesinde söz etmekte, Cumhurbaşkanı kararıyla belirlenen ülkelerin hastalarının yönetmeliğin ticari kuralları dışında tedavi edilebilmesine imkân tanımaktadır.
+Türkiye, yetkili hastaneleri, uluslararası hasta birimleri, ulaşım bağlantıları, otelleri ve termal tesisleriyle büyük bir sağlık turizmi sektörü kurmuş, 2025 yılında 1.398.580 sağlık turisti ağırlamıştır [21]. Bu altyapının söz konusu ihtiyaçların ne kadarını karşılayabileceği ise ölçülmemiştir. 2025 tarihli sağlık turizmi yönetmeliği savaş ve afetten yalnızca bir yerde söz etmektedir: 2. maddenin ikinci fıkrasının (a) bendi, savaş, afet ve benzeri olağanüstü durumlarda Cumhurbaşkanı kararıyla belirlenen ülkelerden gelen hasta ve yaralıları yönetmeliğin kapsamı dışında bırakmaktadır [22].
 
 **Araştırma sorusu.** Afetlerin, savaşların ve salgınların doğuracağı ve yerinde karşılanamayacak tedavi ihtiyaçlarının ne kadarı, hangi şehirlerde ve hangi koşullarda Türkiye'nin sağlık turizmi altyapısıyla karşılanabilir, bu durum 2047'ye kadar nasıl değişir?
 
@@ -282,7 +289,7 @@ Türkiye, yetkili hastaneleri, uluslararası hasta birimleri, ulaşım bağlant�
 
 ## Önemli bulgular
 
-**Rezerv gerçektir, ancak az sayıda yerde toplanmaktadır.** Yetkili hastaneler Türkiye'nin 81 ilinin 60'ında bulunmakta (44'ü yayımlanmış kaynaklarda adı geçen, 16'sı bölgesel sayımlardan çıkarılan iller), her referans senaryoda hastaların %80'ini 10-17 şehir kabul etmektedir. Komşu ülkede yaşanan varsayımsal bir depremde sevk edilen hastaların %96'sı kabul edilmektedir (5.-95. yüzdelik: 91-98). Koridorun açık olduğu bir yıllık silahlı çatışmada bu oran %72'dir (55-91). Yurt dışı krizlerde hiçbir ilde doluluk %85'i aşmamakta, atıl yetkili yataklar referans talebi karşılamaktadır. Bu nedenle ödeme yapan hastaların yerinden edilmesi gerekmemektedir.
+**Rezerv gerçektir, ancak az sayıda yerde toplanmaktadır.** Yetkili hastaneler Türkiye'nin 81 ilinin 60'ında bulunmakta (44'ü yayımlanmış kaynaklarda adı geçen, 16'sı bölgesel sayımlardan çıkarılan iller) [9, 10, 11, 17, 23], her referans senaryoda hastaların %80'ini 10-17 şehir kabul etmektedir. Komşu ülkede yaşanan varsayımsal bir depremde sevk edilen hastaların %96'sı kabul edilmektedir (5.-95. yüzdelik: 91-98). Koridorun açık olduğu bir yıllık silahlı çatışmada bu oran %72'dir (55-91). Yurt dışı krizlerde hiçbir ilde doluluk %85'i aşmamakta, atıl yetkili yataklar referans talebi karşılamaktadır. Bu nedenle ödeme yapan hastaların yerinden edilmesi gerekmemektedir.
 
 **Eksik olan yatak değildir.** İlk sınır kanser bakımıdır: Koridorun açık olduğu çatışmada 3.300 kanser hastasından 1.196'sı kabul edilebilmektedir. Yatarak rehabilitasyon, referans yaralı sayısının iki ila dört katında doygunluğa ulaşmaktadır. Ülkeden çıkış kısıtlandığında kabul oranı %20'ye (8-33) düşmekte, varyansın %82'sini günlük çıkış izni açıklamaktadır. Çatışmada kabul oranı hazırlıksız bir müdahalede %63 iken önceden hazırlanmış eşgüdümlü bir müdahalede %81'dir.
 
@@ -348,13 +355,15 @@ Bir şehre dokunduğunuzda hastaların neden oraya gittiğini, şehrin 2015'ten 
 
 <table><tr><td><img src="docs/img/tr/13-city-past.png" width="430" alt="Şehir paneli: Geçmiş yıllar"></td><td><img src="docs/img/tr/14-city-forecast.png" width="430" alt="Şehir paneli: Öngörü ve kapasite"></td></tr></table>
 
-### İhtiyaçlar, Şehirler, Etki ve Ayarlar
+### İhtiyaçlar, Şehirler, Etki, Ayarlar ve Kaynaklar
 
-İhtiyaçlar sekmesi her bakım ihtiyacını kanıtı ve kaynaklarıyla ortaya koyar. Şehirler sekmesi her şehri her ihtiyaç için derecelendirir ve kendi öngörünüz için yıldız vermenize imkân tanır. Etki sekmesi Türkiye için potansiyeli, masrafı kimin ödeyeceğini ve yanıtı neyin sınırladığını gösterir. Ayarlar sekmesinde dayanaklarıyla birlikte bütün parametreler ve kurulumu saklamaya ya da paylaşmaya yarayan bir kod bulunur.
+İhtiyaçlar sekmesi her bakım ihtiyacını kanıtı ve kaynaklarıyla ortaya koyar. Şehirler sekmesi her şehri her ihtiyaç için derecelendirir ve kendi öngörünüz için yıldız vermenize imkân tanır. Etki sekmesi Türkiye için potansiyeli, masrafı kimin ödeyeceğini ve yanıtı neyin sınırladığını gösterir. Ayarlar sekmesinde dayanaklarıyla birlikte bütün parametreler ve kurulumu saklamaya ya da paylaşmaya yarayan bir kod bulunur. Kaynaklar sekmesi modelin dayandığı yayınları listeler.
 
 <table><tr><td><img src="docs/img/tr/16-needs.png" width="430" alt="İhtiyaçlar sekmesi"></td><td><img src="docs/img/tr/17-cities-tab.png" width="430" alt="Şehirler sekmesi"></td></tr></table>
 
 <table><tr><td><img src="docs/img/tr/18-impact.png" width="430" alt="Etki sekmesi"></td><td><img src="docs/img/tr/19-settings.png" width="430" alt="Ayarlar sekmesi"></td></tr></table>
+
+<p align="center"><img src="docs/img/tr/21-sources.png" width="620" alt="Kaynaklar sekmesi"></p>
 
 ### Telefonda
 
@@ -375,25 +384,29 @@ Harita üstte sabit kalır, adımlar ve sonuçlar altında kayar.
 
 İlk iki katmandaki kişiler turist değil, hastadır. Bu nedenle çalışmada turistlerden değil, sağlık turizminin altyapısından söz edilmektedir.
 
+Kanıtlar, depremlerden sonraki yaralanma ve rehabilitasyon çalışmalarına [39, 40, 42, 44, 45, 49, 51, 52, 53], çatışmalardaki savaş yaralanmalarına ve rehabilitasyon ihtiyaçlarına [41, 43, 48, 61, 62], krizlerin kestiği tedavilere [37, 38, 46, 47, 60], kritik hastalık sonrası iyileşmeye [63], tıbbi tahliye programlarına [54, 56, 57, 59] ve acil tıp ekipleri için asgari standartlara [35, 50] dayanmaktadır.
+
 ## Model
 
 Motor, bir yıl boyunca günlük adımla çalışan, stokastik ve kapasite kısıtlı bir kompartman ağ modelidir. Bütün analizler ve harita aynı dosyayı, `src/engine.js` dosyasını kullanmaktadır.
 
-**Yerler.** Türkiye'nin illeri, seçilebilen 178 ülke ve Türkiye içindeki bir afet için yurt içi düğüm. Bir sağlık tesisinin uluslararası hasta tedavi edebilmesi için Sağlık Bakanlığından yetki belgesi alması gerekir. Bu nedenle hastalar yalnızca yetkili hastanesi olan illere gitmektedir: Aralık 2024'teki 650 hastane sayımına göre 81 ilin 60'ı. Diğer 21 ile, birim açılana kadar hasta gönderilmez. Kural ve sınırları [`docs/course_of_years.md`](docs/course_of_years.md) dosyasındadır.
+**Yerler.** Türkiye'nin illeri, seçilebilen 178 ülke ve Türkiye içindeki bir afet için yurt içi düğüm. Bir sağlık tesisinin uluslararası hasta tedavi edebilmesi için Sağlık Bakanlığından yetki belgesi alması gerekir [22]. Bu nedenle hastalar yalnızca yetkili hastanesi olan illere gitmektedir: Aralık 2024'teki 650 hastane sayımına göre 81 ilin 60'ı [9, 10, 11, 17, 23]. Diğer 21 ile, birim açılana kadar hasta gönderilmez. Kural ve sınırları [`docs/course_of_years.md`](docs/course_of_years.md) dosyasındadır.
 
 **Ülkelerin ortak parametreleri.** Her ülke aynı biçimde tanımlanmaktadır: Nüfus, 1.000 kişi başına hastane yatağı, insani gelişme endeksi, 65 yaş ve üzeri nüfusun payı, diyabet prevalansı, Türkiye ile kara sınır kapıları ve seyahat süresi. Kriz bu parametrelerden ve geçmiş olaylara ilişkin yayımlanmış sayılardan kurulur. Kurallar [`docs/scenario_rules.md`](docs/scenario_rules.md) dosyasındadır.
 
-**Bakım hatları.** Yoğun bakım, travma ve rekonstrüksiyon, diyaliz, onkoloji, yatarak rehabilitasyon ve ara bakım. Her hatta yatış süreleri Erlang dağılımını izler, bir sonraki hattı bekleyen hasta yatağı işgal etmeyi sürdürür. Her hattaki sevkler, yayımlanmış yaralanma ve sevk örüntüleriyle 17 ihtiyaca ayrılmaktadır.
+**Bakım hatları.** Yoğun bakım, travma ve rekonstrüksiyon, diyaliz, onkoloji, yatarak rehabilitasyon ve ara bakım. Her hatta yatış süreleri Erlang dağılımını izler [29, 32, 40], bir sonraki hattı bekleyen hasta yatağı işgal etmeyi sürdürür. Her hattaki sevkler, yayımlanmış yaralanma ve sevk örüntüleriyle 17 ihtiyaca ayrılmaktadır.
 
-**Rezerv.** Yetkili tesislerdeki, %85 güvenli doluluğa kadar sayılan atıl yataklar, ödeme yapan hastaların kullandığı yatakların serbest bırakılan bir payı, rehabilitasyon hastanesi yatakları, hemodiyaliz kapasitesi, radyoterapi kapasitesi ve ara bakım için termal ve otel yatakları.
+**Rezerv.** Yetkili tesislerdeki, %85 güvenli doluluğa kadar sayılan atıl yataklar [25], ödeme yapan hastaların kullandığı yatakların serbest bırakılan bir payı, rehabilitasyon hastanesi yatakları [7, 15], hemodiyaliz kapasitesi [24, 30, 31], radyoterapi kapasitesi [8] ve ara bakım için termal ve otel yatakları.
 
 **Hastaların Türkiye'ye gelişi.** Günlük çıkış izni, kara koridorları, ortak hava kapasitesi, vaka koordinatörleri, ardından kapasiteye ve seyahat süresine göre yerleştirme.
 
-**Yılların seyri.** Yatak, yoğun bakım yatağı ve uzman hekim sayıları her ilin 2015-2024 eğilimini, yıldan yıla sönümlenerek izlemektedir. Nüfus ve yaşlanma TÜİK ana senaryosuna dayanmakta, yatağa yurt içi talep de bunlarla birlikte artmaktadır. Neler yapılabileceğini üç gelişim yolu göstermektedir. Denklemler ve bütün hedefler [`docs/course_of_years.md`](docs/course_of_years.md) dosyasındadır.
+**Yılların seyri.** Yatak, yoğun bakım yatağı ve uzman hekim sayıları her ilin 2015-2024 eğilimini, yıldan yıla sönümlenerek izlemektedir [1, 4]. Nüfus ve yaşlanma TÜİK ana senaryosuna dayanmakta [18, 19, 20], yatağa yurt içi talep de bunlarla birlikte artmaktadır [27, 34]. Neler yapılabileceğini üç gelişim yolu göstermektedir. Denklemler ve bütün hedefler [`docs/course_of_years.md`](docs/course_of_years.md) dosyasındadır.
 
-**Şehirlerin hazırlığı.** Her şehir, her ihtiyaç için TOPSIS ile derecelendirilmektedir. Bu amaçla uzmanlaşmış bakım, genel kapasite, turizm tesisleri, erişim ve mevcut sağlık turizmine ilişkin 20 gösterge kullanılmaktadır. Ayrıntılar [`docs/city_readiness.md`](docs/city_readiness.md) dosyasındadır.
+**Şehirlerin hazırlığı.** Her şehir, her ihtiyaç için TOPSIS ile derecelendirilmektedir [3]. Bu amaçla uzmanlaşmış bakım [8, 13, 14], genel kapasite, turizm tesisleri, erişim ve mevcut sağlık turizmine ilişkin 20 gösterge kullanılmaktadır. Ayrıntılar [`docs/city_readiness.md`](docs/city_readiness.md) dosyasındadır.
 
-**Analiz.** Parametre belirsizliği ve Poisson sevk gürültüsü üzerinden senaryo başına 2.000 Monte Carlo koşusu, SALib ile Sobol indeksleri, sınırların tek tek kaldırılması, politika paketleri, doygunluk testleri ve açgözlü merkez seçimi. Kütle dengesi, uç koşullar, monotonluk ve yeniden üretilebilirlik `tests/test_engine.js` dosyasında sınanmaktadır.
+**Parametreler.** Doluluk sınırları, atıl kapasitenin devreye alınması, yatış süreleri, diyaliz, rehabilitasyon, maliyetler ve yaşlanmanın etkileri yayımlanmış çalışmalara dayanmaktadır [7, 15, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]. Yayımlanmış dayanağı olmayan değerler varsayım olarak belirtilmiştir.
+
+**Analiz.** Parametre belirsizliği ve Poisson sevk gürültüsü üzerinden senaryo başına 2.000 Monte Carlo koşusu, SALib [2] ile Sobol indeksleri [5, 6], sınırların tek tek kaldırılması, politika paketleri, doygunluk testleri ve açgözlü merkez seçimi. Kütle dengesi, uç koşullar, monotonluk ve yeniden üretilebilirlik `tests/test_engine.js` dosyasında sınanmaktadır.
 
 ## Sonuçlar
 
@@ -456,7 +469,7 @@ Kısıtlı çıkışta olduğu gibi sınırı çıkış izinleri belirlediğinde
 
 ## Veriler ve sınırlar
 
-Ülke parametreleri, Birleşmiş Milletler, Dünya Bankası, OECD, UNDP ve Uluslararası Diyabet Federasyonu verilerine dayanan ve Our World in Data tarafından derlenen ulusal ortalamalardır. Türkiye'ye ilişkin yatak, yoğun bakım, doluluk ve iş gücü verileri, Sağlık Bakanlığının 2015-2024 yıllıklarından alınan il düzeyindeki verilerdir. Kaynaklar ve uyarılar [`data/SOURCES.md`](data/SOURCES.md) dosyasında, dayanaklarıyla birlikte 158 parametrenin tamamı [`docs/parameters.md`](docs/parameters.md) dosyasında yer almaktadır.
+Ülke parametreleri, Birleşmiş Milletler, Dünya Bankası, OECD, UNDP ve Uluslararası Diyabet Federasyonu verilerine dayanan ve Our World in Data tarafından derlenen ulusal ortalamalardır [55]. Türkiye'ye ilişkin yatak, yoğun bakım, doluluk ve iş gücü verileri, Sağlık Bakanlığının 2015-2024 yıllıklarından alınan il düzeyindeki verilerdir [12, 16]. Harita sınırları Natural Earth kaynaklıdır [58]. Kaynaklar ve uyarılar [`data/SOURCES.md`](data/SOURCES.md) dosyasında, dayanaklarıyla birlikte 158 parametrenin tamamı [`docs/parameters.md`](docs/parameters.md) dosyasında yer almaktadır.
 
 Hangi illerin hasta kabul edebileceği yalnızca bölge düzeyinde bilinmektedir. Bakanlığın yetkili tesis listesi otomatik araçlarla okunamamıştır. Hasta kabul eden 60 ilin 44'ü yayımlanmış kaynaklarda adı geçen illerdir, 16'sı bölgesel sayıdan çıkarılmıştır. Her şehir panelinde bu durum belirtilmekte, liste tek bir yerden değiştirilebilmektedir. İllere göre sağlık turisti payları, yetkili yataklar, rehabilitasyon yatakları ve onkoloji yerleri ulusal toplamlardan üretilmiş tahminlerdir. Yanık üniteleri, rehabilitasyon hastaneleri, protez atölyeleri veya pediatri merkezleri için il düzeyinde bir listeye ulaşılamamıştır.
 
@@ -475,6 +488,148 @@ Komutlar yukarıdaki [Running it](#running-it) bölümünde verilmiştir. `index
 Bildiri özeti [`docs/abstract_INHSC2026.md`](docs/abstract_INHSC2026.md) dosyasındadır.
 
 ---
+
+## References / Kaynakça
+
+The list gives the peer-reviewed articles, official publications and datasets the model draws on. Each record was checked in November 2026 against the publisher, the issuing body or another authoritative record. The same list is in the Sources tab of the simulator. A few figures come from news reports of official statements or from sources whose details could not be confirmed. Those are named in `docs/parameters.md` and `docs/needs_table.md` and are not listed here.
+
+Liste, modelin dayandığı hakemli makaleleri, resmî yayınları ve veri kümelerini içermektedir. Her künye Kasım 2026'da yayıncı, yayımlayan kurum veya başka bir yetkili kayıtla karşılaştırılmıştır. Aynı liste simülatörün Kaynaklar sekmesinde de yer almaktadır. Az sayıda değer, resmî açıklamalara ilişkin basın haberlerinden veya künyesi doğrulanamayan kaynaklardan alınmıştır. Bunlar `docs/parameters.md` ve `docs/needs_table.md` dosyalarında belirtilmiştir ve burada listelenmemektedir.
+
+### Methods / Yöntemler
+
+[1] Gardner ES Jr, McKenzie E. Forecasting Trends in Time Series. Management Science. 1985;31(10):1237-1246. https://doi.org/10.1287/mnsc.31.10.1237
+
+[2] Herman J, Usher W. SALib: An open-source Python library for Sensitivity Analysis. Journal of Open Source Software. 2017;2(9):97. https://doi.org/10.21105/joss.00097
+
+[3] Hwang CL, Yoon K. Multiple Attribute Decision Making: Methods and Applications. A State-of-the-Art Survey. Lecture Notes in Economics and Mathematical Systems, vol. 186. Berlin, Heidelberg: Springer; 1981. https://doi.org/10.1007/978-3-642-48318-9
+
+[4] Hyndman RJ, Athanasopoulos G. Forecasting: Principles and Practice. 3rd edition. Melbourne: OTexts; 2021. https://otexts.com/fpp3/
+
+[5] Saltelli A. Making best use of model evaluations to compute sensitivity indices. Computer Physics Communications. 2002;145(2):280-297. https://doi.org/10.1016/S0010-4655(02)00280-1
+
+[6] Sobol′ IM. Global sensitivity indices for nonlinear mathematical models and their Monte Carlo estimates. Mathematics and Computers in Simulation. 2001;55(1-3):271-280. https://doi.org/10.1016/S0378-4754(00)00270-6
+
+### Türkiye: capacity, health tourism and regulation / Türkiye: Kapasite, sağlık turizmi ve mevzuat
+
+[7] Aslan K. Fizyoterapi Hizmetlerinde Yönetim ve İşleyiş: Kamu Hastanelerine Teorik Bir Bakış. Sağlık Hizmetleri Araştırma Dergisi. 2026;4:5-14. https://dergipark.org.tr/tr/pub/hes/article/1715503
+
+[8] Becerir HB, Gürdallı S, Yapıcı B, Alkaya F, Çakır A, Yaray K, Gürsoy TO. Radiotherapy Equipment and Workforce in Turkey. Turkish Journal of Oncology. 2021;36(4):512-518. https://doi.org/10.5505/tjo.2021.2896
+
+[9] Çavuş A, Gönenbaba İ. Erzurum'daki Hastanelerin Sağlık Turizmi Açısından Değerlendirilmesi. Atatürk Üniversitesi Sosyal Bilimler Enstitüsü Dergisi. 2020;24(4):1681-1693. https://dergipark.org.tr/tr/pub/ataunisosbil/issue/59389/654143
+
+[10] Çubuk M. Türkiye'de Büyükşehirlerin Sağlık Turizmi Potansiyellerinin CRITIC ve WASPAS Yöntemleri ile Karşılaştırılması. Bingöl Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi. 2022;6(2):147-174. https://doi.org/10.33399/biibfad.1139104
+
+[11] Işıkçelik F. Türkiye'de Seçilmiş İllerin Sağlık Turizmi Kapasitesinin Çok Kriterli Karar Verme Yöntemleriyle Karşılaştırmalı Analizi. Üçüncü Sektör Sosyal Ekonomi Dergisi. 2026;61(1):62-79. https://doi.org/10.63556/tisej.2026.1710
+
+[12] Kaya E. Türkiye Sağlık İstatistikleri Arşivi: Sağlık Bakanlığı yıllıklarından derlenmiş il ve ulusal veri seti, 1964–2024. Version 1.1.0 [dataset]. Zenodo; 2026. https://doi.org/10.5281/zenodo.23325100
+
+[13] Kervan Ü, Koç O, Özatik MA, Bayraktar G, Şener E, Çağlı K, Yekeler İ, Paç M. Türkiye'deki kalp damar cerrahisi kliniklerinin dağılımı ve hizmetlerinin niteliği. Türk Göğüs Kalp Damar Cerrahisi Dergisi. 2011;19(4):483-489. https://doi.org/10.5606/tgkdc.dergisi.2011.074
+
+[14] Odabaşı O. Türkiye Tıp Fakülteleri 2023. Sürekli Tıp Eğitimi Dergisi. 2023;32(1):37-61. https://doi.org/10.17942/sted.1259646
+
+[15] Özgöbek HR. Türkiye'de Fizyoterapist Sayısı Yeterli mi? Mevcut Durum, Gereksinimler ve Politika Önerileri. İzmir Kâtip Çelebi Üniversitesi Sağlık Bilimleri Fakültesi Dergisi. 2026;11(2):483-492. https://doi.org/10.61399/ikcusbfd.1594430
+
+[16] T.C. Sağlık Bakanlığı. Sağlık İstatistikleri Yıllığı 2024. https://www.saglik.gov.tr/TR-114952/saglik-istatistikleri-yilligi-2024.html
+
+[17] Taşar MT, Buluk Eşitti B. Sağlık Turizmi Yetki Belgesi Bulunan Sağlık Tesislerinin Web Sitelerinin İncelenmesi: Çanakkale Örneği. Turar Turizm ve Araştırma Dergisi. 2024;13(2):151-179. https://doi.org/10.7460/turar.1520705
+
+[18] Türkiye İstatistik Kurumu. İstatistiklerle Yaşlılar, 2024. 13 Mart 2025.
+
+[19] Türkiye İstatistik Kurumu. İstatistiklerle Yaşlılar, 2025. 12 Mart 2026.
+
+[20] Türkiye İstatistik Kurumu. Nüfus Projeksiyonları, 2023-2100. Haber Bülteni 53699. 30 Temmuz 2024. https://data.tuik.gov.tr/Bulten/Index?p=Nufus-Projeksiyonlari-2023-2100-53699
+
+[21] Uluslararası Sağlık Turizmi Enstitüsü. Sağlık Turizmi Gelirleri 2025'te 3 Milyar Doları Aştı. 16 Mart 2026. https://www.uste.org.tr/saglik-turizmi-gelirleri-2025te-3-milyar-dolari-asti/
+
+[22] Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik. T.C. Resmî Gazete, 26 Nisan 2025, Sayı 32882. https://www.resmigazete.gov.tr/eskiler/2025/04/20250426-2.htm
+
+[23] Yorulmaz M, Aksoy MR. Türkiye'de Sağlık Turizmi Açısından Yetkilendirilmiş Hastaneler ve Sağlık Turizmi Acentelerinin Bölgelere Göre Değerlendirilmesi. In: International Artuklu Congress on Medicine, Nursing, Midwifery, and Health Sciences, Congress Proceedings Book; 2024. p. 1029-1037. https://doi.org/10.30546/19023.978-9952-8541-5-2.2024.4098
+
+### Hospital capacity, length of stay and cost / Hastane kapasitesi, yatış süresi ve maliyet
+
+[24] Aylı BI, Demir ME, Akgül A, Şahin H. Environmental footprint of in-center hemodialysis in Türkiye: A national, scenario-based analysis of water, energy, and waste. PLOS ONE. 2026;21(7):e0354903. https://doi.org/10.1371/journal.pone.0354903
+
+[25] Bagust A, Place M, Posnett JW. Dynamics of bed use in accommodating emergency admissions: stochastic simulation model. BMJ. 1999;319(7203):155-158. https://doi.org/10.1136/bmj.319.7203.155
+
+[26] Baş F, Erdoğan NM, Ethemoğlu FB. Cost Analysis of 30,446 Intensive Care Unit Admissions in a Tertiary City Hospital in Türkiye. Research Square [preprint, not peer reviewed]. Posted 17 June 2026. https://doi.org/10.21203/rs.3.rs-9710531/v1
+
+[27] Brick A, Kakoulidou T, Humes H. Projections of national demand and bed capacity requirements for public acute hospitals in Ireland, 2023–2040: Based on the Hippocrates model. ESRI Research Series 213. Dublin: Economic and Social Research Institute; 2025. https://doi.org/10.26504/rs213
+
+[28] Grasselli G, Pesenti A, Cecconi M. Critical Care Utilization for the COVID-19 Outbreak in Lombardy, Italy: Early Experience and Forecast During an Emergency Response. JAMA. 2020;323(16):1545-1546. https://doi.org/10.1001/jama.2020.4031
+
+[29] Kao YH, Chen Y, Deutsch A, Wen H, Tseng TS. Rehabilitation length of stay and functional improvement among patients with traumatic spinal cord injury. Spinal Cord. 2022;60(3):237-244. https://doi.org/10.1038/s41393-021-00686-6
+
+[30] Kaya B, Balal M, Seyrek N, Mete B, Karayaylali I. Hemodialysis Experience After Kahramanmaraş Earthquake. Journal of Clinical Medicine. 2024;13(21):6610. https://doi.org/10.3390/jcm13216610
+
+[31] Ozer Sensoy NN, Kazan S, Güngör O. In Türkiye, very few internal medicine research assistants consider becoming nephrologists in the future. Scientific Reports. 2025;15:45488. https://doi.org/10.1038/s41598-025-28375-x
+
+[32] Rees EM, Nightingale ES, Jafari Y, Waterlow NR, Clifford S, Pearson CAB, CMMID Working Group, Jombart T, Procter SR, Knight GM. COVID-19 length of hospital stay: a systematic review and data synthesis. BMC Medicine. 2020;18:270. https://doi.org/10.1186/s12916-020-01726-3
+
+[33] Turgut M, Ağırbaş İ, Nergizoğlu G. Cost Analysis of Hemodialysis Session: A Comparison Between Activity-Based Costing and Traditional Costing Methods. Clinical and Experimental Health Sciences. 2024;14(4):1106-1112. https://doi.org/10.33808/clinexphealthsci.1318606
+
+[34] Van den Heede K, Bouckaert N, Van de Voorde C. The impact of an ageing population on the required hospital capacity: results from forecast analysis on administrative data. European Geriatric Medicine. 2019;10(5):697-705. https://doi.org/10.1007/s41999-019-00219-8
+
+[35] World Health Organization. Classification and minimum standards for emergency medical teams. Geneva: World Health Organization; 2021. https://www.who.int/publications/i/item/9789240029330
+
+[36] World Health Organization, Economic Analysis and Evaluation Team, Department of Health Systems Governance and Financing. WHO-CHOICE estimates of cost for inpatient and outpatient health service delivery. https://cdn.who.int/media/docs/default-source/health-economics/who-choice-estimates-of-cost-for-inpatient-and-outpatient-health-service-delivery.pdf
+
+### Care needs after crises / Krizlerin ardından ortaya çıkan bakım ihtiyaçları
+
+[37] Aebischer Perone S, Martinez E, du Mortier S, Rossi R, Pahud M, Urbaniak V, Chappuis F, Hagon O, Jacquérioz Bausch F, Beran D. Non-communicable diseases in humanitarian settings: ten essential questions. Conflict and Health. 2017;11:17. https://doi.org/10.1186/s13031-017-0119-8
+
+[38] Ankah AH, Alanqar MM, Mansour BM, AlZebda MM, Idris AE, Brown P, Melhem NZ, Ayyad NA. Experiences of children with kidney failure in Gaza. Eastern Mediterranean Health Journal. 2025;31(4):250-253. https://doi.org/10.26719/2025.31.4.250
+
+[39] Bilir EE, Borman P, Ata AM, Alemdaroğlu E, Bodur H, Yanık B, Yurdakul F, Kesikburun B, Güler T, Başkan B, Akkuş S, Uzun O, Yaşar E. Clinical properties and rehabilitation needs of earthquake survivors in a subacute rehabilitation setting. Ulusal Travma ve Acil Cerrahi Dergisi. 2024;30(4):297-304. https://doi.org/10.14744/tjtes.2024.27553
+
+[40] Bilir EE, Ata AM, Borman P, Savtok BE, Afşin B, Eser F. Retrospective Analysis of Functional and Demographic Data of Earthquake-Related Peripheral Nerve Injuries. Archives of Health Science and Research. 2025;12:1-5. https://doi.org/10.5152/ArcHealthSciRes.2024.23161
+
+[41] Bıyıklı K, Taşkın R, Ceylan A, Ulutabanca RÖ, Benli AR. War and Health Tourism: Data of Kayseri Province. International Journal of Health Management and Tourism. 2019;4(1):73-81. https://doi.org/10.31201/ijhmt.441373
+
+[42] Buyurgan ÇS, Bozkurt Babuş S, Yarkaç A, Köse A, Usluer HO, Ayrık C, Narcı H, Orekici Temel G. Demographic and Clinical Characteristics of Earthquake Victims Presented to the Emergency Department with and without Crush Injury upon the 2023 Kahramanmaraş (Turkey) Earthquake. Prehospital and Disaster Medicine. 2023;38(6):707-715. https://doi.org/10.1017/S1049023X23006416
+
+[43] Fily F, Ronat JB, Malou N, Kanapathipillai R, Seguin C, Hussein N, Fakhri RM, Langendorf C. Post-traumatic osteomyelitis in Middle East war-wounded civilians: resistance to first-line antibiotics in selected bacteria over the decade 2006–2016. BMC Infectious Diseases. 2019;19(1):103. https://doi.org/10.1186/s12879-019-3741-9
+
+[44] Gosney JE, Reinhardt JD, von Groote PM, Rathore FA, Melvin JL. Medical rehabilitation of spinal cord injury following earthquakes in rehabilitation resource-scarce settings: implications for disaster research. Spinal Cord. 2013;51(8):603-609. https://doi.org/10.1038/sc.2013.50
+
+[45] Halacli B, Guven G, Kaya EK, Yildirim M, Bulut Yuksel ND, Kocak G, Bulut K, Gulen D, Erdemir Sullu B, Kilicaslan B, Seven AE, Gemcioglu E, Simsek M, Yuksel RC, Temel S, Kaynar AS, Deveci K, Alptekinoglu Mendil N, Aydin E, Ulger B, Esmaoglu A, Boyaci Dundar N, Ortac Ersoy E, Gundogan K, Akinci SB, Topeli A, on behalf of the Turkish Intensive Care Studies-Network (TRICS-Net). Evaluation of the clinical characteristics and outcomes of patients admitted to intensive care units after the Kahramanmaras (Türkiye) earthquake: a multicenter observational study. Frontiers in Medicine. 2025;12:1517344. https://doi.org/10.3389/fmed.2025.1517344
+
+[46] Hanna TP, King WD, Thibodeau S, Jalink M, Paulin GA, Harvey-Jones E, O'Sullivan DE, Booth CM, Sullivan R, Aggarwal A. Mortality due to cancer treatment delay: systematic review and meta-analysis. BMJ. 2020;371:m4087. https://doi.org/10.1136/bmj.m4087
+
+[47] Idrees MHD, Bashir MMI, Mohamed BAA, Ahmed AEA, Abdalla HMM, Shaaban KMA. April 15th war and hemodialysis patients in Sudan: a cross-sectional study. BMC Public Health. 2025;25:230. https://doi.org/10.1186/s12889-025-21369-4
+
+[48] Mendeş E, Gümüşburun N. A 10-Year Analysis of Surgical Interventions Applied to Migrants: A Border Hospital Experience During the Syrian Civil War. Turkish Journal of Anaesthesiology and Reanimation. 2025;53(5):263-276. https://doi.org/10.4274/TJAR.2025.252054
+
+[49] Moitinho de Almeida M, van Loenhout JAF, Thapa SS, Kumar KC, Schlüter BS, Singh R, Banse X, Putineanu D, Mahara DP, Guha-Sapir D. Clinical and demographic profile of admitted victims in a tertiary hospital after the 2015 earthquake in Nepal. PLoS ONE. 2019;14(7):e0220016. https://doi.org/10.1371/journal.pone.0220016
+
+[50] Norton I, von Schreeb J, Aitken P, Herard P, Lajolo C. Classification and Minimum Standards for Foreign Medical Teams in Sudden Onset Disasters. World Health Organization; 2013. https://cdn.who.int/media/docs/default-source/documents/publications/classification-and-minimum-standards-for-foreign-medical-teams-in-suddent-onset-disasters65829584-c349-4f98-b828-f2ffff4fe089.pdf
+
+[51] Ozturk I, Gungor O, Ozturk S, Olmaz R, Gunes Keskin AJ, Kocyigit I, Sipahioglu MH, Dede F, Ulu S, Turgutalp K, Torun D, Sahutoglu T, Erdur FM, Altunoren O, Danis R, Yildiz G, Gurel A, Horoz M, Kucuksu M, Karakose S, Yildirim T, Altiparmak MR, Ayli MD, Tugcu M, Eren Z, Eroglu E, Coskun Yavuz Y, Akcali E, Sit D, Polat M, Yildirim S, Alagoz S, Gokcay Bek S, Pembegul I, Karaaslan T, Keles M, Sari F, Yilmaz U, Gorgulu N, Sahin G, Aydin Z, Yadigar S, Ulutas O, Selcuk NY, Ayar Y, Turgut D, Oto OA, Koc M, Yıldız A, Tuglular S, Sever MS. Epidemiological analysis of the victıms wıth crush syndrome in earthquakes of southeastern Turkey. Journal of Nephrology. 2024;37(9):2589-2599. https://doi.org/10.1007/s40620-024-02051-1
+
+[52] Redmond AD, Mardel S, Taithe B, Calvot T, Gosney J, Duttine A, Girois S. A Qualitative and Quantitative Study of the Surgical and Rehabilitation Response to the Earthquake in Haiti, January 2010. Prehospital and Disaster Medicine. 2011;26(6):449-456. https://doi.org/10.1017/S1049023X12000088
+
+[53] Yilmaz S. Transportation model utilized in the first week following the Kahramanmaraş earthquakes in Turkey - transport health centers. Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine. 2023;31:40. Correction: 2023;31:67. https://doi.org/10.1186/s13049-023-01108-7
+
+### Official reports and datasets / Resmî raporlar ve veri kümeleri
+
+[54] European Commission. Coronavirus: European Solidarity in action. Factsheet. 26 June 2020. https://ec.europa.eu/commission/presscorner/api/files/attachment/865847/Covid19_factsheet_EuropeanSolidarity_EN_26JUne.pdf.pdf
+
+[55] Mathieu E, Ritchie H, Rodés-Guirao L, Appel C, Gavrilov D, Giattino C, Hasell J, Macdonald B, Dattani S, Beltekian D, Ortiz-Ospina E, Roser M. COVID-19 Pandemic. Our World in Data; 2020. https://ourworldindata.org/coronavirus
+
+[56] Medical evacuation of Gaza patients: Oct 2023 - 1 Dec 2025. Summary sheet hosted by the World Health Organization Regional Office for the Eastern Mediterranean. https://www.emro.who.int/images/stories/palestine/Medevac_1Dec25.pdf
+
+[57] Ministry of Health of Ukraine. Medevac Ukraine: over 5,600 Ukrainian patients have participated in the medical evacuation program abroad. 6 June 2025. https://moz.gov.ua/en/medevac-ukraine-over-5-600-ukrainian-patients-have-participated-in-the-medical-evacuation-program-abroad
+
+[58] Natural Earth. Free vector and raster map data. https://www.naturalearthdata.com
+
+[59] WHO Regional Office for Europe. Over 6400 Ukrainians receive life-saving treatment abroad through medical evacuations. News release. 3 March 2026. https://www.who.int/europe/news/item/03-03-2026-over-6400-ukrainians-receive-life-saving-treatment-abroad-through-medical-evacuations
+
+[60] World Health Organization. Health Access Barriers for patients in the occupied Palestinian territory. Monthly report, October 2022. Published 7 December 2022. https://www.emro.who.int/images/stories/palestine/Oct_2022_Monthly.pdf
+
+[61] World Health Organization, Office for the occupied Palestinian territory. Estimating Trauma Rehabilitation Needs in Gaza: September 2025 Update. Technical note. 2 October 2025. https://cdn.who.int/media/docs/default-source/hq-whe/estimating-trauma-rehabilitation-needs-in-gaza-september-2025.pdf
+
+[62] World Health Organization, Regional Office for the Eastern Mediterranean. One in four injuries in Gaza is life-changing while rehabilitation services struggle to keep pace, WHO reports. 12 May 2026. https://www.emro.who.int/opt/news/one-in-four-injuries-in-gaza-is-life-changing-while-rehabilitation-services-struggle-to-keep-pace-who-reports.html
+
+[63] World Health Organization. Rehabilitation needs of people recovering from COVID-19. Scientific brief. WHO/2019-nCoV/Sci_Brief/Rehabilitation/2021.1. 29 November 2021. https://www.who.int/docs/default-source/coronaviruse/scientific-brief-rehabilitation-and-covid-19_.pdf
 
 ## Acknowledgements / Teşekkür
 
