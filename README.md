@@ -82,7 +82,7 @@ Choose the type of crisis and its size. For armed conflict you also choose how o
 
 ### Step 3. Choose the year and the path
 
-Move the slider to any year from 2027 to 2047 and choose how Türkiye develops until then. The current course follows past trends. The planned expansion and the ambitious programme add units in new cities, more certified hospitals, cancer and rehabilitation capacity, and a better prepared response. The card shows the state of Türkiye in that year, and the map marks cities that have opened a unit on this path. Below these, choose how the response is organised and what share of patients would choose Türkiye.
+Move the slider to any year from 2027 to 2047 and choose how Türkiye develops until then. The current course follows past trends. The planned expansion opens a first authorised unit in one province each year, and the ambitious programme in two. Both also add more certified hospitals, cancer and rehabilitation capacity, and a better prepared response. The card shows the state of Türkiye in that year, and the map marks cities that have opened a unit on this path. Below these, choose how the response is organised and what share of patients would choose Türkiye.
 
 <p align="center"><img src="docs/img/en/04-year.png" width="900" alt="Step 3: year of the crisis and development path"></p>
 
@@ -313,7 +313,7 @@ Krizin türünü ve büyüklüğünü seçin. Silahlı çatışmada çıkışın
 
 ### 3. adım: Yılı ve gelişim yolunu seçin
 
-Kaydırıcıyı 2027 ile 2047 arasında istediğiniz yıla getirin ve Türkiye'nin o yıla kadar nasıl gelişeceğini seçin. Mevcut seyir geçmiş eğilimleri izler. Planlı genişleme ve iddialı program yeni şehirlerde birimler, daha çok yetkili hastane, kanser ve rehabilitasyon kapasitesi ve daha hazırlıklı bir müdahale ekler. Kart o yıldaki Türkiye'yi özetler, harita bu yolda birim açan şehirleri işaretler. Altta müdahalenin nasıl örgütlendiğini ve hastaların ne kadarının Türkiye'yi seçeceğini belirlersiniz.
+Kaydırıcıyı 2027 ile 2047 arasında istediğiniz yıla getirin ve Türkiye'nin o yıla kadar nasıl gelişeceğini seçin. Mevcut seyir geçmiş eğilimleri izler. Planlı genişleme her yıl bir ilde, iddialı program iki ilde ilk yetkili birimi açar. İkisi ayrıca daha çok yetkili hastane, kanser ve rehabilitasyon kapasitesi ve daha hazırlıklı bir müdahale ekler. Kart o yıldaki Türkiye'yi özetler, harita bu yolda birim açan şehirleri işaretler. Altta müdahalenin nasıl örgütlendiğini ve hastaların ne kadarının Türkiye'yi seçeceğini belirlersiniz.
 
 <p align="center"><img src="docs/img/tr/04-year.png" width="900" alt="3. adım: Krizin yılı ve gelişim yolu"></p>
 
